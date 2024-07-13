@@ -1,22 +1,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![project size](https://img.shields.io/github/repo-size/spstiger/Kinco-HMI-Chart-Makro-DTools-Pro?label=project%20size)
-![Static Badge](https://img.shields.io/badge/IDE-Kinco_DTools_Pro_min._1.6-blue?link=https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip)
+![IDE Badge](https://img.shields.io/badge/IDE-Kinco_DTools_Pro_min._1.6-blue?link=https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip)
 
 # Kinco HMI Beispiel Chart & Makro in DTools Pro
 
 In diesem Beispielprojekt für die neue Kinco DTools Pro zeigen wir euch die neue **Chartfunktion** in Zusammenspiel mit einem **Makro** für die Wertegenerierung.
 
-![](assets/2024-07-13-18-34-59-image.png)
+![Demo G2156E](assets/2024-07-13-18-34-59-image.png)
 
 *Demo für G2156E in Full-HD 1920 x 1080*
 
-
-
-![](assets/2024-07-13-18-56-34-image.png)
+![Demo G2100E](assets/2024-07-13-18-56-34-image.png)
 
 *Demo für G2100E in 1024 x 600*
-
-
 
 ## Benötige Software
 
@@ -37,31 +33,21 @@ Dieses Beispielprogramm für die Kinco G2 HMI zeigt, wie ihr eine Trendfunktion 
 * Individuelles **Hintergrundbild** (Die Transparenzeffekte wurden in einem externen Grafikprogramm erstellt)
 * Zwei **interne Variablen** im MW-Bereich des HMI
 
-
-
 ![](assets/2024-07-13-18-36-30-image.png)
 
 *Konfiguration des Trendelements in Kinco DTools Pro*
-
-
 
 ![](assets/2024-07-13-18-37-35-image.png)
 
 *Konfiguration des Data Sampling in Kinco DTools Pro*
 
-
-
 ![](assets/2024-07-13-18-42-14-image.png)
 
 *Konfiguration eines Makros in DTools Pro und die Anbindung an die Projektvariablen darin über die @var@-Syntax* 
 
-
-
 ![](assets/2024-07-13-18-43-58-image.png) 
 
 *Konfiguration der internen Variablen in Kinco DTools Pro*
-
-
 
 ![](assets/2024-07-13-18-47-28-image.png)
 
@@ -70,7 +56,6 @@ Dieses Beispielprogramm für die Kinco G2 HMI zeigt, wie ihr eine Trendfunktion 
 ## Für welche HMI funktioniert dieses Beispielprojekt?
 
 Das Projekt wurde für das **Kinco HMI G2156E** mit einer Full-HD Auflösung von 1.920 x 1024 Pixeln erstellt. Es gibt eine zweite Variante des Projekts für das kleinere **Kinco G2100E** mit einer Auflösunge von 1024 * 600. Auch die Modelle F2100E, F2070E2 und G2070HE  haben die gleiche Auflösung. Deshalb kann das Projekt für diese Modelle einfach im Menü HMI Set über HMI Replace auf das HMI in DTools Pro konvertiert werden. 
-
 
 Für HMI mit anderer Auflösung ist eine Konvertierung über diesen Weg ebenfalls möglich, es werden aber wahrscheinlich Nacharbeiten notwendig, um die Darstellung an das HMI anzupassen.
 
