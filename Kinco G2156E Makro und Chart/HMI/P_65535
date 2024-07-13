@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1600" width="1920" height="1080" No="50001" nPageType="1">
+    <SuperWidget x="960" y="540" w="1920" h="1080">
+        <Super max_w="1920" max_h="1080" W="1920" H="1080" Desc="Public Window" bMemory="1" nPrivilege="999"/>
+    </SuperWidget>
+    <Element Num="0"/>
+</canvas>

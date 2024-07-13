@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vg ver="1" name="k_button_00.vg" type="vector" width="100" height="100" discription="" color="ffffff" transparent="no">
+    <state id="1">
+        <draw name="" type="roundrect" pos_sx="0" pos_sy="0" pos_ex="100" pos_ey="100" bHyalineBorder="0" penwidth="3" penstyle="0" pencolor="8f602d" fillcolor="f9931c" UseFill="1" fill="color" GradientFill="false" BackgroundColor="f9931c" ForegroundColor="ff870f" GradientMode="1" GradientModeShape="1" nFillType="0" angle_start="0" angle_end="0" spoint_x="6.22917" spoint_y="6.22917"/>
+    </state>
+</vg>

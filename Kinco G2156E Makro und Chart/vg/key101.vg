@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vg ver="2" name="key101.vg" type="vector" width="220" height="30" discription="" color="ffffff" transparent="no">
+    <state id="0">
+        <draw name="" type="rect" pos_sx="0" pos_sy="0" pos_ex="219" pos_ey="29" bHyalineBorder="0" penwidth="1" penstyle="0" pencolor="ff7e0e" fillcolor="ffffff" UseFill="1" fill="color" GradientFill="false" BackgroundColor="ffffff" ForegroundColor="0" nFillType="0" lock_status="0" isgroupmember="no"/>
+    </state>
+</vg>

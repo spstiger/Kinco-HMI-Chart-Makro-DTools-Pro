@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1000">
+    <PageInfo No="40002" Name="S_2:System Information(40002)"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001:[Muti Lamp:$系统信息类型]" nlangId="0"/>
+    <ItmOprtLogDt Id="32" NameNum="1" Name="DD_0001:[numeric:$系统信息码]"/>
+    <ItmOprtLogDt Id="32" NameNum="3" Name="DD_0003:[numeric:$系统信息码]"/>
+    <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[charset:$系统错误信息]"/>
+</SaveItemOprtLog>

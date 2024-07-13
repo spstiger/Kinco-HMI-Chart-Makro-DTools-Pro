@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1600" width="430" height="160" No="40002" pen_color="10526884" pen_width="3" Brush_color2="15593453" nPageType="4">
+    <PopupWin bPresetCoor="0" backCol="2238251">
+        <GELabelData>
+            <LabelPro SetLabel="1" auto_extend="0" nlangId="1" textlibName="$Text_System_info">
+                <LabeFont/>
+            </LabelPro>
+            <TextLib_Label>
+                <OneTextLib Name="{74502a27-6763-4767-9d75-819763b29568}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                    <Lang nLangId="1" Num="1" State0="系统信息提示">
+                        <Font0 fcolor="255_255_255_255"/>
+                    </Lang>
+                    <Lang nLangId="2" Num="1" State0="System information prompt">
+                        <Font0 fcolor="255_255_255_255"/>
+                    </Lang>
+                </OneTextLib>
+            </TextLib_Label>
+        </GELabelData>
+    </PopupWin>
+    <SuperWidget x="215" y="80" w="430" h="160">
+        <Super max_w="800" max_h="480" W="800" H="480" Desc="System Information" nNumType="2" nPrivilege="999" nBackColor="2238251" nBorder_W="1"/>
+    </SuperWidget>
+    <Element Num="4">
+        <IndexId0 ItemType="0" ID="18" Name="BL" x="226" y="45" W="312" H="58" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="BL_0002" Z="0" FixedPoint="0">
+            <Widgets flag="1">
+                <COMM x="226" y="45" w="313" h="59" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="40002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <UpDownTextLib/>
+                <MulityParam bUseMul="1" nGEStateNum="69">
+                    <MulDispExp nID="1" strData="0" nInt="0" nType="5">
+                        <VarName bSys="1" Num="1">
+                            <Param0 Name="$System_Info_Code" Id="400042" DataType="5" AddrType="SMW" RegAddr="77" RW="1" BitLen="16"/>
+                        </VarName>
+                    </MulDispExp>
+                    <MulCData0 ValA="1"/>
+                    <MulCData1 ValA="2"/>
+                    <MulCData2 ValA="3"/>
+                    <MulCData3 ValA="4"/>
+                    <MulCData4 ValA="5"/>
+                    <MulCData5 ValA="6"/>
+                    <MulCData6 ValA="7"/>
+                    <MulCData7 ValA="8"/>
+                    <MulCData8 ValA="9"/>
+                    <MulCData9 ValA="10"/>
+                    <MulCData10 ValA="11"/>
+                    <MulCData11 ValA="12"/>
+                    <MulCData12 ValA="13"/>
+                    <MulCData13 ValA="14"/>
+                    <MulCData14 ValA="1000"/>
+                    <MulCData15 ValA="1001"/>
+                    <MulCData16 ValA="1002"/>
+                    <MulCData17 ValA="2000"/>
+                    <MulCData18 ValA="2001"/>
+                    <MulCData19 ValA="2002"/>
+                    <MulCData20 ValA="2003"/>
+                    <MulCData21 ValA="2004"/>
+                    <MulCData22 ValA="2005"/>
+                    <MulCData23 ValA="2006"/>
+                    <MulCData24 ValA="2007"/>
+                    <MulCData25 ValA="2008"/>
+                    <MulCData26 ValA="2009"/>
+                    <MulCData27 ValA="2010"/>
+                    <MulCData28 ValA="2011"/>
+                    <MulCData29 ValA="2012"/>
+                    <MulCData30 ValA="2013"/>
+                    <MulCData31 ValA="2014"/>
+                    <MulCData32 ValA="2015"/>
+                    <MulCData33 ValA="2016"/>
+                    <MulCData34 ValA="2017"/>
+                    <MulCData35 ValA="2018"/>
+                    <MulCData36 ValA="2019"/>
+                    <MulCData37 ValA="2020"/>
+                    <MulCData38 ValA="2021"/>
+                    <MulCData39 ValA="2022"/>
+                    <MulCData40 ValA="2023"/>
+                    <MulCData41 ValA="2024"/>
+                    <MulCData42 ValA="2025"/>
+                    <MulCData43 ValA="2026"/>
+                    <MulCData44 ValA="2027"/>
+                    <MulCData45 ValA="2028"/>
+                    <MulCData46 ValA="2029"/>
+                    <MulCData47 ValA="2030"/>
+                    <MulCData48 ValA="2031"/>
+                    <MulCData49 ValA="2032"/>
+                    <MulCData50 ValA="2033"/>
+                    <MulCData51 ValA="2034"/>
+                    <MulCData52 ValA="2035"/>
+                    <MulCData53 ValA="2036"/>
+                    <MulCData54 ValA="2037"/>
+                    <MulCData55 ValA="2050"/>
+                    <MulCData56 ValA="2051"/>
+                    <MulCData57 ValA="2060"/>
+                    <MulCData58 ValA="2061"/>
+                    <MulCData59 ValA="2080"/>
+                    <MulCData60 ValA="2100"/>
+                    <MulCData61 ValA="2101"/>
+                    <MulCData62 ValA="2102"/>
+                    <MulCData63 ValA="2103"/>
+                    <MulCData64 ValA="2104"/>
+                    <MulCData65 ValA="2500"/>
+                    <MulCData66 ValA="15"/>
+                    <MulCData67 ValA="16"/>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" auto_extend="0" nlangId="1" textlibName="$Text_System_Info_List" bShowByWalkLantern="1" bscroll="1" scrolldir="2" scroll_step="30">
+                            <LabeFont Align="0" fcolor="255_0_0_255" name="Simsun"/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{d49ae20e-f792-45ea-8c4a-88b4c6b7a6e9}" LangNum="2" StateNum="69" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="69" State0="正在处理..." State1="操作成功" State2="SD卡已插入" State3="SD卡已拔出" State4="U盘1已插入" State5="U盘1已拔出" State6="U盘2已插入" State7="U盘2已拔出" State8="正在导出" State9="正在导入" State10="正在打印" State11="打印成功" State12="导出成功" State13="导入成功" State14="内存不足" State15="HMI剩余存储空间不足" State16="密码已长时间未更新" State17="系统文件缺失" State18="操作失败" State19="HMI空间不足" State20="SD卡空间不足" State21="U盘1空间不足" State22="U盘2空间不足" State23="未检测到SD卡" State24="未检测到U盘1" State25="未检测到U盘2" State26="宏脚本执行错误" State27="输入超出范围" State28="用户名或密码错误" State29="服务器连接失败" State30="音频播放失败" State31="视频播放失败" State32="文件已存在" State33="文件不存在" State34="窗口号不存在" State35="用户权限不足" State36="打印失败" State37="sql语句执行失败" State38="该用户被锁定" State39="密码必须包含字母" State40="密码必须包含数字" State41="密码必须满足最小位数" State42="密码不能与上次重复" State43="该用户已存在" State44="输入密码与确认密码不一致" State45="用户名不能为空" State46="当前操作需要管理员权限" State47="当前用户不允许修改密码" State48="当前时间段不允许修改密码" State49="员工卡号已使用" State50="刷卡登录失败" State51="工程默认管理员不允许删除" State52="该用户已被禁用" State53="用户不存在" State54="不能删除当前登录用户" State55="解压密码错误" State56="解压错误" State57="配方名冲突" State58="配方序号不存在" State59="宏代码错误" State60="操作队列已满" State61="导出失败" State62="导入失败" State63="不支持的文件类型" State64="打开文件失败" State65="编译数据异常" State66="用户登录成功" State67="刷卡登录成功">
+                                    <Font0 size="18" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" fcolor="255_255_255_255"/>
+                                    <Font2 size="18" fcolor="255_255_255_255"/>
+                                    <Font3 size="18" fcolor="255_255_255_255"/>
+                                    <Font4 size="18" fcolor="255_255_255_255"/>
+                                    <Font5 size="18" fcolor="255_255_255_255"/>
+                                    <Font6 size="18" fcolor="255_255_255_255"/>
+                                    <Font7 size="18" fcolor="255_255_255_255"/>
+                                    <Font8 size="18" fcolor="255_255_255_255"/>
+                                    <Font9 size="18" fcolor="255_255_255_255"/>
+                                    <Font10 size="18" fcolor="255_255_255_255"/>
+                                    <Font11 size="18" fcolor="255_255_255_255"/>
+                                    <Font12 size="18" fcolor="255_255_255_255"/>
+                                    <Font13 size="18" fcolor="255_255_255_255"/>
+                                    <Font14 size="18" fcolor="255_255_255_255"/>
+                                    <Font15 size="18" fcolor="255_255_255_255"/>
+                                    <Font16 size="18" fcolor="255_255_255_255"/>
+                                    <Font17 size="18" fcolor="255_255_255_255"/>
+                                    <Font18 size="18" fcolor="255_255_255_255"/>
+                                    <Font19 size="18" fcolor="255_255_255_255"/>
+                                    <Font20 size="18" fcolor="255_255_255_255"/>
+                                    <Font21 size="18" fcolor="255_255_255_255"/>
+                                    <Font22 size="18" fcolor="255_255_255_255"/>
+                                    <Font23 size="18" fcolor="255_255_255_255"/>
+                                    <Font24 size="18" fcolor="255_255_255_255"/>
+                                    <Font25 size="18" fcolor="255_255_255_255"/>
+                                    <Font26 size="18" fcolor="255_255_255_255"/>
+                                    <Font27 size="18" fcolor="255_255_255_255"/>
+                                    <Font28 size="18" fcolor="255_255_255_255"/>
+                                    <Font29 size="18" fcolor="255_255_255_255"/>
+                                    <Font30 size="18" fcolor="255_255_255_255"/>
+                                    <Font31 size="18" fcolor="255_255_255_255"/>
+                                    <Font32 size="18" fcolor="255_255_255_255"/>
+                                    <Font33 size="18" fcolor="255_255_255_255"/>
+                                    <Font34 size="18" fcolor="255_255_255_255"/>
+                                    <Font35 size="18" fcolor="255_255_255_255"/>
+                                    <Font36 size="18" fcolor="255_255_255_255"/>
+                                    <Font37 size="18" fcolor="255_255_255_255"/>
+                                    <Font38 size="18" fcolor="255_255_255_255"/>
+                                    <Font39 size="18" fcolor="255_255_255_255"/>
+                                    <Font40 size="18" fcolor="255_255_255_255"/>
+                                    <Font41 size="18" fcolor="255_255_255_255"/>
+                                    <Font42 size="18" fcolor="255_255_255_255"/>
+                                    <Font43 size="18" fcolor="255_255_255_255"/>
+                                    <Font44 size="18" fcolor="255_255_255_255"/>
+                                    <Font45 size="18" fcolor="255_255_255_255"/>
+                                    <Font46 size="18" fcolor="255_255_255_255"/>
+                                    <Font47 size="18" fcolor="255_255_255_255"/>
+                                    <Font48 size="18" fcolor="255_255_255_255"/>
+                                    <Font49 size="18" fcolor="255_255_255_255"/>
+                                    <Font50 size="18" fcolor="255_255_255_255"/>
+                                    <Font51 size="18" fcolor="255_255_255_255"/>
+                                    <Font52 size="18" fcolor="255_255_255_255"/>
+                                    <Font53 size="18" fcolor="255_255_255_255"/>
+                                    <Font54 size="18" fcolor="255_255_255_255"/>
+                                    <Font55 size="18" fcolor="255_255_255_255"/>
+                                    <Font56 size="18" fcolor="255_255_255_255"/>
+                                    <Font57 size="18" fcolor="255_255_255_255"/>
+                                    <Font58 size="18" fcolor="255_255_255_255"/>
+                                    <Font59 size="18" fcolor="255_255_255_255"/>
+                                    <Font60 size="18" fcolor="255_255_255_255"/>
+                                    <Font61 size="18" fcolor="255_255_255_255"/>
+                                    <Font62 size="18" fcolor="255_255_255_255"/>
+                                    <Font63 size="18" fcolor="255_255_255_255"/>
+                                    <Font64 size="18" fcolor="255_255_255_255"/>
+                                    <Font65 size="18" fcolor="255_255_255_255"/>
+                                    <Font66 size="18" fcolor="255_255_255_255"/>
+                                    <Font67 size="18" fcolor="255_255_255_255"/>
+                                    <Font68 size="18" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="69" State0="Processing..." State1="Operation succeeded" State2="SD card is inserted" State3="SD card is unplugged" State4="U disk1 is inserted" State5="U disk1 is unplugged" State6="U disk2 is inserted" State7="U disk2 is unplugged" State8="Exporting..." State9="Importing..." State10="Print..." State11="Printing succeeded" State12="Export succeeded" State13="Import succeeded" State14="Insufficient memory" State15="Insufficient remaining storage space of HMI" State16="The password has not been updated for a long time" State17="System file missing" State18="Operation failed" State19="Insufficient HMI space" State20="Insufficient SD card space" State21="Insufficient U disk1 space" State22="Insufficient U disk2 space" State23="SD card not detected" State24="U disk1 not detected" State25="U disk2 not detected" State26="Macro script execution error" State27="Input out of range" State28="Wrong user name or password" State29="Server connection failed" State30="Audio playback failed" State31="Video playback failed" State32="File already exist" State33="File does not exist" State34="Window number does not exist" State35="Insufficient user permissions" State36="Printing failed" State37="SQL statement execution failed" State38="The user is locked" State39="The password must contain letters" State40="The password must contain numbers" State41="The password must contain the minimum number of digits" State42="The password cannot be the same as the last one" State43="The user already exists" State44="The entered password is inconsistent with the confirmed password" State45="The user name cannot be empty" State46="The current operation requires administrator privileges" State47="The current user is not allowed to change the password" State48="Password modification is not allowed in the current time period" State49="Employee card number used" State50="Card swiping login failed" State51="Project default administrator cannot delete" State52="The user has been disabled" State53="User does not exist" State54="The current login user cannot be deleted" State55="Decompression password error" State56="Decompression error" State57="Recipe name conflict" State58="Recipe serial number does not exist" State59="Macro code error" State60="Operation queue is full" State61="Export failed" State62="Import failed" State63="Unsupported file type" State64="Fail to open file" State65="Compile data exception" State66="User login succeeded" State67="Card swiping login succeeded">
+                                    <Font0 size="18" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" fcolor="255_255_255_255"/>
+                                    <Font2 size="18" fcolor="255_255_255_255"/>
+                                    <Font3 size="18" fcolor="255_255_255_255"/>
+                                    <Font4 size="18" fcolor="255_255_255_255"/>
+                                    <Font5 size="18" fcolor="255_255_255_255"/>
+                                    <Font6 size="18" fcolor="255_255_255_255"/>
+                                    <Font7 size="18" fcolor="255_255_255_255"/>
+                                    <Font8 size="18" fcolor="255_255_255_255"/>
+                                    <Font9 size="18" fcolor="255_255_255_255"/>
+                                    <Font10 size="18" fcolor="255_255_255_255"/>
+                                    <Font11 size="18" fcolor="255_255_255_255"/>
+                                    <Font12 size="18" fcolor="255_255_255_255"/>
+                                    <Font13 size="18" fcolor="255_255_255_255"/>
+                                    <Font14 size="18" fcolor="255_255_255_255"/>
+                                    <Font15 size="18" fcolor="255_255_255_255"/>
+                                    <Font16 size="18" fcolor="255_255_255_255"/>
+                                    <Font17 size="18" fcolor="255_255_255_255"/>
+                                    <Font18 size="18" fcolor="255_255_255_255"/>
+                                    <Font19 size="18" fcolor="255_255_255_255"/>
+                                    <Font20 size="18" fcolor="255_255_255_255"/>
+                                    <Font21 size="18" fcolor="255_255_255_255"/>
+                                    <Font22 size="18" fcolor="255_255_255_255"/>
+                                    <Font23 size="18" fcolor="255_255_255_255"/>
+                                    <Font24 size="18" fcolor="255_255_255_255"/>
+                                    <Font25 size="18" fcolor="255_255_255_255"/>
+                                    <Font26 size="18" fcolor="255_255_255_255"/>
+                                    <Font27 size="18" fcolor="255_255_255_255"/>
+                                    <Font28 size="18" fcolor="255_255_255_255"/>
+                                    <Font29 size="18" fcolor="255_255_255_255"/>
+                                    <Font30 size="18" fcolor="255_255_255_255"/>
+                                    <Font31 size="18" fcolor="255_255_255_255"/>
+                                    <Font32 size="18" fcolor="255_255_255_255"/>
+                                    <Font33 size="18" fcolor="255_255_255_255"/>
+                                    <Font34 size="18" fcolor="255_255_255_255"/>
+                                    <Font35 size="18" fcolor="255_255_255_255"/>
+                                    <Font36 size="18" fcolor="255_255_255_255"/>
+                                    <Font37 size="18" fcolor="255_255_255_255"/>
+                                    <Font38 size="18" fcolor="255_255_255_255"/>
+                                    <Font39 size="18" fcolor="255_255_255_255"/>
+                                    <Font40 size="18" fcolor="255_255_255_255"/>
+                                    <Font41 size="18" fcolor="255_255_255_255"/>
+                                    <Font42 size="18" fcolor="255_255_255_255"/>
+                                    <Font43 size="18" fcolor="255_255_255_255"/>
+                                    <Font44 size="18" fcolor="255_255_255_255"/>
+                                    <Font45 size="18" fcolor="255_255_255_255"/>
+                                    <Font46 size="18" fcolor="255_255_255_255"/>
+                                    <Font47 size="18" fcolor="255_255_255_255"/>
+                                    <Font48 size="18" fcolor="255_255_255_255"/>
+                                    <Font49 size="18" fcolor="255_255_255_255"/>
+                                    <Font50 size="18" fcolor="255_255_255_255"/>
+                                    <Font51 size="18" fcolor="255_255_255_255"/>
+                                    <Font52 size="18" fcolor="255_255_255_255"/>
+                                    <Font53 size="18" fcolor="255_255_255_255"/>
+                                    <Font54 size="18" fcolor="255_255_255_255"/>
+                                    <Font55 size="18" fcolor="255_255_255_255"/>
+                                    <Font56 size="18" fcolor="255_255_255_255"/>
+                                    <Font57 size="18" fcolor="255_255_255_255"/>
+                                    <Font58 size="18" fcolor="255_255_255_255"/>
+                                    <Font59 size="18" fcolor="255_255_255_255"/>
+                                    <Font60 size="18" fcolor="255_255_255_255"/>
+                                    <Font61 size="18" fcolor="255_255_255_255"/>
+                                    <Font62 size="18" fcolor="255_255_255_255"/>
+                                    <Font63 size="18" fcolor="255_255_255_255"/>
+                                    <Font64 size="18" fcolor="255_255_255_255"/>
+                                    <Font65 size="18" fcolor="255_255_255_255"/>
+                                    <Font66 size="18" fcolor="255_255_255_255"/>
+                                    <Font67 size="18" fcolor="255_255_255_255"/>
+                                    <Font68 size="18" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </MulityParam>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="正在处理..." nTextLibInnerId="2097184">
+                        <Font size="18" Align="0" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId0>
+        <IndexId1 ItemType="2" ID="33" Name="DD" x="218" y="134" W="413" H="30" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="DD_0002:[charset:$系统错误信息]" Z="0" FixedPoint="0" PointRotation_x="34" PointRotation_y="13">
+            <Widgets flag="1">
+                <COMM x="218" y="134" w="414" h="31" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common HasTouch="0" nPageNo="40002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[charset:$系统错误信息]"/>
+                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
+                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <DispData nUserPermisson="999"/>
+                <InVar_2th bSys="1" Num="1">
+                    <Param0 Name="$System_Error_Info" Id="400043" DataType="12" AddrType="SMW" RegAddr="79" RW="1" BitLen="248"/>
+                </InVar_2th>
+            </Common>
+            <DataDisp>
+                <Common m_nItemType="2"/>
+                <ItemName nItemNameNum="2" ItemName="DD_0002:[charset:$系统错误信息]"/>
+                <ShowLabel>
+                    <GELabel Text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="2097184">
+                        <Font size="15" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <numeric/>
+                <CTextFormat MultiType="1" TotalRow="6" nTtlDsplyChrNm="6"/>
+                <CNumFormat nInteger="5"/>
+                <AlarmRange>
+                    <LowerExp nID="0" strData="0" nInt="0"/>
+                    <UpperExp nID="0" strData="100" nInt="100"/>
+                </AlarmRange>
+                <DataCalc_Propor>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                    </DataCalc>
+                </DataCalc_Propor>
+                <DataCalc_Scale>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
+                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                    </DataCalc>
+                </DataCalc_Scale>
+            </DataDisp>
+        </IndexId1>
+        <IndexId2 ID="65281" Name="" lock="0" SubNum="3" rotate="0" x="194" y="98" z="10002" width="248" height="33.5">
+            <Widgets flag="0">
+                <COMM x="194" y="97" w="248" h="33"/>
+                <Pen _width="1" _type="1" _color="0"/>
+                <Brush _mainType="1" _subType="1" _color1="0" _color2="0"/>
+                <PageNo m_nCOnePageNo="40002"/>
+                <ItemName m_nItemNameNum="2" m_item_name="Group_2"/>
+            </Widgets>
+            <GroupChild>
+                <IndexId0 ItemType="0" ID="32" Name="DD" x="288" y="98" W="59" H="32" bRound="0" fRationX="0" fRationY="0" nItemNameNum="1" ItemName="DD_0001:[numeric:$系统信息码]" Z="0" FixedPoint="0" PointRotation_x="23" PointRotation_y="13">
+                    <Widgets flag="1">
+                        <COMM x="289" y="98" w="60" h="33" shadow_c="16711680"/>
+                        <Pen _width="2" _type="0" _color="16711680"/>
+                        <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                    </Widgets>
+                    <Common HasTouch="0" nPageNo="40002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                        <ItmOprtLogDt Id="32" NameNum="1" Name="DD_0001:[numeric:$系统信息码]"/>
+                        <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
+                        <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                        <DispData nState="3" nUserPermisson="999" nOperDataNum="1">
+                            <ExpOperData nID="0" nType="-1" nParentheses="0">
+                                <Express nID="2" strData="0" nInt="0" nType="3" Flag="16">
+                                    <LExP nID="1" strData="0" nInt="0" nType="3">
+                                        <VarName bSys="1" Num="1">
+                                            <Param0 Name="$Current_Lanague" Id="400066" DataType="3" AddrType="SFW" RegAddr="169" BitLen="8"/>
+                                        </VarName>
+                                    </LExP>
+                                    <RExP nID="0" strData="1" nInt="1" nType="3"/>
+                                </Express>
+                            </ExpOperData>
+                        </DispData>
+                        <InVar bSys="1" Num="1">
+                            <Param0 Name="$System_Info_Code" Id="400042" DataType="5" AddrType="SMW" RegAddr="77" RW="1" BitLen="16"/>
+                        </InVar>
+                    </Common>
+                    <DataDisp>
+                        <Common m_nItemType="0"/>
+                        <ItemName nItemNameNum="1" ItemName="DD_0001:[numeric:$系统信息码]"/>
+                        <ShowLabel>
+                            <GELabel Text="88888" nTextLibInnerId="2097184">
+                                <Font Align="0" fcolor="255_255_255_255"/>
+                            </GELabel>
+                        </ShowLabel>
+                        <numeric/>
+                        <CTextFormat MultiType="1" nTtlDsplyChrNm="6"/>
+                        <CNumFormat nInteger="5"/>
+                        <AlarmRange>
+                            <LowerExp nID="0" strData="0" nInt="0" nType="5"/>
+                            <UpperExp nID="0" strData="9999" nInt="9999" nType="5"/>
+                        </AlarmRange>
+                        <DataCalc_Propor>
+                            <DataCalc>
+                                <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                                <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                            </DataCalc>
+                        </DataCalc_Propor>
+                        <DataCalc_Scale>
+                            <DataCalc>
+                                <Param1 nID="0" strData="1" nInt="1" nType="4"/>
+                                <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                            </DataCalc>
+                        </DataCalc_Scale>
+                    </DataDisp>
+                </IndexId0>
+                <IndexId1 ItemType="65535" ID="17" Name="TX" x="159" y="97" W="179" H="33" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="TX_0001" Z="0" PointRotation_x="159.5" PointRotation_y="97.75">
+                    <Widgets flag="1">
+                        <COMM x="160" y="98" w="180" h="34" shadow_c="16711680"/>
+                        <Pen _width="2" _type="0" _color="16711680"/>
+                        <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                    </Widgets>
+                    <Common nPageNo="40002" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                        <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+                        <TouchData nUserPermisson="999"/>
+                        <DispData nUserPermisson="999"/>
+                        <LabelGETextlib>
+                            <GELabelData>
+                                <LabelPro SetLabel="1" nlangId="0">
+                                    <LabeFont Align="0"/>
+                                </LabelPro>
+                                <TextLib_Label>
+                                    <OneTextLib Name="{7226729d-5404-4a3c-8978-284dbacf81fb}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                        <Lang nLangId="1" Num="1" State0="信息代码 ：">
+                                            <Font0 fcolor="255_255_255_255"/>
+                                        </Lang>
+                                        <Lang nLangId="2" Num="1" State0="Information code:">
+                                            <Font0 fcolor="255_255_255_255"/>
+                                        </Lang>
+                                    </OneTextLib>
+                                </TextLib_Label>
+                            </GELabelData>
+                        </LabelGETextlib>
+                    </Common>
+                    <TextInfo>
+                        <GELabel X="-89" Y="-16" Heigth="33" Width="179" Text="信息代码 ：" bUselib="1" LibName="{7226729d-5404-4a3c-8978-284dbacf81fb}" nTextLibInnerId="1937077345">
+                            <Font Align="0" fcolor="255_255_255_255"/>
+                        </GELabel>
+                        <ItemName m_nItemNameNum="1" m_item_name="TX_0001"/>
+                    </TextInfo>
+                </IndexId1>
+                <IndexId2 ItemType="0" ID="32" Name="DD" x="215" y="98" W="59" H="32" bRound="0" fRationX="0" fRationY="0" nItemNameNum="3" ItemName="DD_0003:[numeric:$系统信息码]" Z="0" FixedPoint="0" PointRotation_x="23" PointRotation_y="13">
+                    <Widgets flag="1">
+                        <COMM x="216" y="98" w="60" h="33" shadow_c="16711680"/>
+                        <Pen _width="2" _type="0" _color="16711680"/>
+                        <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                    </Widgets>
+                    <Common HasTouch="0" nPageNo="40002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                        <ItmOprtLogDt Id="32" NameNum="3" Name="DD_0003:[numeric:$系统信息码]"/>
+                        <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
+                        <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                        <DispData nState="3" nUserPermisson="999" nOperDataNum="1">
+                            <ExpOperData nID="0" nType="-1" nParentheses="0">
+                                <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                                    <LExP nID="1" strData="0" nInt="0" nType="3">
+                                        <VarName bSys="1" Num="1">
+                                            <Param0 Name="$Current_Lanague" Id="400066" DataType="3" AddrType="SFW" RegAddr="169" BitLen="8"/>
+                                        </VarName>
+                                    </LExP>
+                                    <RExP nID="0" strData="0" nInt="0" nType="3"/>
+                                </Express>
+                            </ExpOperData>
+                        </DispData>
+                        <InVar bSys="1" Num="1">
+                            <Param0 Name="$System_Info_Code" Id="400042" DataType="5" AddrType="SMW" RegAddr="77" RW="1" BitLen="16"/>
+                        </InVar>
+                    </Common>
+                    <DataDisp>
+                        <Common m_nItemType="0"/>
+                        <ItemName nItemNameNum="3" ItemName="DD_0003:[numeric:$系统信息码]"/>
+                        <ShowLabel>
+                            <GELabel Text="88888" nTextLibInnerId="1953718123">
+                                <Font Align="0" fcolor="255_255_255_255"/>
+                            </GELabel>
+                        </ShowLabel>
+                        <numeric/>
+                        <CTextFormat MultiType="1" nTtlDsplyChrNm="6"/>
+                        <CNumFormat nInteger="5"/>
+                        <AlarmRange>
+                            <LowerExp nID="0" strData="0" nInt="0" nType="5"/>
+                            <UpperExp nID="0" strData="9999" nInt="9999" nType="5"/>
+                        </AlarmRange>
+                        <DataCalc_Propor>
+                            <DataCalc>
+                                <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                                <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                            </DataCalc>
+                        </DataCalc_Propor>
+                        <DataCalc_Scale>
+                            <DataCalc>
+                                <Param1 nID="0" strData="1" nInt="1" nType="4"/>
+                                <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                            </DataCalc>
+                        </DataCalc_Scale>
+                    </DataDisp>
+                </IndexId2>
+            </GroupChild>
+        </IndexId2>
+        <IndexId3 ItemType="65535" ID="18" Name="BL" x="37" y="46" W="42" H="42" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="BL_0001:[Muti Lamp:$系统信息类型]" Z="0" bIsLampSet="1">
+            <Widgets flag="1">
+                <COMM x="37" y="46" w="43" h="43"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="40002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001:[Muti Lamp:$系统信息类型]" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="Information.vg" nColor="16777215"/>
+                <UpDownTextLib/>
+                <MulityParam bUseMul="1" nGEStateNum="4">
+                    <MulDispExp nID="1" strData="0" nInt="0" nType="4">
+                        <VarName bSys="1" Num="1">
+                            <Param0 Name="$System_Info_Type" Id="400041" DataType="3" AddrType="8位无符号数" RegAddr="76" BitLen="8"/>
+                        </VarName>
+                    </MulDispExp>
+                    <MulCData0/>
+                    <MulCData1 ValA="1"/>
+                    <MulCData2 ValA="2"/>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" nlangId="0">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{21701695-d5d5-497e-9b5c-b981cff6b4b1}" LangNum="2" StateNum="4" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="4">
+                                    <Font0/>
+                                    <Font1/>
+                                    <Font2/>
+                                    <Font3/>
+                                </Lang>
+                                <Lang nLangId="2" Num="4">
+                                    <Font0/>
+                                    <Font1/>
+                                    <Font2/>
+                                    <Font3/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </MulityParam>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="4"/>
+                <ShowLabel>
+                    <GELabel nTextLibInnerId="2097184">
+                        <Font/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId3>
+    </Element>
+</canvas>

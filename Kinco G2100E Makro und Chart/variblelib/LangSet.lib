@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangSet Count="2" nMaxId="3" DefaultName="">
+    <Lang nID="1" Name="Chinese(Simplified Han)">
+        <Font/>
+    </Lang>
+    <Lang nID="2" Name="English(Latin)">
+        <Font/>
+    </Lang>
+</LangSet>
