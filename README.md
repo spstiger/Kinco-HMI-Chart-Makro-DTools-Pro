@@ -61,7 +61,7 @@ Für HMI mit anderer Auflösung ist eine Konvertierung über diesen Weg ebenfall
 
 ![](assets/2024-07-13-19-11-11-Demo%20G2156E.png)
 
-![](assets/2024-07-13-19-01-15-Demo%20G2100E%20(1).png)
+![](assets/2024-07-13-19-01-15-Demo%20G2100E%20.png)
 
 ## Wie starte ich dieses Beispiel?
 
