@@ -1,46 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<canvas No="40001" pen_width="3" version="2004" nPageType="4" pen_color="10526884" width="480" Brush_color2="16777215" height="140">
+<canvas pen_width="3" nPageType="4" width="480" height="140" No="40001" version="2007" pen_color="10526884" Brush_color2="16777215">
     <PopupWin backCol="2238251">
         <GELabelData>
-            <LabelPro nlangId="1" SetLabel="1" auto_extend="0">
+            <LabelPro nlangId="1" auto_extend="0" SetLabel="1">
                 <LabeFont/>
             </LabelPro>
             <TextLib_Label>
-                <OneTextLib nInnerId="0" Name="{aca45dd5-ea0f-4394-9a81-60a1f98ea65a}" StateNum="1" LangNum="2" nShowId="0">
-                    <Lang nLangId="1" Num="1" State0="通讯信息提示">
-                        <Font0 size="14" fcolor="249_249_249_255"/>
+                <OneTextLib LangNum="2" Name="{aca45dd5-ea0f-4394-9a81-60a1f98ea65a}" nInnerId="0" nShowId="0" StateNum="1">
+                    <Lang nLangId="1" State0="通讯信息提示" Num="1">
+                        <Font0 fcolor="249_249_249_255" size="14"/>
                     </Lang>
-                    <Lang nLangId="2" Num="1" State0="Communication information prompt">
-                        <Font0 size="14" fcolor="255_255_255_255"/>
+                    <Lang nLangId="2" State0="Communication information prompt" Num="1">
+                        <Font0 fcolor="255_255_255_255" size="14"/>
                     </Lang>
                 </OneTextLib>
             </TextLib_Label>
         </GELabelData>
     </PopupWin>
-    <SuperWidget x="240" h="140" w="480" y="70">
-        <Super W="800" H="480" nBorder_W="1" Desc="Communication Information" max_h="480" nPrivilege="999" max_w="800" nNumType="2"/>
+    <SuperWidget h="140" x="240" w="480" y="70">
+        <Super nPrivilege="999" H="480" max_h="480" max_w="800" nNumType="2" Desc="Communication Information" W="800" nBorder_W="1"/>
     </SuperWidget>
     <Element Num="1">
-        <IndexId0 x="240" PointRotation_x="240" Name="CT" fRationY="0.333333" W="480" bRound="0" fRationX="0.1" H="140" ID="53" ItemType="65535" ItemName="CT_0001" y="70" Z="0" nItemNameNum="1" PointRotation_y="70">
+        <IndexId0 PointRotation_y="70" PointRotation_x="240" fRationX="0.1" H="140" ItemName="CT_0001" Name="CT" ItemType="65535" Z="0" x="240" fRationY="0.333333" ID="53" W="480" nItemNameNum="1" bRound="0" y="70">
             <Widgets flag="1">
-                <COMM x="240" h="141" w="481" y="70"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="141" x="240" w="481" y="70"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
-            <Common nScrollBarW="16" HasTouch="0" nPageNo="40001" m_nScrollBarWLast="16" bEmpty="1">
+            <Common HasTouch="0" nScrollBarW="16" nPageNo="40001" m_nScrollBarWLast="16" bEmpty="1">
                 <DispData nUserPermisson="999"/>
             </Common>
             <CommunicationItem>
                 <Common/>
                 <ItemListDisplayData>
-                    <StdListDisplayData bShowTtlBr="1" bTrgVar="0" nCrrntLng="1">
+                    <StdListDisplayData bTrgVar="0" nCrrntLng="1" bShowTtlBr="1">
                         <TitleBarFont>
                             <GELabelData>
-                                <LabelPro blabel="0" nlangId="1" SetLabel="1">
+                                <LabelPro nlangId="1" blabel="0" SetLabel="1">
                                     <LabeFont/>
                                 </LabelPro>
                                 <TextLib_lib>
-                                    <OneTextLib nInnerId="0" Name="" StateNum="1" LangNum="2" nShowId="0">
+                                    <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="1">
                                         <Lang nLangId="1" Num="1">
                                             <Font0/>
                                         </Lang>
@@ -53,11 +53,11 @@
                         </TitleBarFont>
                         <ListFont>
                             <GELabelData>
-                                <LabelPro blabel="0" nlangId="1" SetLabel="1">
+                                <LabelPro nlangId="1" blabel="0" SetLabel="1">
                                     <LabeFont/>
                                 </LabelPro>
                                 <TextLib_lib>
-                                    <OneTextLib nInnerId="0" Name="" StateNum="1" LangNum="2" nShowId="0">
+                                    <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="1">
                                         <Lang nLangId="1" Num="1">
                                             <Font0/>
                                         </Lang>
@@ -69,19 +69,19 @@
                             </GELabelData>
                         </ListFont>
                         <CListColumnNum ID="3">
-                            <CListColData nCrRwNm="0" strTtlNm="No." bSlctbl="1" nOrgnNm="0" bDsply="1" nMinColWid="33" nChannelNm="0" strClNm="No.">
+                            <CListColData nChannelNm="0" bSlctbl="1" bDsply="1" nCrRwNm="0" nMinColWid="33" strClNm="No." nOrgnNm="0" strTtlNm="No.">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{85a5e69f-b1c3-4049-9735-0adaf8c3ca91}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="序号">
+                                        <OneTextLib LangNum="2" Name="{85a5e69f-b1c3-4049-9735-0adaf8c3ca91}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="序号" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="No.">
+                                            <Lang nLangId="2" State0="No." Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -91,19 +91,19 @@
                             </CListColData>
                         </CListColumnNum>
                         <CListColumnSystem flag="259" ID="6">
-                            <CListColData nCrRwNm="1" strTtlNm="Varname" bSlctbl="1" nOrgnNm="7" bDsply="1" nColWid="200" nMinColWid="90" nChannelNm="0" strClNm="Varname">
+                            <CListColData nChannelNm="0" nColWid="200" bSlctbl="1" bDsply="1" nCrRwNm="1" nMinColWid="90" strClNm="Varname" nOrgnNm="7" strTtlNm="Varname">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{195aac35-a708-483f-b2a9-26aeb083bfc9}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="变量名">
+                                        <OneTextLib LangNum="2" Name="{195aac35-a708-483f-b2a9-26aeb083bfc9}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="变量名" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Varname">
+                                            <Lang nLangId="2" State0="Varname" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -113,19 +113,19 @@
                             </CListColData>
                         </CListColumnSystem>
                         <CListColumnSystem flag="260" ID="6">
-                            <CListColData nCrRwNm="2" strTtlNm="State" bSlctbl="1" nOrgnNm="6" bDsply="1" nChannelNm="0" strClNm="State">
+                            <CListColData nChannelNm="0" bSlctbl="1" bDsply="1" nCrRwNm="2" strClNm="State" nOrgnNm="6" strTtlNm="State">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{f3e25702-aebd-4fea-ae11-69fa2b411ae3}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="状态">
+                                        <OneTextLib LangNum="2" Name="{f3e25702-aebd-4fea-ae11-69fa2b411ae3}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="状态" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="State">
+                                            <Lang nLangId="2" State0="State" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -135,19 +135,19 @@
                             </CListColData>
                         </CListColumnSystem>
                         <CListColumnSystem flag="257" ID="6">
-                            <CListColData nCrRwNm="3" strTtlNm="Serial/IP" bSlctbl="1" nOrgnNm="4" bDsply="1" nColWid="85" nMinColWid="85" nChannelNm="0" strClNm="Serial/IP">
+                            <CListColData nChannelNm="0" nColWid="85" bSlctbl="1" bDsply="1" nCrRwNm="3" nMinColWid="85" strClNm="Serial/IP" nOrgnNm="4" strTtlNm="Serial/IP">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{6dec3912-9251-48dc-a44e-806f3b9aa206}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="串口/IP">
+                                        <OneTextLib LangNum="2" Name="{6dec3912-9251-48dc-a44e-806f3b9aa206}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="串口/IP" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Serial/IP">
+                                            <Lang nLangId="2" State0="Serial/IP" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -157,19 +157,19 @@
                             </CListColData>
                         </CListColumnSystem>
                         <CListColumnSystem flag="258" ID="6">
-                            <CListColData nCrRwNm="4" strTtlNm="Station/Port" bSlctbl="1" nOrgnNm="5" bDsply="0" nColWid="121" nMinColWid="121" nChannelNm="0" strClNm="Station/Port">
+                            <CListColData nChannelNm="0" nColWid="121" bSlctbl="1" bDsply="0" nCrRwNm="4" nMinColWid="121" strClNm="Station/Port" nOrgnNm="5" strTtlNm="Station/Port">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{e20413c5-5d5a-47ea-b5bb-4883161e7074}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="站号/端口">
+                                        <OneTextLib LangNum="2" Name="{e20413c5-5d5a-47ea-b5bb-4883161e7074}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="站号/端口" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Station/Port">
+                                            <Lang nLangId="2" State0="Station/Port" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -179,19 +179,19 @@
                             </CListColData>
                         </CListColumnSystem>
                         <CListColumnSystem flag="256" ID="6">
-                            <CListColData nCrRwNm="5" strTtlNm="Device name" bSlctbl="1" nOrgnNm="3" bDsply="1" nColWid="128" nMinColWid="128" nChannelNm="0" strClNm="Device name">
+                            <CListColData nChannelNm="0" nColWid="128" bSlctbl="1" bDsply="1" nCrRwNm="5" nMinColWid="128" strClNm="Device name" nOrgnNm="3" strTtlNm="Device name">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{f6d72707-bb03-4382-9cb5-f3c9cc84fe50}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="设备名">
+                                        <OneTextLib LangNum="2" Name="{f6d72707-bb03-4382-9cb5-f3c9cc84fe50}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="设备名" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Device name">
+                                            <Lang nLangId="2" State0="Device name" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -201,19 +201,19 @@
                             </CListColData>
                         </CListColumnSystem>
                         <CListColumnTime ID="4">
-                            <CListColData nCrRwNm="6" strTtlNm="Date" bSlctbl="1" nOrgnNm="1" bDsply="1" nColWid="100" nMinColWid="90" nChannelNm="0" strClNm="Date">
+                            <CListColData nChannelNm="0" nColWid="100" bSlctbl="1" bDsply="1" nCrRwNm="6" nMinColWid="90" strClNm="Date" nOrgnNm="1" strTtlNm="Date">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{cd830a88-7c5d-4e4a-848e-42962f96c410}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="日期">
+                                        <OneTextLib LangNum="2" Name="{cd830a88-7c5d-4e4a-848e-42962f96c410}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="日期" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Date">
+                                            <Lang nLangId="2" State0="Date" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -221,14 +221,14 @@
                                     </TextLib_Label>
                                 </GELabelData>
                             </CListColData>
-                            <CClockFormat Multiline="1" PartChar="32" PrecisionFormat="0" ShowYear="0" TimeFormat="0">
+                            <CClockFormat PartChar="32" Multiline="1" PrecisionFormat="0" ShowYear="0" TimeFormat="0">
                                 <GELabelData>
                                     <LabelPro SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{ed565bf9-edf8-47b5-b604-fef4f1ea3c75}" StateNum="7" LangNum="2" nShowId="0">
-                                            <Lang State2="星期二" State3="星期三" State4="星期四" State6="星期六" State1="星期一" nLangId="1" Num="7" State5="星期五" State0="星期日">
+                                        <OneTextLib LangNum="2" Name="{ed565bf9-edf8-47b5-b604-fef4f1ea3c75}" nInnerId="0" nShowId="0" StateNum="7">
+                                            <Lang State3="星期三" State6="星期六" State1="星期一" State2="星期二" State4="星期四" nLangId="1" State0="星期日" Num="7" State5="星期五">
                                                 <Font0/>
                                                 <Font1/>
                                                 <Font2/>
@@ -252,19 +252,19 @@
                             </CClockFormat>
                         </CListColumnTime>
                         <CListColumnTime ID="4">
-                            <CListColData nCrRwNm="7" strTtlNm="时间" bSlctbl="1" nOrgnNm="2" bDsply="1" nColWid="95" nMinColWid="88" nChannelNm="0" strClNm="Time">
+                            <CListColData nChannelNm="0" nColWid="95" bSlctbl="1" bDsply="1" nCrRwNm="7" nMinColWid="88" strClNm="Time" nOrgnNm="2" strTtlNm="时间">
                                 <ColCFont/>
                                 <GELabelData>
                                     <LabelPro nlangId="1" SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{016f6467-f683-4621-b167-a874153eb493}" StateNum="2" LangNum="2" nShowId="0">
-                                            <Lang nLangId="1" Num="2" State0="时间">
+                                        <OneTextLib LangNum="2" Name="{016f6467-f683-4621-b167-a874153eb493}" nInnerId="0" nShowId="0" StateNum="2">
+                                            <Lang nLangId="1" State0="时间" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
-                                            <Lang nLangId="2" Num="2" State0="Time">
+                                            <Lang nLangId="2" State0="Time" Num="2">
                                                 <Font0/>
                                                 <Font1/>
                                             </Lang>
@@ -272,14 +272,14 @@
                                     </TextLib_Label>
                                 </GELabelData>
                             </CListColData>
-                            <CClockFormat Multiline="1" PartChar="32" DateFormat="0" PrecisionFormat="0" ShowYear="0">
+                            <CClockFormat PartChar="32" Multiline="1" PrecisionFormat="0" ShowYear="0" DateFormat="0">
                                 <GELabelData>
                                     <LabelPro SetLabel="1">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{1717aefc-8e71-4d8f-b202-8959ba3631e5}" StateNum="7" LangNum="2" nShowId="0">
-                                            <Lang State2="星期二" State3="星期三" State4="星期四" State6="星期六" State1="星期一" nLangId="1" Num="7" State5="星期五" State0="星期日">
+                                        <OneTextLib LangNum="2" Name="{1717aefc-8e71-4d8f-b202-8959ba3631e5}" nInnerId="0" nShowId="0" StateNum="7">
+                                            <Lang State3="星期三" State6="星期六" State1="星期一" State2="星期二" State4="星期四" nLangId="1" State0="星期日" Num="7" State5="星期五">
                                                 <Font0/>
                                                 <Font1/>
                                                 <Font2/>
@@ -309,12 +309,12 @@
                                 <LabeFont/>
                             </LabelPro>
                             <TextLib_Label>
-                                <OneTextLib nInnerId="0" Name="" StateNum="2" LangNum="2" nShowId="0">
-                                    <Lang nLangId="1" Num="2" State0="超时">
+                                <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="2">
+                                    <Lang nLangId="1" State0="超时" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
-                                    <Lang nLangId="2" Num="2" State0="Timeout">
+                                    <Lang nLangId="2" State0="Timeout" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
@@ -328,12 +328,12 @@
                                 <LabeFont/>
                             </LabelPro>
                             <TextLib_Label>
-                                <OneTextLib nInnerId="0" Name="" StateNum="2" LangNum="2" nShowId="0">
-                                    <Lang nLangId="1" Num="2" State0="错误">
+                                <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="2">
+                                    <Lang nLangId="1" State0="错误" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
-                                    <Lang nLangId="2" Num="2" State0="Error">
+                                    <Lang nLangId="2" State0="Error" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
@@ -347,12 +347,12 @@
                                 <LabeFont/>
                             </LabelPro>
                             <TextLib_Label>
-                                <OneTextLib nInnerId="0" Name="" StateNum="2" LangNum="2" nShowId="0">
-                                    <Lang nLangId="1" Num="2" State0="未知异常">
+                                <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="2">
+                                    <Lang nLangId="1" State0="未知异常" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
-                                    <Lang nLangId="2" Num="2" State0="Unknow exception">
+                                    <Lang nLangId="2" State0="Unknow exception" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
@@ -366,12 +366,12 @@
                                 <LabeFont/>
                             </LabelPro>
                             <TextLib_Label>
-                                <OneTextLib nInnerId="0" Name="" StateNum="2" LangNum="2" nShowId="0">
-                                    <Lang nLangId="1" Num="2" State0="未连接">
+                                <OneTextLib LangNum="2" Name="" nInnerId="0" nShowId="0" StateNum="2">
+                                    <Lang nLangId="1" State0="未连接" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
-                                    <Lang nLangId="2" Num="2" State0="Disconnect">
+                                    <Lang nLangId="2" State0="Disconnect" Num="2">
                                         <Font0/>
                                         <Font1/>
                                     </Lang>
@@ -381,7 +381,7 @@
                     </pDiscnnctLbl>
                 </ItemListDisplayData>
                 <TableData>
-                    <ItemTableDisplayData bPgntnDsply="1" BrdrColor="2238251" TblBckColor="16382457" SlctColor="11908533" bShwBrdr="0" TtlBckColor="2238251" SprtrColor="16409600"/>
+                    <ItemTableDisplayData bShwBrdr="0" BrdrColor="2238251" SlctColor="11908533" SprtrColor="16409600" TtlBckColor="2238251" bPgntnDsply="1" TblBckColor="16382457"/>
                 </TableData>
             </CommunicationItem>
         </IndexId0>

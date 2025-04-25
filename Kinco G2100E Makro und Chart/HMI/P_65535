@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1600" width="1024" height="600" No="50001" nPageType="1">
-    <SuperWidget x="512" y="300" w="1024" h="600">
-        <Super max_w="1024" max_h="600" W="1024" H="600" Desc="Public Window" bMemory="1" nPrivilege="999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<canvas No="50001" nPageType="1" height="600" width="1024" version="2007">
+    <SuperWidget h="600" x="512" y="300" w="1024">
+        <Super bMemory="1" W="1024" max_h="600" max_w="1024" nPrivilege="999" H="600" Desc="Public Window"/>
     </SuperWidget>
     <Element Num="0"/>
 </canvas>

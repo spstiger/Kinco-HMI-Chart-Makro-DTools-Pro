@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1000">
+    <PageInfo No="1" Name="B_1:Basic Window(1)"/>
+    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="32" NameNum="1" Name="DD_0001:[numeric:MW0]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar Num="1">
+            <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="32" NameNum="2" Name="DD_0002:[numeric:MW2]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar Num="1">
+            <Param0 Name="MW2" Id="2" DataType="5" AddrType="MW" RegAddr="2" BitLen="16"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+</SaveItemOprtLog>

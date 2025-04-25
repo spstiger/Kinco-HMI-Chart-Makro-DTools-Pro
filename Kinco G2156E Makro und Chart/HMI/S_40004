@@ -1,48 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<canvas No="40004" pen_width="3" version="2004" nPageType="4" pen_color="10526884" width="430" Brush_color2="16777215" height="150">
-    <PopupWin bPresetCoor="0" bCloseBtn="0" backCol="2238251" bMonopolize="1">
+<canvas pen_width="3" nPageType="4" width="430" height="150" No="40004" version="2007" pen_color="10526884" Brush_color2="16777215">
+    <PopupWin bCloseBtn="0" backCol="2238251" bPresetCoor="0" bMonopolize="1">
         <GELabelData>
-            <LabelPro nlangId="1" textlibName="$Text_Operate_Confirm" SetLabel="1" auto_extend="0">
+            <LabelPro nlangId="1" textlibName="$Text_Operate_Confirm" auto_extend="0" SetLabel="1">
                 <LabeFont/>
             </LabelPro>
             <TextLib_Label>
-                <OneTextLib nInnerId="0" Name="{8de7230b-fc20-4559-88e7-d3dd99b32faf}" StateNum="1" LangNum="2" nShowId="0">
-                    <Lang nLangId="1" Num="1" State0="操作确认">
+                <OneTextLib LangNum="2" Name="{8de7230b-fc20-4559-88e7-d3dd99b32faf}" nInnerId="0" nShowId="0" StateNum="1">
+                    <Lang nLangId="1" State0="操作确认" Num="1">
                         <Font0 fcolor="249_249_249_255"/>
                     </Lang>
-                    <Lang nLangId="2" Num="1" State0="Operation confirmation">
+                    <Lang nLangId="2" State0="Operation confirmation" Num="1">
                         <Font0 fcolor="255_255_255_255"/>
                     </Lang>
                 </OneTextLib>
             </TextLib_Label>
         </GELabelData>
     </PopupWin>
-    <SuperWidget x="215" h="150" w="430" y="75">
-        <Super W="800" H="480" nBackColor="2238251" nBorder_W="1" Desc="Operation Comfirm" max_h="480" nPrivilege="999" max_w="800" nNumType="2"/>
+    <SuperWidget h="150" x="215" w="430" y="75">
+        <Super nPrivilege="999" H="480" max_h="480" max_w="800" nNumType="2" nBackColor="2238251" Desc="Operation Comfirm" W="800" nBorder_W="1"/>
     </SuperWidget>
     <Element Num="4">
-        <IndexId0 x="215" FixedPoint="0" Name="TX" fRationY="0" W="364" bRound="0" fRationX="0" H="73" ID="17" ItemType="65535" ItemName="TX_0001" y="48" Z="0" nItemNameNum="1">
+        <IndexId0 fRationX="0" H="73" ItemName="TX_0001" Name="TX" ItemType="65535" Z="0" x="215" fRationY="0" ID="17" W="364" nItemNameNum="1" bRound="0" y="48" FixedPoint="0">
             <Widgets flag="1">
-                <COMM x="215" h="74" w="365" shadow_c="16711680" y="48"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
+                <COMM h="74" x="215" shadow_c="16711680" w="365" y="48"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="0" _subType="0" _color1="16711680"/>
             </Widgets>
             <Common nScrollBarW="16" nPageNo="40004" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0001" NameNum="1"/>
+                <ItmOprtLogDt NameNum="1" nlangId="0" Name="TX_0001" Id="17"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
                     <GELabelData>
                         <LabelPro textlibName="$Text_Operate_Confirm_Select" SetLabel="1">
-                            <LabeFont Align="0" MH="70"/>
+                            <LabeFont MH="70" Align="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib nInnerId="0" Name="{fa2bbb13-ac83-4e12-bb78-666a621c4f2a}" StateNum="1" LangNum="2" nShowId="0">
-                                <Lang nLangId="1" Num="1" State0="您确定执行本次操作吗？">
-                                    <Font0 size="20" fcolor="249_249_249_255"/>
+                            <OneTextLib LangNum="2" Name="{fa2bbb13-ac83-4e12-bb78-666a621c4f2a}" nInnerId="0" nShowId="0" StateNum="1">
+                                <Lang nLangId="1" State0="您确定执行本次操作吗？" Num="1">
+                                    <Font0 fcolor="249_249_249_255" size="20"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="1" State0="Operate Confirm Select?">
-                                    <Font0 size="20" fcolor="249_249_249_255"/>
+                                <Lang nLangId="2" State0="Operate Confirm Select?" Num="1">
+                                    <Font0 fcolor="249_249_249_255" size="20"/>
                                 </Lang>
                             </OneTextLib>
                         </TextLib_Label>
@@ -50,41 +50,41 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel Y="-36" Heigth="73" Text="Operate Confirm Select?" nTextLibInnerId="3276895" bUselib="1" X="-182" Width="364" LibName="{fa2bbb13-ac83-4e12-bb78-666a621c4f2a}">
-                    <Font size="20" Align="0" fcolor="249_249_249_255" MH="70"/>
+                <GELabel Y="-36" X="-182" bUselib="1" Text="Operate Confirm Select?" nTextLibInnerId="3276895" Width="364" Heigth="73" LibName="{fa2bbb13-ac83-4e12-bb78-666a621c4f2a}">
+                    <Font fcolor="249_249_249_255" MH="70" Align="0" size="20"/>
                 </GELabel>
                 <ItemName m_item_name="TX_0001" m_nItemNameNum="1"/>
             </TextInfo>
         </IndexId0>
-        <IndexId1 x="293" FixedPoint="0" Name="BL" fRationY="0" W="102" bRound="0" fRationX="0" H="42" ID="18" ItemType="0" ItemName="BL_0002" y="117" Z="0" nItemNameNum="2">
+        <IndexId1 fRationX="0" H="42" ItemName="BL_0002" Name="BL" ItemType="0" Z="0" x="293" fRationY="0" ID="18" W="102" nItemNameNum="2" bRound="0" y="117" FixedPoint="0">
             <Widgets flag="1">
-                <COMM x="293" h="43" w="103" shadow_c="16711680" y="117"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="43" x="293" shadow_c="16711680" w="103" y="117"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40004" bUseGraphics="1" m_nScrollBarWLast="16">
-                <ActionData bTrigNotifyRegEnable="0" Mode="1" bSendNotifyAfterFail="0" bSwitch="1" bConAfterFail="0" bErrNumRegEnable="0" ActionCount="2">
-                    <ActionID3 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="3" baseflag="0">
-                        <ActionParam logicType="0" executeAtOnce="0" flag="0" operationtype="0" delayTime="1" figureByBitType="0" executeTime="1" VarDataType="3" wordActionType="0" bLoop="0" bReverse="0" bEmptyString="0">
-                            <Var Num="1" bSys="1">
-                                <Param0 AddrType="SMW" BitLen="8" DataType="3" Name="$Operate_Confirm" Id="400063" RegAddr="267" RW="2"/>
+                <ActionData ActionCount="2" bTrigNotifyRegEnable="0" Mode="1" bSwitch="1" bConAfterFail="0" bSendNotifyAfterFail="0" bErrNumRegEnable="0">
+                    <ActionID3 baseflag="0" btnTrigMode="1" EleSign="0" bStartAction="1" nId="3" bEnable="0" bCond="0" loops="1">
+                        <ActionParam executeAtOnce="0" delayTime="1" figureByBitType="0" wordActionType="0" flag="0" logicType="0" bLoop="0" VarDataType="3" bReverse="0" executeTime="1" bEmptyString="0" operationtype="0">
+                            <Var bSys="1" Num="1">
+                                <Param0 RegAddr="267" Name="$Operate_Confirm" AddrType="SMW" RW="2" DataType="3" Id="400063" BitLen="8"/>
                             </Var>
-                            <param0_Index nInt="1" strData="1" nType="3" nID="0"/>
-                            <param1_Index nInt="0" strData="0" nType="3" nID="0"/>
-                            <param2_Index nInt="100" strData="100" nType="3" nID="0"/>
+                            <param0_Index nInt="1" nID="0" nType="3" strData="1"/>
+                            <param1_Index nInt="0" nID="0" nType="3" strData="0"/>
+                            <param2_Index nInt="100" nID="0" nType="3" strData="100"/>
                         </ActionParam>
                     </ActionID3>
-                    <ActionID1 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="1" baseflag="0">
-                        <ActionParam flag="2" switchWinNumType="0" bAutoPopupPasswordWindow="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
-                            <WinNoExpress nInt="1" strData="1" nType="3" nID="0"/>
-                            <MainWinNoExpress nInt="0" strData="0" nType="7" nID="0"/>
-                            <PopupWin bPresetCoor="0" backCol="3685711">
+                    <ActionID1 baseflag="0" btnTrigMode="1" EleSign="0" bStartAction="1" nId="1" bEnable="0" bCond="0" loops="1">
+                        <ActionParam flag="2" bAutoPopupPasswordWindow="0" switchWinNumType="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
+                            <WinNoExpress nInt="1" nID="0" nType="3" strData="1"/>
+                            <MainWinNoExpress nInt="0" nID="0" nType="7" strData="0"/>
+                            <PopupWin backCol="3685711" bPresetCoor="0">
                                 <GELabelData>
-                                    <LabelPro SetLabel="0" auto_extend="0">
+                                    <LabelPro auto_extend="0" SetLabel="0">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{46133562-7091-4bdc-9688-59789a62ab0e}" StateNum="1" LangNum="2" nShowId="0">
+                                        <OneTextLib LangNum="2" Name="{46133562-7091-4bdc-9688-59789a62ab0e}" nInnerId="0" nShowId="0" StateNum="1">
                                             <Lang nLangId="1" Num="1">
                                                 <Font0/>
                                             </Lang>
@@ -98,22 +98,22 @@
                         </ActionParam>
                     </ActionID1>
                 </ActionData>
-                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0002" NameNum="2"/>
+                <ItmOprtLogDt NameNum="2" nlangId="0" Name="BL_0002" Id="18"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam nheight="40" nWidth="160" Name="button-b-01.vg" nColor="16777215"/>
+                <BGVGParam Name="button-b-01.vg" nWidth="160" nColor="16777215" nheight="40"/>
                 <UpDownTextLib>
                     <GELabelData>
                         <LabelPro nlangId="0" textlibName="$Text_OK" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib nInnerId="0" Name="{f827c300-a819-41df-a49a-4bb002f66137}" StateNum="2" LangNum="2" nShowId="0">
-                                <Lang State1="确定" nLangId="1" Num="2" State0="确定">
+                            <OneTextLib LangNum="2" Name="{f827c300-a819-41df-a49a-4bb002f66137}" nInnerId="0" nShowId="0" StateNum="2">
+                                <Lang State1="确定" nLangId="1" State0="确定" Num="2">
                                     <Font0 fcolor="249_249_249_255"/>
                                     <Font1 fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang State1="OK" nLangId="2" Num="2" State0="OK">
+                                <Lang State1="OK" nLangId="2" State0="OK" Num="2">
                                     <Font0 fcolor="249_249_249_255"/>
                                     <Font1 fcolor="249_249_249_255"/>
                                 </Lang>
@@ -135,35 +135,35 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId1>
-        <IndexId2 x="136" PointRotation_x="136" Name="BL" fRationY="0" W="102" bRound="0" fRationX="0" H="42" ID="18" ItemType="0" ItemName="BL_0006" y="117" Z="0" nItemNameNum="6" PointRotation_y="117">
+        <IndexId2 PointRotation_y="117" PointRotation_x="136" fRationX="0" H="42" ItemName="BL_0006" Name="BL" ItemType="0" Z="0" x="136" fRationY="0" ID="18" W="102" nItemNameNum="6" bRound="0" y="117">
             <Widgets flag="1">
-                <COMM x="136" h="43" w="103" shadow_c="16711680" y="117"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="43" x="136" shadow_c="16711680" w="103" y="117"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40004" bUseGraphics="1" m_nScrollBarWLast="16">
-                <ActionData bTrigNotifyRegEnable="0" Mode="0" bSendNotifyAfterFail="0" bSwitch="1" bConAfterFail="0" bErrNumRegEnable="0" ActionCount="2">
-                    <ActionID3 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="3" baseflag="0">
-                        <ActionParam logicType="0" executeAtOnce="0" flag="0" operationtype="0" delayTime="1" figureByBitType="0" executeTime="1" VarDataType="3" wordActionType="0" bLoop="0" bReverse="0" bEmptyString="0">
-                            <Var Num="1" bSys="1">
-                                <Param0 AddrType="SMW" BitLen="8" DataType="3" Name="$Operate_Confirm" Id="400063" RegAddr="267" RW="2"/>
+                <ActionData ActionCount="2" bTrigNotifyRegEnable="0" Mode="0" bSwitch="1" bConAfterFail="0" bSendNotifyAfterFail="0" bErrNumRegEnable="0">
+                    <ActionID3 baseflag="0" btnTrigMode="1" EleSign="0" bStartAction="1" nId="3" bEnable="0" bCond="0" loops="1">
+                        <ActionParam executeAtOnce="0" delayTime="1" figureByBitType="0" wordActionType="0" flag="0" logicType="0" bLoop="0" VarDataType="3" bReverse="0" executeTime="1" bEmptyString="0" operationtype="0">
+                            <Var bSys="1" Num="1">
+                                <Param0 RegAddr="267" Name="$Operate_Confirm" AddrType="SMW" RW="2" DataType="3" Id="400063" BitLen="8"/>
                             </Var>
-                            <param0_Index nInt="2" strData="2" nType="3" nID="0"/>
-                            <param1_Index nInt="0" strData="0" nType="3" nID="0"/>
-                            <param2_Index nInt="100" strData="100" nType="3" nID="0"/>
+                            <param0_Index nInt="2" nID="0" nType="3" strData="2"/>
+                            <param1_Index nInt="0" nID="0" nType="3" strData="0"/>
+                            <param2_Index nInt="100" nID="0" nType="3" strData="100"/>
                         </ActionParam>
                     </ActionID3>
-                    <ActionID1 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="1" baseflag="0">
-                        <ActionParam flag="2" switchWinNumType="0" bAutoPopupPasswordWindow="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
-                            <WinNoExpress nInt="1" strData="1" nType="3" nID="0"/>
-                            <MainWinNoExpress nInt="0" strData="0" nType="7" nID="0"/>
-                            <PopupWin bPresetCoor="0" backCol="3685711">
+                    <ActionID1 baseflag="0" btnTrigMode="1" EleSign="0" bStartAction="1" nId="1" bEnable="0" bCond="0" loops="1">
+                        <ActionParam flag="2" bAutoPopupPasswordWindow="0" switchWinNumType="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
+                            <WinNoExpress nInt="1" nID="0" nType="3" strData="1"/>
+                            <MainWinNoExpress nInt="0" nID="0" nType="7" strData="0"/>
+                            <PopupWin backCol="3685711" bPresetCoor="0">
                                 <GELabelData>
-                                    <LabelPro SetLabel="0" auto_extend="0">
+                                    <LabelPro auto_extend="0" SetLabel="0">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib nInnerId="0" Name="{4fef2838-386f-4d86-9ff9-b9dc2d76c7e2}" StateNum="1" LangNum="2" nShowId="0">
+                                        <OneTextLib LangNum="2" Name="{4fef2838-386f-4d86-9ff9-b9dc2d76c7e2}" nInnerId="0" nShowId="0" StateNum="1">
                                             <Lang nLangId="1" Num="1">
                                                 <Font0/>
                                             </Lang>
@@ -177,22 +177,22 @@
                         </ActionParam>
                     </ActionID1>
                 </ActionData>
-                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0006" NameNum="6"/>
+                <ItmOprtLogDt NameNum="6" nlangId="0" Name="BL_0006" Id="18"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam nheight="40" nWidth="50" Name="button-b-00.vg" nColor="16777215"/>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nColor="16777215" nheight="40"/>
                 <UpDownTextLib>
                     <GELabelData>
                         <LabelPro nlangId="0" textlibName="$Text_Cancel" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib nInnerId="0" Name="{d692ea03-0123-43b6-870d-49bd16fc40c8}" StateNum="2" LangNum="2" nShowId="0">
-                                <Lang State1="取消" nLangId="1" Num="2" State0="取消">
+                            <OneTextLib LangNum="2" Name="{d692ea03-0123-43b6-870d-49bd16fc40c8}" nInnerId="0" nShowId="0" StateNum="2">
+                                <Lang State1="取消" nLangId="1" State0="取消" Num="2">
                                     <Font0 fcolor="249_249_249_255"/>
                                     <Font1 fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang State1="Cancel" nLangId="2" Num="2" State0="Cancel">
+                                <Lang State1="Cancel" nLangId="2" State0="Cancel" Num="2">
                                     <Font0 fcolor="249_249_249_255"/>
                                     <Font1 fcolor="249_249_249_255"/>
                                 </Lang>
@@ -214,20 +214,20 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId2>
-        <IndexId3 x="60" PointRotation_x="60.5" Name="GP" fRationY="0.333333" W="36" bRound="0" fRationX="0.1" H="36" ID="16" ItemType="65535" ItemName="GP_0001" y="48" Z="0" nItemNameNum="1" PointRotation_y="48.5">
+        <IndexId3 PointRotation_y="48.5" PointRotation_x="60.5" fRationX="0.1" H="36" ItemName="GP_0001" Name="GP" ItemType="65535" Z="0" x="60" fRationY="0.333333" ID="16" W="36" nItemNameNum="1" bRound="0" y="48">
             <Widgets flag="1">
-                <COMM x="60" h="37" w="37" y="48"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="37" x="60" w="37" y="48"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40004" m_nScrollBarWLast="16">
-                <ItmOprtLogDt nlangId="0" Id="16" Name="GP_0001" NameNum="1"/>
+                <ItmOprtLogDt NameNum="1" nlangId="0" Name="GP_0001" Id="16"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
             </Common>
-            <ImageItemParam bUseShadow="0" bIsPNGImage="1" ImageName="warning2_0.png" bUseTransparentChannel="1" bUseSpecificColor="0" flag="3131961357" OriginImagePath="warning2_0.png" bUseFileImage="1">
+            <ImageItemParam bUseShadow="0" bUseTransparentChannel="1" flag="3131961357" bIsPNGImage="1" ImageName="warning2_0.png" bUseFileImage="1" bUseSpecificColor="0" OriginImagePath="warning2_0.png">
                 <ItemName m_item_name="GP_0001" m_nItemNameNum="1"/>
-                <Display FixedRect_Y="0" FixedRect_X="0" OriginRect_height="128" OriginRect_width="128" FixedRect_Height="0" FixedRect_Width="0"/>
+                <Display FixedRect_X="0" FixedRect_Y="0" OriginRect_width="128" FixedRect_Height="0" OriginRect_height="128" FixedRect_Width="0"/>
             </ImageItemParam>
         </IndexId3>
     </Element>

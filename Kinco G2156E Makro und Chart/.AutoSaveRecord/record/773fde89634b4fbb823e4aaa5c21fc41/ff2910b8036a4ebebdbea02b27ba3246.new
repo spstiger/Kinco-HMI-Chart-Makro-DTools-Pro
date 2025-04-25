@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1600">
+    <PageInfo No="40004" Name="S_4:Operation Comfirm(40004)"/>
+    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="6" Name="BL_0006" nlangId="0"/>
+</SaveItemOprtLog>

@@ -1,41 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<canvas No="40002" pen_width="3" version="2004" nPageType="4" pen_color="10526884" width="430" Brush_color2="15593453" height="160">
-    <PopupWin bPresetCoor="0" backCol="2238251">
+<canvas pen_width="3" nPageType="4" width="430" height="160" No="40002" version="2007" pen_color="10526884" Brush_color2="15593453">
+    <PopupWin backCol="2238251" bPresetCoor="0">
         <GELabelData>
-            <LabelPro nlangId="1" textlibName="$Text_System_info" SetLabel="1" auto_extend="0">
+            <LabelPro nlangId="1" textlibName="$Text_System_info" auto_extend="0" SetLabel="1">
                 <LabeFont/>
             </LabelPro>
             <TextLib_Label>
-                <OneTextLib nInnerId="0" Name="{74502a27-6763-4767-9d75-819763b29568}" StateNum="1" LangNum="2" nShowId="0">
-                    <Lang nLangId="1" Num="1" State0="系统信息提示">
+                <OneTextLib LangNum="2" Name="{74502a27-6763-4767-9d75-819763b29568}" nInnerId="0" nShowId="0" StateNum="1">
+                    <Lang nLangId="1" State0="系统信息提示" Num="1">
                         <Font0 fcolor="255_255_255_255"/>
                     </Lang>
-                    <Lang nLangId="2" Num="1" State0="System information prompt">
+                    <Lang nLangId="2" State0="System information prompt" Num="1">
                         <Font0 fcolor="255_255_255_255"/>
                     </Lang>
                 </OneTextLib>
             </TextLib_Label>
         </GELabelData>
     </PopupWin>
-    <SuperWidget x="215" h="160" w="430" y="80">
-        <Super W="800" H="480" nBackColor="2238251" nBorder_W="1" Desc="System Information" max_h="480" nPrivilege="999" max_w="800" nNumType="2"/>
+    <SuperWidget h="160" x="215" w="430" y="80">
+        <Super nPrivilege="999" H="480" max_h="480" max_w="800" nNumType="2" nBackColor="2238251" Desc="System Information" W="800" nBorder_W="1"/>
     </SuperWidget>
     <Element Num="4">
-        <IndexId0 x="226" FixedPoint="0" Name="BL" fRationY="0" W="312" bRound="0" fRationX="0" H="58" ID="18" ItemType="0" ItemName="BL_0002" y="45" Z="0" nItemNameNum="2">
+        <IndexId0 fRationX="0" H="58" ItemName="BL_0002" Name="BL" ItemType="0" Z="0" x="226" fRationY="0" ID="18" W="312" nItemNameNum="2" bRound="0" y="45" FixedPoint="0">
             <Widgets flag="1">
-                <COMM x="226" h="59" w="313" shadow_c="16711680" y="45"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="59" x="226" shadow_c="16711680" w="313" y="45"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40002" m_nScrollBarWLast="16">
-                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0002" NameNum="2"/>
+                <ItmOprtLogDt NameNum="2" nlangId="0" Name="BL_0002" Id="18"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <UpDownTextLib/>
                 <MulityParam nGEStateNum="69" bUseMul="1">
-                    <MulDispExp nInt="0" strData="0" nType="5" nID="1">
-                        <VarName Num="1" bSys="1">
-                            <Param0 AddrType="SMW" BitLen="16" DataType="5" Name="$System_Info_Code" Id="400042" RegAddr="77" RW="1"/>
+                    <MulDispExp nInt="0" nID="1" nType="5" strData="0">
+                        <VarName bSys="1" Num="1">
+                            <Param0 RegAddr="77" Name="$System_Info_Code" AddrType="SMW" RW="1" DataType="5" Id="400042" BitLen="16"/>
                         </VarName>
                     </MulDispExp>
                     <MulCData0 ValA="1"/>
@@ -107,152 +107,152 @@
                     <MulCData66 ValA="15"/>
                     <MulCData67 ValA="16"/>
                     <GELabelData>
-                        <LabelPro bscroll="1" nlangId="1" scrolldir="2" bShowByWalkLantern="1" textlibName="$Text_System_Info_List" scroll_step="30" SetLabel="1" auto_extend="0">
-                            <LabeFont Align="0" fcolor="255_0_0_255" name="Simsun"/>
+                        <LabelPro scroll_step="30" bscroll="1" nlangId="1" textlibName="$Text_System_Info_List" auto_extend="0" scrolldir="2" bShowByWalkLantern="1" SetLabel="1">
+                            <LabeFont fcolor="255_0_0_255" Align="0" name="Simsun"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib nInnerId="0" Name="{d49ae20e-f792-45ea-8c4a-88b4c6b7a6e9}" StateNum="69" LangNum="2" nShowId="0">
-                                <Lang State9="正在导入" State16="密码已长时间未更新" State26="宏脚本执行错误" State46="当前操作需要管理员权限" State35="用户权限不足" State36="打印失败" State39="密码必须包含字母" State11="打印成功" State10="正在打印" State12="导出成功" State29="服务器连接失败" State20="SD卡空间不足" State3="SD卡已拔出" State19="HMI空间不足" State51="工程默认管理员不允许删除" State23="未检测到SD卡" State18="操作失败" State54="不能删除当前登录用户" State17="系统文件缺失" State5="U盘1已拔出" State37="sql语句执行失败" State1="操作成功" State59="宏代码错误" State45="用户名不能为空" State33="文件不存在" State41="密码必须满足最小位数" State43="该用户已存在" State48="当前时间段不允许修改密码" State49="员工卡号已使用" State58="配方序号不存在" State13="导入成功" State67="刷卡登录成功" State14="内存不足" State38="该用户被锁定" State31="视频播放失败" State6="U盘2已插入" Num="69" State25="未检测到U盘2" State21="U盘1空间不足" State42="密码不能与上次重复" State15="HMI剩余存储空间不足" State56="解压错误" State52="该用户已被禁用" State64="打开文件失败" State47="当前用户不允许修改密码" State2="SD卡已插入" State22="U盘2空间不足" State53="用户不存在" State66="用户登录成功" State40="密码必须包含数字" State34="窗口号不存在" State65="编译数据异常" State63="不支持的文件类型" State8="正在导出" State28="用户名或密码错误" State55="解压密码错误" State4="U盘1已插入" State61="导出失败" State62="导入失败" State50="刷卡登录失败" State44="输入密码与确认密码不一致" State24="未检测到U盘1" State30="音频播放失败" State27="输入超出范围" State60="操作队列已满" State0="正在处理..." State7="U盘2已拔出" nLangId="1" State57="配方名冲突" State32="文件已存在">
-                                    <Font0 size="18" fcolor="255_255_255_255"/>
-                                    <Font1 size="18" fcolor="255_255_255_255"/>
-                                    <Font2 size="18" fcolor="255_255_255_255"/>
-                                    <Font3 size="18" fcolor="255_255_255_255"/>
-                                    <Font4 size="18" fcolor="255_255_255_255"/>
-                                    <Font5 size="18" fcolor="255_255_255_255"/>
-                                    <Font6 size="18" fcolor="255_255_255_255"/>
-                                    <Font7 size="18" fcolor="255_255_255_255"/>
-                                    <Font8 size="18" fcolor="255_255_255_255"/>
-                                    <Font9 size="18" fcolor="255_255_255_255"/>
-                                    <Font10 size="18" fcolor="255_255_255_255"/>
-                                    <Font11 size="18" fcolor="255_255_255_255"/>
-                                    <Font12 size="18" fcolor="255_255_255_255"/>
-                                    <Font13 size="18" fcolor="255_255_255_255"/>
-                                    <Font14 size="18" fcolor="255_255_255_255"/>
-                                    <Font15 size="18" fcolor="255_255_255_255"/>
-                                    <Font16 size="18" fcolor="255_255_255_255"/>
-                                    <Font17 size="18" fcolor="255_255_255_255"/>
-                                    <Font18 size="18" fcolor="255_255_255_255"/>
-                                    <Font19 size="18" fcolor="255_255_255_255"/>
-                                    <Font20 size="18" fcolor="255_255_255_255"/>
-                                    <Font21 size="18" fcolor="255_255_255_255"/>
-                                    <Font22 size="18" fcolor="255_255_255_255"/>
-                                    <Font23 size="18" fcolor="255_255_255_255"/>
-                                    <Font24 size="18" fcolor="255_255_255_255"/>
-                                    <Font25 size="18" fcolor="255_255_255_255"/>
-                                    <Font26 size="18" fcolor="255_255_255_255"/>
-                                    <Font27 size="18" fcolor="255_255_255_255"/>
-                                    <Font28 size="18" fcolor="255_255_255_255"/>
-                                    <Font29 size="18" fcolor="255_255_255_255"/>
-                                    <Font30 size="18" fcolor="255_255_255_255"/>
-                                    <Font31 size="18" fcolor="255_255_255_255"/>
-                                    <Font32 size="18" fcolor="255_255_255_255"/>
-                                    <Font33 size="18" fcolor="255_255_255_255"/>
-                                    <Font34 size="18" fcolor="255_255_255_255"/>
-                                    <Font35 size="18" fcolor="255_255_255_255"/>
-                                    <Font36 size="18" fcolor="255_255_255_255"/>
-                                    <Font37 size="18" fcolor="255_255_255_255"/>
-                                    <Font38 size="18" fcolor="255_255_255_255"/>
-                                    <Font39 size="18" fcolor="255_255_255_255"/>
-                                    <Font40 size="18" fcolor="255_255_255_255"/>
-                                    <Font41 size="18" fcolor="255_255_255_255"/>
-                                    <Font42 size="18" fcolor="255_255_255_255"/>
-                                    <Font43 size="18" fcolor="255_255_255_255"/>
-                                    <Font44 size="18" fcolor="255_255_255_255"/>
-                                    <Font45 size="18" fcolor="255_255_255_255"/>
-                                    <Font46 size="18" fcolor="255_255_255_255"/>
-                                    <Font47 size="18" fcolor="255_255_255_255"/>
-                                    <Font48 size="18" fcolor="255_255_255_255"/>
-                                    <Font49 size="18" fcolor="255_255_255_255"/>
-                                    <Font50 size="18" fcolor="255_255_255_255"/>
-                                    <Font51 size="18" fcolor="255_255_255_255"/>
-                                    <Font52 size="18" fcolor="255_255_255_255"/>
-                                    <Font53 size="18" fcolor="255_255_255_255"/>
-                                    <Font54 size="18" fcolor="255_255_255_255"/>
-                                    <Font55 size="18" fcolor="255_255_255_255"/>
-                                    <Font56 size="18" fcolor="255_255_255_255"/>
-                                    <Font57 size="18" fcolor="255_255_255_255"/>
-                                    <Font58 size="18" fcolor="255_255_255_255"/>
-                                    <Font59 size="18" fcolor="255_255_255_255"/>
-                                    <Font60 size="18" fcolor="255_255_255_255"/>
-                                    <Font61 size="18" fcolor="255_255_255_255"/>
-                                    <Font62 size="18" fcolor="255_255_255_255"/>
-                                    <Font63 size="18" fcolor="255_255_255_255"/>
-                                    <Font64 size="18" fcolor="255_255_255_255"/>
-                                    <Font65 size="18" fcolor="255_255_255_255"/>
-                                    <Font66 size="18" fcolor="255_255_255_255"/>
-                                    <Font67 size="18" fcolor="255_255_255_255"/>
-                                    <Font68 size="18" fcolor="255_255_255_255"/>
+                            <OneTextLib LangNum="2" Name="{d49ae20e-f792-45ea-8c4a-88b4c6b7a6e9}" nInnerId="0" nShowId="0" StateNum="69">
+                                <Lang State58="配方序号不存在" State23="未检测到SD卡" State37="sql语句执行失败" State56="解压错误" State55="解压密码错误" State67="刷卡登录成功" State57="配方名冲突" State12="导出成功" State31="视频播放失败" State64="打开文件失败" State16="密码已长时间未更新" State39="密码必须包含字母" State53="用户不存在" State22="U盘2空间不足" State26="宏脚本执行错误" State36="打印失败" State45="用户名不能为空" State44="输入密码与确认密码不一致" State30="音频播放失败" State2="SD卡已插入" State8="正在导出" State35="用户权限不足" State54="不能删除当前登录用户" State63="不支持的文件类型" State27="输入超出范围" State61="导出失败" State40="密码必须包含数字" State28="用户名或密码错误" State50="刷卡登录失败" State24="未检测到U盘1" State52="该用户已被禁用" State60="操作队列已满" State32="文件已存在" State66="用户登录成功" State3="SD卡已拔出" State10="正在打印" State33="文件不存在" Num="69" State14="内存不足" State25="未检测到U盘2" State13="导入成功" State0="正在处理..." State48="当前时间段不允许修改密码" State59="宏代码错误" State41="密码必须满足最小位数" State6="U盘2已插入" State1="操作成功" State15="HMI剩余存储空间不足" nLangId="1" State47="当前用户不允许修改密码" State34="窗口号不存在" State18="操作失败" State19="HMI空间不足" State42="密码不能与上次重复" State65="编译数据异常" State38="该用户被锁定" State9="正在导入" State20="SD卡空间不足" State43="该用户已存在" State46="当前操作需要管理员权限" State7="U盘2已拔出" State62="导入失败" State21="U盘1空间不足" State17="系统文件缺失" State11="打印成功" State4="U盘1已插入" State29="服务器连接失败" State51="工程默认管理员不允许删除" State5="U盘1已拔出" State49="员工卡号已使用">
+                                    <Font0 fcolor="255_255_255_255" size="18"/>
+                                    <Font1 fcolor="255_255_255_255" size="18"/>
+                                    <Font2 fcolor="255_255_255_255" size="18"/>
+                                    <Font3 fcolor="255_255_255_255" size="18"/>
+                                    <Font4 fcolor="255_255_255_255" size="18"/>
+                                    <Font5 fcolor="255_255_255_255" size="18"/>
+                                    <Font6 fcolor="255_255_255_255" size="18"/>
+                                    <Font7 fcolor="255_255_255_255" size="18"/>
+                                    <Font8 fcolor="255_255_255_255" size="18"/>
+                                    <Font9 fcolor="255_255_255_255" size="18"/>
+                                    <Font10 fcolor="255_255_255_255" size="18"/>
+                                    <Font11 fcolor="255_255_255_255" size="18"/>
+                                    <Font12 fcolor="255_255_255_255" size="18"/>
+                                    <Font13 fcolor="255_255_255_255" size="18"/>
+                                    <Font14 fcolor="255_255_255_255" size="18"/>
+                                    <Font15 fcolor="255_255_255_255" size="18"/>
+                                    <Font16 fcolor="255_255_255_255" size="18"/>
+                                    <Font17 fcolor="255_255_255_255" size="18"/>
+                                    <Font18 fcolor="255_255_255_255" size="18"/>
+                                    <Font19 fcolor="255_255_255_255" size="18"/>
+                                    <Font20 fcolor="255_255_255_255" size="18"/>
+                                    <Font21 fcolor="255_255_255_255" size="18"/>
+                                    <Font22 fcolor="255_255_255_255" size="18"/>
+                                    <Font23 fcolor="255_255_255_255" size="18"/>
+                                    <Font24 fcolor="255_255_255_255" size="18"/>
+                                    <Font25 fcolor="255_255_255_255" size="18"/>
+                                    <Font26 fcolor="255_255_255_255" size="18"/>
+                                    <Font27 fcolor="255_255_255_255" size="18"/>
+                                    <Font28 fcolor="255_255_255_255" size="18"/>
+                                    <Font29 fcolor="255_255_255_255" size="18"/>
+                                    <Font30 fcolor="255_255_255_255" size="18"/>
+                                    <Font31 fcolor="255_255_255_255" size="18"/>
+                                    <Font32 fcolor="255_255_255_255" size="18"/>
+                                    <Font33 fcolor="255_255_255_255" size="18"/>
+                                    <Font34 fcolor="255_255_255_255" size="18"/>
+                                    <Font35 fcolor="255_255_255_255" size="18"/>
+                                    <Font36 fcolor="255_255_255_255" size="18"/>
+                                    <Font37 fcolor="255_255_255_255" size="18"/>
+                                    <Font38 fcolor="255_255_255_255" size="18"/>
+                                    <Font39 fcolor="255_255_255_255" size="18"/>
+                                    <Font40 fcolor="255_255_255_255" size="18"/>
+                                    <Font41 fcolor="255_255_255_255" size="18"/>
+                                    <Font42 fcolor="255_255_255_255" size="18"/>
+                                    <Font43 fcolor="255_255_255_255" size="18"/>
+                                    <Font44 fcolor="255_255_255_255" size="18"/>
+                                    <Font45 fcolor="255_255_255_255" size="18"/>
+                                    <Font46 fcolor="255_255_255_255" size="18"/>
+                                    <Font47 fcolor="255_255_255_255" size="18"/>
+                                    <Font48 fcolor="255_255_255_255" size="18"/>
+                                    <Font49 fcolor="255_255_255_255" size="18"/>
+                                    <Font50 fcolor="255_255_255_255" size="18"/>
+                                    <Font51 fcolor="255_255_255_255" size="18"/>
+                                    <Font52 fcolor="255_255_255_255" size="18"/>
+                                    <Font53 fcolor="255_255_255_255" size="18"/>
+                                    <Font54 fcolor="255_255_255_255" size="18"/>
+                                    <Font55 fcolor="255_255_255_255" size="18"/>
+                                    <Font56 fcolor="255_255_255_255" size="18"/>
+                                    <Font57 fcolor="255_255_255_255" size="18"/>
+                                    <Font58 fcolor="255_255_255_255" size="18"/>
+                                    <Font59 fcolor="255_255_255_255" size="18"/>
+                                    <Font60 fcolor="255_255_255_255" size="18"/>
+                                    <Font61 fcolor="255_255_255_255" size="18"/>
+                                    <Font62 fcolor="255_255_255_255" size="18"/>
+                                    <Font63 fcolor="255_255_255_255" size="18"/>
+                                    <Font64 fcolor="255_255_255_255" size="18"/>
+                                    <Font65 fcolor="255_255_255_255" size="18"/>
+                                    <Font66 fcolor="255_255_255_255" size="18"/>
+                                    <Font67 fcolor="255_255_255_255" size="18"/>
+                                    <Font68 fcolor="255_255_255_255" size="18"/>
                                 </Lang>
-                                <Lang State9="Importing..." State16="The password has not been updated for a long time" State26="Macro script execution error" State46="The current operation requires administrator privileges" State35="Insufficient user permissions" State36="Printing failed" State39="The password must contain letters" State11="Printing succeeded" State10="Print..." State12="Export succeeded" State29="Server connection failed" State20="Insufficient SD card space" State3="SD card is unplugged" State19="Insufficient HMI space" State51="Project default administrator cannot delete" State23="SD card not detected" State18="Operation failed" State54="The current login user cannot be deleted" State17="System file missing" State5="U disk1 is unplugged" State37="SQL statement execution failed" State1="Operation succeeded" State59="Macro code error" State45="The user name cannot be empty" State33="File does not exist" State41="The password must contain the minimum number of digits" State43="The user already exists" State48="Password modification is not allowed in the current time period" State49="Employee card number used" State58="Recipe serial number does not exist" State13="Import succeeded" State67="Card swiping login succeeded" State14="Insufficient memory" State38="The user is locked" State31="Video playback failed" State6="U disk2 is inserted" Num="69" State25="U disk2 not detected" State21="Insufficient U disk1 space" State42="The password cannot be the same as the last one" State15="Insufficient remaining storage space of HMI" State56="Decompression error" State52="The user has been disabled" State64="Fail to open file" State47="The current user is not allowed to change the password" State2="SD card is inserted" State22="Insufficient U disk2 space" State53="User does not exist" State66="User login succeeded" State40="The password must contain numbers" State34="Window number does not exist" State65="Compile data exception" State63="Unsupported file type" State8="Exporting..." State28="Wrong user name or password" State55="Decompression password error" State4="U disk1 is inserted" State61="Export failed" State62="Import failed" State50="Card swiping login failed" State44="The entered password is inconsistent with the confirmed password" State24="U disk1 not detected" State30="Audio playback failed" State27="Input out of range" State60="Operation queue is full" State0="Processing..." State7="U disk2 is unplugged" nLangId="2" State57="Recipe name conflict" State32="File already exist">
-                                    <Font0 size="18" fcolor="255_255_255_255"/>
-                                    <Font1 size="18" fcolor="255_255_255_255"/>
-                                    <Font2 size="18" fcolor="255_255_255_255"/>
-                                    <Font3 size="18" fcolor="255_255_255_255"/>
-                                    <Font4 size="18" fcolor="255_255_255_255"/>
-                                    <Font5 size="18" fcolor="255_255_255_255"/>
-                                    <Font6 size="18" fcolor="255_255_255_255"/>
-                                    <Font7 size="18" fcolor="255_255_255_255"/>
-                                    <Font8 size="18" fcolor="255_255_255_255"/>
-                                    <Font9 size="18" fcolor="255_255_255_255"/>
-                                    <Font10 size="18" fcolor="255_255_255_255"/>
-                                    <Font11 size="18" fcolor="255_255_255_255"/>
-                                    <Font12 size="18" fcolor="255_255_255_255"/>
-                                    <Font13 size="18" fcolor="255_255_255_255"/>
-                                    <Font14 size="18" fcolor="255_255_255_255"/>
-                                    <Font15 size="18" fcolor="255_255_255_255"/>
-                                    <Font16 size="18" fcolor="255_255_255_255"/>
-                                    <Font17 size="18" fcolor="255_255_255_255"/>
-                                    <Font18 size="18" fcolor="255_255_255_255"/>
-                                    <Font19 size="18" fcolor="255_255_255_255"/>
-                                    <Font20 size="18" fcolor="255_255_255_255"/>
-                                    <Font21 size="18" fcolor="255_255_255_255"/>
-                                    <Font22 size="18" fcolor="255_255_255_255"/>
-                                    <Font23 size="18" fcolor="255_255_255_255"/>
-                                    <Font24 size="18" fcolor="255_255_255_255"/>
-                                    <Font25 size="18" fcolor="255_255_255_255"/>
-                                    <Font26 size="18" fcolor="255_255_255_255"/>
-                                    <Font27 size="18" fcolor="255_255_255_255"/>
-                                    <Font28 size="18" fcolor="255_255_255_255"/>
-                                    <Font29 size="18" fcolor="255_255_255_255"/>
-                                    <Font30 size="18" fcolor="255_255_255_255"/>
-                                    <Font31 size="18" fcolor="255_255_255_255"/>
-                                    <Font32 size="18" fcolor="255_255_255_255"/>
-                                    <Font33 size="18" fcolor="255_255_255_255"/>
-                                    <Font34 size="18" fcolor="255_255_255_255"/>
-                                    <Font35 size="18" fcolor="255_255_255_255"/>
-                                    <Font36 size="18" fcolor="255_255_255_255"/>
-                                    <Font37 size="18" fcolor="255_255_255_255"/>
-                                    <Font38 size="18" fcolor="255_255_255_255"/>
-                                    <Font39 size="18" fcolor="255_255_255_255"/>
-                                    <Font40 size="18" fcolor="255_255_255_255"/>
-                                    <Font41 size="18" fcolor="255_255_255_255"/>
-                                    <Font42 size="18" fcolor="255_255_255_255"/>
-                                    <Font43 size="18" fcolor="255_255_255_255"/>
-                                    <Font44 size="18" fcolor="255_255_255_255"/>
-                                    <Font45 size="18" fcolor="255_255_255_255"/>
-                                    <Font46 size="18" fcolor="255_255_255_255"/>
-                                    <Font47 size="18" fcolor="255_255_255_255"/>
-                                    <Font48 size="18" fcolor="255_255_255_255"/>
-                                    <Font49 size="18" fcolor="255_255_255_255"/>
-                                    <Font50 size="18" fcolor="255_255_255_255"/>
-                                    <Font51 size="18" fcolor="255_255_255_255"/>
-                                    <Font52 size="18" fcolor="255_255_255_255"/>
-                                    <Font53 size="18" fcolor="255_255_255_255"/>
-                                    <Font54 size="18" fcolor="255_255_255_255"/>
-                                    <Font55 size="18" fcolor="255_255_255_255"/>
-                                    <Font56 size="18" fcolor="255_255_255_255"/>
-                                    <Font57 size="18" fcolor="255_255_255_255"/>
-                                    <Font58 size="18" fcolor="255_255_255_255"/>
-                                    <Font59 size="18" fcolor="255_255_255_255"/>
-                                    <Font60 size="18" fcolor="255_255_255_255"/>
-                                    <Font61 size="18" fcolor="255_255_255_255"/>
-                                    <Font62 size="18" fcolor="255_255_255_255"/>
-                                    <Font63 size="18" fcolor="255_255_255_255"/>
-                                    <Font64 size="18" fcolor="255_255_255_255"/>
-                                    <Font65 size="18" fcolor="255_255_255_255"/>
-                                    <Font66 size="18" fcolor="255_255_255_255"/>
-                                    <Font67 size="18" fcolor="255_255_255_255"/>
-                                    <Font68 size="18" fcolor="255_255_255_255"/>
+                                <Lang State58="Recipe serial number does not exist" State23="SD card not detected" State37="SQL statement execution failed" State56="Decompression error" State55="Decompression password error" State67="Card swiping login succeeded" State57="Recipe name conflict" State12="Export succeeded" State31="Video playback failed" State64="Fail to open file" State16="The password has not been updated for a long time" State39="The password must contain letters" State53="User does not exist" State22="Insufficient U disk2 space" State26="Macro script execution error" State36="Printing failed" State45="The user name cannot be empty" State44="The entered password is inconsistent with the confirmed password" State30="Audio playback failed" State2="SD card is inserted" State8="Exporting..." State35="Insufficient user permissions" State54="The current login user cannot be deleted" State63="Unsupported file type" State27="Input out of range" State61="Export failed" State40="The password must contain numbers" State28="Wrong user name or password" State50="Card swiping login failed" State24="U disk1 not detected" State52="The user has been disabled" State60="Operation queue is full" State32="File already exist" State66="User login succeeded" State3="SD card is unplugged" State10="Print..." State33="File does not exist" Num="69" State14="Insufficient memory" State25="U disk2 not detected" State13="Import succeeded" State0="Processing..." State48="Password modification is not allowed in the current time period" State59="Macro code error" State41="The password must contain the minimum number of digits" State6="U disk2 is inserted" State1="Operation succeeded" State15="Insufficient remaining storage space of HMI" nLangId="2" State47="The current user is not allowed to change the password" State34="Window number does not exist" State18="Operation failed" State19="Insufficient HMI space" State42="The password cannot be the same as the last one" State65="Compile data exception" State38="The user is locked" State9="Importing..." State20="Insufficient SD card space" State43="The user already exists" State46="The current operation requires administrator privileges" State7="U disk2 is unplugged" State62="Import failed" State21="Insufficient U disk1 space" State17="System file missing" State11="Printing succeeded" State4="U disk1 is inserted" State29="Server connection failed" State51="Project default administrator cannot delete" State5="U disk1 is unplugged" State49="Employee card number used">
+                                    <Font0 fcolor="255_255_255_255" size="18"/>
+                                    <Font1 fcolor="255_255_255_255" size="18"/>
+                                    <Font2 fcolor="255_255_255_255" size="18"/>
+                                    <Font3 fcolor="255_255_255_255" size="18"/>
+                                    <Font4 fcolor="255_255_255_255" size="18"/>
+                                    <Font5 fcolor="255_255_255_255" size="18"/>
+                                    <Font6 fcolor="255_255_255_255" size="18"/>
+                                    <Font7 fcolor="255_255_255_255" size="18"/>
+                                    <Font8 fcolor="255_255_255_255" size="18"/>
+                                    <Font9 fcolor="255_255_255_255" size="18"/>
+                                    <Font10 fcolor="255_255_255_255" size="18"/>
+                                    <Font11 fcolor="255_255_255_255" size="18"/>
+                                    <Font12 fcolor="255_255_255_255" size="18"/>
+                                    <Font13 fcolor="255_255_255_255" size="18"/>
+                                    <Font14 fcolor="255_255_255_255" size="18"/>
+                                    <Font15 fcolor="255_255_255_255" size="18"/>
+                                    <Font16 fcolor="255_255_255_255" size="18"/>
+                                    <Font17 fcolor="255_255_255_255" size="18"/>
+                                    <Font18 fcolor="255_255_255_255" size="18"/>
+                                    <Font19 fcolor="255_255_255_255" size="18"/>
+                                    <Font20 fcolor="255_255_255_255" size="18"/>
+                                    <Font21 fcolor="255_255_255_255" size="18"/>
+                                    <Font22 fcolor="255_255_255_255" size="18"/>
+                                    <Font23 fcolor="255_255_255_255" size="18"/>
+                                    <Font24 fcolor="255_255_255_255" size="18"/>
+                                    <Font25 fcolor="255_255_255_255" size="18"/>
+                                    <Font26 fcolor="255_255_255_255" size="18"/>
+                                    <Font27 fcolor="255_255_255_255" size="18"/>
+                                    <Font28 fcolor="255_255_255_255" size="18"/>
+                                    <Font29 fcolor="255_255_255_255" size="18"/>
+                                    <Font30 fcolor="255_255_255_255" size="18"/>
+                                    <Font31 fcolor="255_255_255_255" size="18"/>
+                                    <Font32 fcolor="255_255_255_255" size="18"/>
+                                    <Font33 fcolor="255_255_255_255" size="18"/>
+                                    <Font34 fcolor="255_255_255_255" size="18"/>
+                                    <Font35 fcolor="255_255_255_255" size="18"/>
+                                    <Font36 fcolor="255_255_255_255" size="18"/>
+                                    <Font37 fcolor="255_255_255_255" size="18"/>
+                                    <Font38 fcolor="255_255_255_255" size="18"/>
+                                    <Font39 fcolor="255_255_255_255" size="18"/>
+                                    <Font40 fcolor="255_255_255_255" size="18"/>
+                                    <Font41 fcolor="255_255_255_255" size="18"/>
+                                    <Font42 fcolor="255_255_255_255" size="18"/>
+                                    <Font43 fcolor="255_255_255_255" size="18"/>
+                                    <Font44 fcolor="255_255_255_255" size="18"/>
+                                    <Font45 fcolor="255_255_255_255" size="18"/>
+                                    <Font46 fcolor="255_255_255_255" size="18"/>
+                                    <Font47 fcolor="255_255_255_255" size="18"/>
+                                    <Font48 fcolor="255_255_255_255" size="18"/>
+                                    <Font49 fcolor="255_255_255_255" size="18"/>
+                                    <Font50 fcolor="255_255_255_255" size="18"/>
+                                    <Font51 fcolor="255_255_255_255" size="18"/>
+                                    <Font52 fcolor="255_255_255_255" size="18"/>
+                                    <Font53 fcolor="255_255_255_255" size="18"/>
+                                    <Font54 fcolor="255_255_255_255" size="18"/>
+                                    <Font55 fcolor="255_255_255_255" size="18"/>
+                                    <Font56 fcolor="255_255_255_255" size="18"/>
+                                    <Font57 fcolor="255_255_255_255" size="18"/>
+                                    <Font58 fcolor="255_255_255_255" size="18"/>
+                                    <Font59 fcolor="255_255_255_255" size="18"/>
+                                    <Font60 fcolor="255_255_255_255" size="18"/>
+                                    <Font61 fcolor="255_255_255_255" size="18"/>
+                                    <Font62 fcolor="255_255_255_255" size="18"/>
+                                    <Font63 fcolor="255_255_255_255" size="18"/>
+                                    <Font64 fcolor="255_255_255_255" size="18"/>
+                                    <Font65 fcolor="255_255_255_255" size="18"/>
+                                    <Font66 fcolor="255_255_255_255" size="18"/>
+                                    <Font67 fcolor="255_255_255_255" size="18"/>
+                                    <Font68 fcolor="255_255_255_255" size="18"/>
                                 </Lang>
                             </OneTextLib>
                         </TextLib_Label>
@@ -263,7 +263,7 @@
                 <ItemName nameType="-1"/>
                 <ShowLabel>
                     <GELabel Text="Processing..." nTextLibInnerId="2097184">
-                        <Font size="18" Align="0" fcolor="255_255_255_255"/>
+                        <Font fcolor="255_255_255_255" Align="0" size="18"/>
                     </GELabel>
                 </ShowLabel>
                 <SwitchData>
@@ -271,19 +271,19 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId0>
-        <IndexId1 x="218" PointRotation_x="34" FixedPoint="0" Name="DD" fRationY="0" W="413" bRound="0" fRationX="0" H="30" ID="33" ItemType="2" ItemName="DD_0002:[charset:$System_Error_Info]" y="134" Z="0" nItemNameNum="2" PointRotation_y="13">
+        <IndexId1 PointRotation_y="13" PointRotation_x="34" fRationX="0" H="30" ItemName="DD_0002:[charset:$System_Error_Info]" Name="DD" ItemType="2" Z="0" x="218" fRationY="0" ID="33" W="413" nItemNameNum="2" bRound="0" y="134" FixedPoint="0">
             <Widgets flag="1">
-                <COMM x="218" h="31" w="414" shadow_c="16711680" y="134"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="31" x="218" shadow_c="16711680" w="414" y="134"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
-            <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40002" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="33" Name="DD_0002:[charset:$系统错误信息]" NameNum="2"/>
-                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
-                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
+            <Common HasTouch="0" bHasGraphics="1" nScrollBarW="16" nPageNo="40002" m_nScrollBarWLast="16">
+                <ItmOprtLogDt NameNum="2" Name="DD_0002:[charset:$系统错误信息]" Id="33"/>
+                <KeyboardSet PopupType="0" bKeyboard="1" bAuto="1" keybdWinNo="30003" PosX="0" PosY="0" Hor="1" Ver="1"/>
+                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
                 <DispData nUserPermisson="999"/>
-                <InVar_2th Num="1" bSys="1">
-                    <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$System_Error_Info" Id="400016" RegAddr="79" RW="1"/>
+                <InVar_2th bSys="1" Num="1">
+                    <Param0 RegAddr="79" Name="$System_Error_Info" AddrType="SMW" RW="1" DataType="12" Id="400016" BitLen="248"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
@@ -291,63 +291,63 @@
                 <ItemName ItemName="DD_0002:[charset:$System_Error_Info]" nItemNameNum="2"/>
                 <ShowLabel>
                     <GELabel Text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="2097184">
-                        <Font size="15" fcolor="255_255_255_255"/>
+                        <Font fcolor="255_255_255_255" size="15"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" TotalRow="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" TotalRow="6" MultiType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nInt="0" strData="0" nID="0"/>
-                    <UpperExp nInt="100" strData="100" nID="0"/>
+                    <LowerExp nInt="0" nID="0" strData="0"/>
+                    <UpperExp nInt="100" nID="0" strData="100"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
-                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param1 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
+                        <Param2 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
-                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
+                        <Param1 nInt="1" nID="0" nType="4" strData="1"/>
+                        <Param2 nInt="100" nID="0" nType="4" strData="100"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId1>
-        <IndexId2 lock="0" x="194" rotate="0" width="248" Name="" ID="65281" z="10002" y="98" SubNum="3" height="33.5">
+        <IndexId2 width="248" SubNum="3" lock="0" Name="" height="33.5" x="194" rotate="0" z="10002" ID="65281" y="98">
             <Widgets flag="0">
-                <COMM x="194" h="33" w="248" y="97"/>
-                <Pen _color="0" _width="1" _type="1"/>
-                <Brush _subType="1" _color1="0" _mainType="1" _color2="0"/>
+                <COMM h="33" x="194" w="248" y="97"/>
+                <Pen _type="1" _width="1" _color="0"/>
+                <Brush _color2="0" _mainType="1" _subType="1" _color1="0"/>
                 <PageNo m_nCOnePageNo="40002"/>
                 <ItemName m_item_name="Group_2" m_nItemNameNum="2"/>
             </Widgets>
             <GroupChild>
-                <IndexId0 x="288" PointRotation_x="23" FixedPoint="0" Name="DD" fRationY="0" W="59" bRound="0" fRationX="0" H="32" ID="32" ItemType="0" ItemName="DD_0001:[numeric:$System_Info_Code]" y="98" Z="0" nItemNameNum="1" PointRotation_y="13">
+                <IndexId0 PointRotation_y="13" PointRotation_x="23" fRationX="0" H="32" ItemName="DD_0001:[numeric:$System_Info_Code]" Name="DD" ItemType="0" Z="0" x="288" fRationY="0" ID="32" W="59" nItemNameNum="1" bRound="0" y="98" FixedPoint="0">
                     <Widgets flag="1">
-                        <COMM x="289" h="33" w="60" shadow_c="16711680" y="98"/>
-                        <Pen _color="16711680" _width="2" _type="0"/>
-                        <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                        <COMM h="33" x="289" shadow_c="16711680" w="60" y="98"/>
+                        <Pen _type="0" _width="2" _color="16711680"/>
+                        <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
                     </Widgets>
-                    <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40002" m_nScrollBarWLast="16">
-                        <ItmOprtLogDt Id="32" Name="DD_0001:[numeric:$系统信息码]" NameNum="1"/>
-                        <KeyboardSet keybdWinNo="30001" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
-                        <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
-                        <DispData nOperDataNum="1" nUserPermisson="999" nState="3">
-                            <ExpOperData nParentheses="0" nType="-1" nID="0">
-                                <Express Flag="16" nInt="0" strData="0" nType="3" nID="2">
-                                    <LExP nInt="0" strData="0" nType="3" nID="1">
-                                        <VarName Num="1" bSys="1">
-                                            <Param0 AddrType="SFW" BitLen="8" DataType="3" Name="$Current_Lanague" Id="400066" RegAddr="169"/>
+                    <Common HasTouch="0" bHasGraphics="1" nScrollBarW="16" nPageNo="40002" m_nScrollBarWLast="16">
+                        <ItmOprtLogDt NameNum="1" Name="DD_0001:[numeric:$系统信息码]" Id="32"/>
+                        <KeyboardSet PopupType="0" bKeyboard="1" bAuto="1" keybdWinNo="30001" PosX="0" PosY="0" Hor="1" Ver="1"/>
+                        <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                        <DispData nUserPermisson="999" nOperDataNum="1" nState="3">
+                            <ExpOperData nID="0" nType="-1" nParentheses="0">
+                                <Express nInt="0" nID="2" nType="3" Flag="16" strData="0">
+                                    <LExP nInt="0" nID="1" nType="3" strData="0">
+                                        <VarName bSys="1" Num="1">
+                                            <Param0 RegAddr="169" Name="$Current_Lanague" AddrType="SFW" DataType="3" Id="400066" BitLen="8"/>
                                         </VarName>
                                     </LExP>
-                                    <RExP nInt="1" strData="1" nType="3" nID="0"/>
+                                    <RExP nInt="1" nID="0" nType="3" strData="1"/>
                                 </Express>
                             </ExpOperData>
                         </DispData>
-                        <InVar Num="1" bSys="1">
-                            <Param0 AddrType="SMW" BitLen="16" DataType="5" Name="$System_Info_Code" Id="400015" RegAddr="77" RW="1"/>
+                        <InVar bSys="1" Num="1">
+                            <Param0 RegAddr="77" Name="$System_Info_Code" AddrType="SMW" RW="1" DataType="5" Id="400015" BitLen="16"/>
                         </InVar>
                     </Common>
                     <DataDisp>
@@ -355,38 +355,38 @@
                         <ItemName ItemName="DD_0001:[numeric:$System_Info_Code]" nItemNameNum="1"/>
                         <ShowLabel>
                             <GELabel Text="88888" nTextLibInnerId="2097184">
-                                <Font Align="0" fcolor="255_255_255_255"/>
+                                <Font fcolor="255_255_255_255" Align="0"/>
                             </GELabel>
                         </ShowLabel>
                         <numeric/>
                         <CTextFormat nTtlDsplyChrNm="6" MultiType="1"/>
                         <CNumFormat nInteger="5"/>
                         <AlarmRange>
-                            <LowerExp nInt="0" strData="0" nType="5" nID="0"/>
-                            <UpperExp nInt="9999" strData="9999" nType="5" nID="0"/>
+                            <LowerExp nInt="0" nID="0" nType="5" strData="0"/>
+                            <UpperExp nInt="9999" nID="0" nType="5" strData="9999"/>
                         </AlarmRange>
                         <DataCalc_Propor>
                             <DataCalc>
-                                <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
-                                <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                                <Param1 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
+                                <Param2 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
                             </DataCalc>
                         </DataCalc_Propor>
                         <DataCalc_Scale>
                             <DataCalc>
-                                <Param1 nInt="1" strData="1" nType="4" nID="0"/>
-                                <Param2 nInt="100" strData="100" nType="4" nID="0"/>
+                                <Param1 nInt="1" nID="0" nType="4" strData="1"/>
+                                <Param2 nInt="100" nID="0" nType="4" strData="100"/>
                             </DataCalc>
                         </DataCalc_Scale>
                     </DataDisp>
                 </IndexId0>
-                <IndexId1 x="159" PointRotation_x="159.5" Name="TX" fRationY="0.333333" W="179" bRound="0" fRationX="0.1" H="33" ID="17" ItemType="65535" ItemName="TX_0001" y="97" Z="0" nItemNameNum="1" PointRotation_y="97.75">
+                <IndexId1 PointRotation_y="97.75" PointRotation_x="159.5" fRationX="0.1" H="33" ItemName="TX_0001" Name="TX" ItemType="65535" Z="0" x="159" fRationY="0.333333" ID="17" W="179" nItemNameNum="1" bRound="0" y="97">
                     <Widgets flag="1">
-                        <COMM x="160" h="34" w="180" shadow_c="16711680" y="98"/>
-                        <Pen _color="16711680" _width="2" _type="0"/>
-                        <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
+                        <COMM h="34" x="160" shadow_c="16711680" w="180" y="98"/>
+                        <Pen _type="0" _width="2" _color="16711680"/>
+                        <Brush _color2="16711680" _mainType="0" _subType="0" _color1="16711680"/>
                     </Widgets>
                     <Common nScrollBarW="16" nPageNo="40002" m_nScrollBarWLast="16" bEmpty="1">
-                        <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0001" NameNum="1"/>
+                        <ItmOprtLogDt NameNum="1" nlangId="0" Name="TX_0001" Id="17"/>
                         <TouchData nUserPermisson="999"/>
                         <DispData nUserPermisson="999"/>
                         <LabelGETextlib>
@@ -395,11 +395,11 @@
                                     <LabeFont Align="0"/>
                                 </LabelPro>
                                 <TextLib_Label>
-                                    <OneTextLib nInnerId="0" Name="{7226729d-5404-4a3c-8978-284dbacf81fb}" StateNum="1" LangNum="2" nShowId="0">
-                                        <Lang nLangId="1" Num="1" State0="信息代码 ：">
+                                    <OneTextLib LangNum="2" Name="{7226729d-5404-4a3c-8978-284dbacf81fb}" nInnerId="0" nShowId="0" StateNum="1">
+                                        <Lang nLangId="1" State0="信息代码 ：" Num="1">
                                             <Font0 fcolor="255_255_255_255"/>
                                         </Lang>
-                                        <Lang nLangId="2" Num="1" State0="Information code:">
+                                        <Lang nLangId="2" State0="Information code:" Num="1">
                                             <Font0 fcolor="255_255_255_255"/>
                                         </Lang>
                                     </OneTextLib>
@@ -408,36 +408,36 @@
                         </LabelGETextlib>
                     </Common>
                     <TextInfo>
-                        <GELabel Y="-16" Heigth="33" Text="Information code:" nTextLibInnerId="1937077345" bUselib="1" X="-89" Width="179" LibName="{7226729d-5404-4a3c-8978-284dbacf81fb}">
-                            <Font Align="0" fcolor="255_255_255_255"/>
+                        <GELabel Y="-16" X="-89" bUselib="1" Text="Information code:" nTextLibInnerId="1937077345" Width="179" Heigth="33" LibName="{7226729d-5404-4a3c-8978-284dbacf81fb}">
+                            <Font fcolor="255_255_255_255" Align="0"/>
                         </GELabel>
                         <ItemName m_item_name="TX_0001" m_nItemNameNum="1"/>
                     </TextInfo>
                 </IndexId1>
-                <IndexId2 x="215" PointRotation_x="23" FixedPoint="0" Name="DD" fRationY="0" W="59" bRound="0" fRationX="0" H="32" ID="32" ItemType="0" ItemName="DD_0003:[numeric:$System_Info_Code]" y="98" Z="0" nItemNameNum="3" PointRotation_y="13">
+                <IndexId2 PointRotation_y="13" PointRotation_x="23" fRationX="0" H="32" ItemName="DD_0003:[numeric:$System_Info_Code]" Name="DD" ItemType="0" Z="0" x="215" fRationY="0" ID="32" W="59" nItemNameNum="3" bRound="0" y="98" FixedPoint="0">
                     <Widgets flag="1">
-                        <COMM x="216" h="33" w="60" shadow_c="16711680" y="98"/>
-                        <Pen _color="16711680" _width="2" _type="0"/>
-                        <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                        <COMM h="33" x="216" shadow_c="16711680" w="60" y="98"/>
+                        <Pen _type="0" _width="2" _color="16711680"/>
+                        <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
                     </Widgets>
-                    <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40002" m_nScrollBarWLast="16">
-                        <ItmOprtLogDt Id="32" Name="DD_0003:[numeric:$系统信息码]" NameNum="3"/>
-                        <KeyboardSet keybdWinNo="30001" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
-                        <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
-                        <DispData nOperDataNum="1" nUserPermisson="999" nState="3">
-                            <ExpOperData nParentheses="0" nType="-1" nID="0">
-                                <Express Flag="11" nInt="0" strData="0" nType="3" nID="2">
-                                    <LExP nInt="0" strData="0" nType="3" nID="1">
-                                        <VarName Num="1" bSys="1">
-                                            <Param0 AddrType="SFW" BitLen="8" DataType="3" Name="$Current_Lanague" Id="400066" RegAddr="169"/>
+                    <Common HasTouch="0" bHasGraphics="1" nScrollBarW="16" nPageNo="40002" m_nScrollBarWLast="16">
+                        <ItmOprtLogDt NameNum="3" Name="DD_0003:[numeric:$系统信息码]" Id="32"/>
+                        <KeyboardSet PopupType="0" bKeyboard="1" bAuto="1" keybdWinNo="30001" PosX="0" PosY="0" Hor="1" Ver="1"/>
+                        <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                        <DispData nUserPermisson="999" nOperDataNum="1" nState="3">
+                            <ExpOperData nID="0" nType="-1" nParentheses="0">
+                                <Express nInt="0" nID="2" nType="3" Flag="11" strData="0">
+                                    <LExP nInt="0" nID="1" nType="3" strData="0">
+                                        <VarName bSys="1" Num="1">
+                                            <Param0 RegAddr="169" Name="$Current_Lanague" AddrType="SFW" DataType="3" Id="400066" BitLen="8"/>
                                         </VarName>
                                     </LExP>
-                                    <RExP nInt="0" strData="0" nType="3" nID="0"/>
+                                    <RExP nInt="0" nID="0" nType="3" strData="0"/>
                                 </Express>
                             </ExpOperData>
                         </DispData>
-                        <InVar Num="1" bSys="1">
-                            <Param0 AddrType="SMW" BitLen="16" DataType="5" Name="$System_Info_Code" Id="400015" RegAddr="77" RW="1"/>
+                        <InVar bSys="1" Num="1">
+                            <Param0 RegAddr="77" Name="$System_Info_Code" AddrType="SMW" RW="1" DataType="5" Id="400015" BitLen="16"/>
                         </InVar>
                     </Common>
                     <DataDisp>
@@ -445,48 +445,48 @@
                         <ItemName ItemName="DD_0003:[numeric:$System_Info_Code]" nItemNameNum="3"/>
                         <ShowLabel>
                             <GELabel Text="88888" nTextLibInnerId="1953718123">
-                                <Font Align="0" fcolor="255_255_255_255"/>
+                                <Font fcolor="255_255_255_255" Align="0"/>
                             </GELabel>
                         </ShowLabel>
                         <numeric/>
                         <CTextFormat nTtlDsplyChrNm="6" MultiType="1"/>
                         <CNumFormat nInteger="5"/>
                         <AlarmRange>
-                            <LowerExp nInt="0" strData="0" nType="5" nID="0"/>
-                            <UpperExp nInt="9999" strData="9999" nType="5" nID="0"/>
+                            <LowerExp nInt="0" nID="0" nType="5" strData="0"/>
+                            <UpperExp nInt="9999" nID="0" nType="5" strData="9999"/>
                         </AlarmRange>
                         <DataCalc_Propor>
                             <DataCalc>
-                                <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
-                                <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                                <Param1 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
+                                <Param2 nID="0" nType="11" fData="1.000000000000000" strData="1.000000000000000"/>
                             </DataCalc>
                         </DataCalc_Propor>
                         <DataCalc_Scale>
                             <DataCalc>
-                                <Param1 nInt="1" strData="1" nType="4" nID="0"/>
-                                <Param2 nInt="100" strData="100" nType="4" nID="0"/>
+                                <Param1 nInt="1" nID="0" nType="4" strData="1"/>
+                                <Param2 nInt="100" nID="0" nType="4" strData="100"/>
                             </DataCalc>
                         </DataCalc_Scale>
                     </DataDisp>
                 </IndexId2>
             </GroupChild>
         </IndexId2>
-        <IndexId3 x="37" bIsLampSet="1" Name="BL" fRationY="0.333333" W="42" bRound="0" fRationX="0.1" H="42" ID="18" ItemType="65535" ItemName="BL_0001:[Muti Lamp:$System_Info_Type]" y="46" Z="0" nItemNameNum="1">
+        <IndexId3 fRationX="0.1" H="42" ItemName="BL_0001:[Muti Lamp:$System_Info_Type]" Name="BL" ItemType="65535" Z="0" x="37" bIsLampSet="1" fRationY="0.333333" ID="18" W="42" nItemNameNum="1" bRound="0" y="46">
             <Widgets flag="1">
-                <COMM x="37" h="43" w="43" y="46"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="43" x="37" w="43" y="46"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40002" bUseGraphics="1" m_nScrollBarWLast="16">
-                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0001:[Muti Lamp:$系统信息类型]" NameNum="1"/>
+                <ItmOprtLogDt NameNum="1" nlangId="0" Name="BL_0001:[Muti Lamp:$系统信息类型]" Id="18"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <BGVGParam Name="Information.vg" nColor="16777215"/>
                 <UpDownTextLib/>
                 <MulityParam nGEStateNum="4" bUseMul="1">
-                    <MulDispExp nInt="0" strData="0" nType="4" nID="1">
-                        <VarName Num="1" bSys="1">
-                            <Param0 AddrType="8位无符号数" BitLen="8" DataType="3" Name="$System_Info_Type" Id="400014" RegAddr="76"/>
+                    <MulDispExp nInt="0" nID="1" nType="4" strData="0">
+                        <VarName bSys="1" Num="1">
+                            <Param0 RegAddr="76" Name="$System_Info_Type" AddrType="8位无符号数" DataType="3" Id="400014" BitLen="8"/>
                         </VarName>
                     </MulDispExp>
                     <MulCData0/>
@@ -497,7 +497,7 @@
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib nInnerId="0" Name="{21701695-d5d5-497e-9b5c-b981cff6b4b1}" StateNum="4" LangNum="2" nShowId="0">
+                            <OneTextLib LangNum="2" Name="{21701695-d5d5-497e-9b5c-b981cff6b4b1}" nInnerId="0" nShowId="0" StateNum="4">
                                 <Lang nLangId="1" Num="4">
                                     <Font0/>
                                     <Font1/>

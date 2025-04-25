@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1600">
+    <PageInfo No="29002" Name="B_29002:User Attribute Configuration(29002)"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="3" Name="TX_0003" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="4" Name="TX_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="5" Name="TX_0005" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="6" Name="TX_0006" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="7" Name="TX_0007" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="8" Name="TX_0008" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="9" Name="TX_0009" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="10" Name="TX_0010" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="11" Name="TX_0011" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0005" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0006" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0007" nlangId="0"/>
+    <ItmOprtLogDt Id="32" NameNum="2" Name="DD_0002:[numeric:$设置自动注销时间]" nlangId="0"/>
+    <ItmOprtLogDt Id="32" NameNum="6" Name="DD_0006:[numeric:$设置密码保持天数]" nlangId="0"/>
+    <ItmOprtLogDt Id="32" NameNum="7" Name="DD_0007:[numeric:$设置密码有效期]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[charset:$设置密码]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="3" Name="DD_0003:[charset:$设置用户名]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="4" Name="DD_0004:[charset:$设置用户描述]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Set_User_Description" Num="1">
+            <Param0 Name="$Set_User_Description" Id="200059" DataType="12" AddrType="SMW" RegAddr="316" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="5" Name="DD_0005:[charset:$设置确认密码]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="8" Name="DD_0008:[charset:$设置员工卡卡号]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Set_Employee_Card_ID" Num="1">
+            <Param0 Name="$Set_Employee_Card_ID" Id="200061" DataType="12" AddrType="SMW" RegAddr="380" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="67" NameNum="1" Name="LD_0001" nlangId="0"/>
+</SaveItemOprtLog>

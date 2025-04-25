@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DToolProjet version="2007" HMIId="368" Rotate="0" Compiled="1" LocalDeviceName="" UnitId="3019">
+    <_hmi NetPortNum="2" NET1Auto="0" NET1IP="192.168.0.100" NET1SubNet="255.255.255.0" NET1GateWay="192.168.0.1" NET1DNS1="0.0.0.0" NET1DNS2="0.0.0.0" NET2Auto="1" NET2IP="" NET2SubNet="" NET2GateWay="" NET2DNS1="" NET2DNS2=""/>
+    <_devices nPLCDiviceMaxIndex="1" nHMIMaxIndex="1">
+        <COMSwap Use="0" Conditon="0" nCount="0"/>
+    </_devices>
+    <_GlobalSet>
+        <GlobalSetData bLwrLght="0" nLwrLghtLvl="5" nLwrLghtTm="180" bTrnOffBcklght="0" nTrnOffBcklghtTm="600" bAtTrnOnBcklght="0" bFrbdAtLwrLght="0" bScrnSvr="0" nScrnSvrTm="600" nScrnSvrWndwN="51001" bExtScrnSvrPsswrd="0" nExtAthrzLvl="1" multiselectPermisson="" nStrtWndwN="1" nMnwndwN="1" nCmmnWndPs="0" bUsBzzr="0" bBzzrEnblCtrl="0" bUsSndLb="0" bSndLbEnblCtrl="0" bUsDfltSndFl="1" strSndFlNm="" nDfltLnggN="1" DefaultLangName="English(Latin)" BrdrClr="10526884" BckClr="16119285" SlctClr="10934527" ElmntInvldClr="10526884" CrsrClr="0" nScrllbrStyl="0" nScrllbrWdth="0" bShowSystemPrompt="1" SystemPromptTime="10">
+            <InptMthdFnt size="20" fs="20.000000"/>
+        </GlobalSetData>
+    </_GlobalSet>
+    <_ProjectSet>
+        <ProjectSetData bAlwUpld="1" bAlwUpldManual="1" strUpldPsswrd="888888" bAlwDcmpl="1" bAlwDcmplManual="1" strDcmplPsswrd="888888" bDwnldPsswrd="0" bDwnldPsswrdManual="1" strDwnldPsswd="888888" bDvlprPsswrd="0" strDvlprPsswrd="888888" nItmGrphcMss="0" nItmNtCmmDsply="0" strPctrNm="" strFtpServerUserName="ftpuser" strFtpServerPassword="888888" bUseAnonymous="1"/>
+    </_ProjectSet>
+    <_ScanInput>
+        <ScanInputData m_bEnable="0" m_bUseWriteSuccessAction="0"/>
+    </_ScanInput>
+    <_ClockSet>
+        <ClockSetData m_strHmiTimeZone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" m_strHmiTimeZoneStd="Mitteleuropäische Zeit" m_bAutoSetSummerTime="0" m_strStartMonth="March" m_strStartWeekNo="Second" m_strStartWeekDateNo="Sunday" m_strStartDayTime="02:00" m_strEndMonth="November" m_strEndWeekNo="First" m_strEndWeekDateNo="Sunday" m_strEndDayTime="02:00" m_strTimeAdjustValue="01:00" m_bEnableTimeSynchronization="0" m_nTimeSyncObject="1" m_strServerReplyTime="(UTC)" m_strNetworkTimeServer1="0.pool.ntp.org" m_strNetworkTimeServer2="1.pool.ntp.org" m_strNetworkTimeServer3="2.pool.ntp.org" m_strNetworkTimeServer4="3.pool.ntp.org" m_bYearEnable="0" m_bMonthEnable="0" m_bDayEnable="0" m_bHourEnable="0" m_bMinuteEnable="1" m_bSecondEnable="0" m_strDeviceName="" m_nTimeSyncType="0" m_nTimeSyncCycle="1440" m_bRunTimeSynchronization="0" m_bAdjustReplyTime="0" m_bForbidModifySystemTime="0"/>
+    </_ClockSet>
+    <_HmiAuthorize>
+        <HmiAuthorizeData bUseHmiAutho="0" bUseCTPwd="0" bExpirRmd="0" nAdTime="1" nTipFrq="60" strTipNo="29005"/>
+    </_HmiAuthorize>
+    <_GlobalTouchEnable>
+        <GlobalInterlockData m_bUseGlobalInterlock="0" m_nUnlockStateValue="1" m_bScreenTouchAutoLock="0" m_bTimeoutAutoUnlock="0" m_nTimeoutUnlockTime="20" m_bLockStateTouchTip="0" m_nTipWindowNo="1" m_nTipWindowDisplayTime="10" m_deviceGroup="1" m_bDynamicGroup="0" m_unUnlockAuthorizedWinNo="29006" m_isUnlockAuthorized="1"/>
+    </_GlobalTouchEnable>
+    <_SoundData>
+        <CSoundData m_strSoundFilePath="" nCount="0"/>
+    </_SoundData>
+    <_PrjDataBase>
+        <CPrjDb>
+            <DbList DbCnt="0"/>
+            <DbSyncList DataBaseSyncCnt="0"/>
+        </CPrjDb>
+    </_PrjDataBase>
+    <MQTTClientObj flag="0"/>
+    <_PrjFtp>
+        <CPrjFtp>
+            <FtpList FtpCnt="0"/>
+        </CPrjFtp>
+    </_PrjFtp>
+    <VncServerConfigueData/>
+    <IndependentDesktopConfigueData nMaxClients="3" localflag="0" ConnectTimeout="15"/>
+    <RemoteVariableWatch bEnable="0"/>
+    <ProjectUser MaxUserNameNum="32" threshold="3" Lock="60" MaxGroupId="3">
+        <OneUserAuthor Name="User1" nGroupId="1">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User1"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User1"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User2" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User2"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User2"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User3" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User3"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User3"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User4" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User4"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User4"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User5" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User5"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User5"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User6" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User6"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User6"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User7" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User7"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User7"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User8" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User8"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User8"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User9" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User9"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User9"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User10" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User10"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User10"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User11" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User11"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User11"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User12" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User12"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User12"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User13" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User13"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User13"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User14" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User14"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User14"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User15" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User15"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User15"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User16" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User16"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User16"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User17" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User17"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User17"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User18" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User18"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User18"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User19" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User19"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User19"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User20" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User20"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User20"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User21" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User21"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User21"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User22" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User22"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User22"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User23" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User23"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User23"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User24" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User24"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User24"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User25" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User25"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User25"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User26" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User26"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User26"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User27" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User27"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User27"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User28" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User28"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User28"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User29" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User29"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User29"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User30" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User30"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User30"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User31" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User31"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User31"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <OneUserAuthor Name="User32" nGroupId="2">
+            <UserNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User32"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User32"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </UserNameLabel>
+        </OneUserAuthor>
+        <GroupInfo Name="admin" nId="1" Count="32" admin="1" Key0="0" Key1="1" Key2="2" Key3="3" Key4="4" Key5="5" Key6="6" Key7="7" Key8="8" Key9="9" Key10="10" Key11="11" Key12="12" Key13="13" Key14="14" Key15="15" Key16="16" Key17="17" Key18="18" Key19="19" Key20="20" Key21="21" Key22="22" Key23="23" Key24="24" Key25="25" Key26="26" Key27="27" Key28="28" Key29="29" Key30="30" Key31="31">
+            <GroupNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="admin"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="admin"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </GroupNameLabel>
+        </GroupInfo>
+        <GroupInfo Name="User" nId="2" Count="1" Key0="0">
+            <GroupNameLabel>
+                <GELabelData>
+                    <LabelPro SetLabel="1" lanIndepend="1"/>
+                    <TextLib_Label>
+                        <OneTextLib Name="" LangNum="2" StateNum="1">
+                            <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="User"/>
+                            <Lang nLangId="1" LangName="English(Latin)" State0="User"/>
+                        </OneTextLib>
+                    </TextLib_Label>
+                </GELabelData>
+            </GroupNameLabel>
+        </GroupInfo>
+        <AuthorName Count="32" Name0="Author1" Name1="Author2" Name2="Author3" Name3="Author4" Name4="Author5" Name5="Author6" Name6="Author7" Name7="Author8" Name8="Author9" Name9="Author10" Name10="Author11" Name11="Author12" Name12="Author13" Name13="Author14" Name14="Author15" Name15="Author16" Name16="Author17" Name17="Author18" Name18="Author19" Name19="Author20" Name20="Author21" Name21="Author22" Name22="Author23" Name23="Author24" Name24="Author25" Name25="Author26" Name26="Author27" Name27="Author28" Name28="Author29" Name29="Author30" Name30="Author31" Name31="Author32"/>
+    </ProjectUser>
+    <GridTool/>
+    <_back/>
+    <AlarmSet ID="1" IDCounts="3" LeadZero="1" Record="1" Monitor="1" LibInfo="0" MonitorChange="0" Statistics="1">
+        <EnAlarmRecord SaveType="1"/>
+        <MonitorChange Cycle="60" bCycleVar="0" SampleBefore="10" SampleAfter="10" MaxSample="10000" bExp="0" Color0="0" Color1="0" Color2="0" Color3="0" Color4="0" Color5="0" Color6="0" Color7="0"/>
+        <AlarmStatistic RepCur="0" RepCum="0" Clear="0" CurStatus="0"/>
+        <Node1 ID="1" bRoot="1">
+            <GELabelData>
+                <LabelPro SetLabel="1" nlangId="0"/>
+                <TextLib_Label>
+                    <OneTextLib Name="{fb9500fc-c8cc-4473-a026-1406faa41250}" LangNum="2" StateNum="2">
+                        <Lang nLangId="0" LangName="Chinese(Simplified Han)" Num="2" State0="Default Alarm Group"/>
+                        <Lang nLangId="1" LangName="English(Latin)" Num="2" State0="Default Alarm Group"/>
+                    </OneTextLib>
+                </TextLib_Label>
+            </GELabelData>
+        </Node1>
+        <AlarmLevel UseImage="1" Image="Critical.vg">
+            <GELabelData>
+                <LabelPro SetLabel="1" nlangId="0"/>
+                <TextLib_Label>
+                    <OneTextLib Name="{7137af90-05cd-498d-acc1-75c6e5380010}" LangNum="2" StateNum="2">
+                        <Lang nLangId="0" LangName="Chinese(Simplified Han)" Num="2" State0="Critical">
+                            <Font0 fs="16.000000" fcolor="205_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="205_0_0_255"/>
+                        </Lang>
+                        <Lang nLangId="1" LangName="English(Latin)" Num="2" State0="Critical">
+                            <Font0 fs="16.000000" fcolor="205_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="205_0_0_255"/>
+                        </Lang>
+                    </OneTextLib>
+                </TextLib_Label>
+            </GELabelData>
+        </AlarmLevel>
+        <AlarmLevel UseImage="1" Image="Important.vg" level="1">
+            <GELabelData>
+                <LabelPro SetLabel="1" nlangId="0"/>
+                <TextLib_Label>
+                    <OneTextLib Name="{373db18c-57f4-4e37-a6be-0b811e6746c3}" LangNum="2" StateNum="2">
+                        <Lang nLangId="0" LangName="Chinese(Simplified Han)" Num="2" State0="Important">
+                            <Font0 fs="16.000000" fcolor="238_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="238_0_0_255"/>
+                        </Lang>
+                        <Lang nLangId="1" LangName="English(Latin)" Num="2" State0="Important">
+                            <Font0 fs="16.000000" fcolor="238_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="238_0_0_255"/>
+                        </Lang>
+                    </OneTextLib>
+                </TextLib_Label>
+            </GELabelData>
+        </AlarmLevel>
+        <AlarmLevel UseImage="1" Image="Tips.vg" level="2">
+            <GELabelData>
+                <LabelPro SetLabel="1" nlangId="0"/>
+                <TextLib_Label>
+                    <OneTextLib Name="{20d1f811-9e36-46a6-a51b-9d0b762eeb45}" LangNum="2" StateNum="2">
+                        <Lang nLangId="0" LangName="Chinese(Simplified Han)" Num="2" State0="Tips">
+                            <Font0 fs="16.000000" fcolor="255_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="255_0_0_255"/>
+                        </Lang>
+                        <Lang nLangId="1" LangName="English(Latin)" Num="2" State0="Tips">
+                            <Font0 fs="16.000000" fcolor="255_0_0_255"/>
+                            <Font1 fs="16.000000" fcolor="255_0_0_255"/>
+                        </Lang>
+                    </OneTextLib>
+                </TextLib_Label>
+            </GELabelData>
+        </AlarmLevel>
+        <GELabelData>
+            <TextLib_Label>
+                <OneTextLib Name="{a825a613-5c87-4f0c-af8a-a695dfcfb003}" LangNum="2" StateNum="1">
+                    <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Alarm"/>
+                    <Lang nLangId="1" LangName="English(Latin)" State0="Alarm"/>
+                </OneTextLib>
+            </TextLib_Label>
+        </GELabelData>
+        <GELabelData>
+            <TextLib_Label>
+                <OneTextLib Name="{e8a2b800-f99b-427b-b79d-4ee58b108905}" LangNum="2" StateNum="1">
+                    <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Confirm"/>
+                    <Lang nLangId="1" LangName="English(Latin)" State0="Confirm"/>
+                </OneTextLib>
+            </TextLib_Label>
+        </GELabelData>
+        <GELabelData>
+            <TextLib_Label>
+                <OneTextLib Name="{713e94f8-43c0-48f4-bd9b-94251fd908f7}" LangNum="2" StateNum="1">
+                    <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Recovery"/>
+                    <Lang nLangId="1" LangName="English(Latin)" State0="Recovery"/>
+                </OneTextLib>
+            </TextLib_Label>
+        </GELabelData>
+    </AlarmSet>
+    <ImportAlarmMode ImportAlarm="0"/>
+    <_macro/>
+    <_pages Num="18">
+        <PageInfo Id="1" nPageType="2" Name="B_1" ShowName="B_1:Basic Window(1)" ComileURL="./tar/B_1" URL="./HMI/B_1" x="0" y="0" w="1920" h="1080"/>
+        <PageInfo Id="29001" nPageType="2" Name="B_29001" ShowName="B_29001:User Permission Browsing(29001)" ComileURL="./tar/B_29001" URL="./HMI/B_29001" x="0" y="0" w="900" h="493"/>
+        <PageInfo Id="29002" nPageType="2" Name="B_29002" ShowName="B_29002:User Attribute Configuration(29002)" ComileURL="./tar/B_29002" URL="./HMI/B_29002" x="0" y="0" w="900" h="694"/>
+        <PageInfo Id="29003" nPageType="2" Name="B_29003" ShowName="B_29003:Change User Password(29003)" ComileURL="./tar/B_29003" URL="./HMI/B_29003" x="0" y="0" w="900" h="504"/>
+        <PageInfo Id="29004" nPageType="2" Name="B_29004" ShowName="B_29004:Authorization Expiration(29004)" ComileURL="./tar/B_29004" URL="./HMI/B_29004" x="0" y="0" w="750" h="372"/>
+        <PageInfo Id="29005" nPageType="2" Name="B_29005" ShowName="B_29005:Authorization Expiration Reminder(29005)" ComileURL="./tar/B_29005" URL="./HMI/B_29005" x="0" y="0" w="750" h="468"/>
+        <PageInfo Id="30001" nPageType="3" Name="K_30001" ShowName="K_1:Decimal Numeric Keyboard(30001)" ComileURL="./tar/K_30001" URL="./HMI/K_30001" x="0" y="0" w="521" h="414"/>
+        <PageInfo Id="30002" nPageType="3" Name="K_30002" ShowName="K_2:Hex Numeric Keyboard(30002)" ComileURL="./tar/K_30002" URL="./HMI/K_30002" x="0" y="0" w="521" h="493"/>
+        <PageInfo Id="30003" nPageType="3" Name="K_30003" ShowName="K_3:ASCII Keyboard(30003)" ComileURL="./tar/K_30003" URL="./HMI/K_30003" x="0" y="0" w="900" h="360"/>
+        <PageInfo Id="40001" nPageType="4" Name="S_40001" ShowName="S_1:Communication Information(40001)" ComileURL="./tar/S_40001" URL="./HMI/S_40001" x="0" y="0" w="480" h="140"/>
+        <PageInfo Id="40002" nPageType="4" Name="S_40002" ShowName="S_2:System Information(40002)" ComileURL="./tar/S_40002" URL="./HMI/S_40002" x="0" y="0" w="430" h="160"/>
+        <PageInfo Id="40003" nPageType="4" Name="S_40003" ShowName="S_3:User Login(40003)" ComileURL="./tar/S_40003" URL="./HMI/S_40003" x="0" y="0" w="480" h="260"/>
+        <PageInfo Id="40004" nPageType="4" Name="S_40004" ShowName="S_4:Operation Comfirm(40004)" ComileURL="./tar/S_40004" URL="./HMI/S_40004" x="0" y="0" w="430" h="150"/>
+        <PageInfo Id="40005" nPageType="4" Name="S_40005" ShowName="S_5:Electronic Signature Operator Confirmation(40005)" ComileURL="./tar/S_40005" URL="./HMI/S_40005" x="0" y="0" w="370" h="320"/>
+        <PageInfo Id="40006" nPageType="4" Name="S_40006" ShowName="S_6:Electronic Signature Verifier(40006)" ComileURL="./tar/S_40006" URL="./HMI/S_40006" x="0" y="0" w="620" h="275"/>
+        <PageInfo Id="50001" nPageType="1" Name="P_65535" ShowName="Public Window" ComileURL="./tar/P_65535" URL="./HMI/P_65535" x="0" y="0" w="1920" h="1080"/>
+        <PageInfo Id="51001" nPageType="5" Name="Sv_51001" ShowName="Screen Saver Window" ComileURL="./tar/Sv_51001" URL="./HMI/Sv_51001" x="0" y="0" w="1920" h="1080"/>
+        <PageInfo Id="65534" nPageType="0" Name="Power-on Screen" ShowName="Power-on Screen" ComileURL="./tar/Hmi.logo" URL="./HMI/Power-on Screen" x="0" y="0" w="1920" h="1080"/>
+    </_pages>
+</DToolProjet>

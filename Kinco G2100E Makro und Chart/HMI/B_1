@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1600" width="1024" height="600" No="1" nPageType="2">
-    <SuperWidget x="512" y="300" w="1024" h="600">
-        <Super max_w="1024" max_h="600" W="1024" H="600" Desc="Basic Window" nNumType="2" nPrivilege="999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<canvas No="1" nPageType="2" height="600" width="1024" version="2007">
+    <SuperWidget h="600" x="512" y="300" w="1024">
+        <Super W="1024" max_h="600" max_w="1024" nPrivilege="999" H="600" Desc="Basic Window" nNumType="2"/>
         <CtrlIndex0>
             <PageControlData m_nIndex="1">
                 <Trigger>
-                    <TriggerSetData m_nWindowState="1" m_nTriggerCondition="0" m_nBitSelectMode="0" m_nWordValueRange="1" m_bWordNotTriggerEmpty="0" m_bStringNotTriggerEmpty="0" m_bExpressOffWork="0" m_bExpStopWork="0" m_bTwoWayTransmission="0" m_nTriggerResponse="0" m_nDelayTime="1" m_nExecuteMode="2" m_nExecuteInterval="1" m_bExecuteIntervalVariable="0" m_nExecuteTimes="0" m_bExecuteTimesVariable="0" m_strControlDescription="" m_nWindowStateBak="1" m_nTriggerConditionBak="0" m_nExecuteModeBak="0" m_nExecuteTimesBak="0" m_nExecuteTimesVariableBak="0">
-                        <m_pWordValueExp nID="0" strData="0" nInt="0"/>
-                        <ExpTrigger nID="0" strData="0" nInt="0"/>
+                    <TriggerSetData m_bWordNotTriggerEmpty="0" m_bExecuteTimesVariable="0" m_bExecuteIntervalVariable="0" m_strControlDescription="" m_bExpressOffWork="0" m_nDelayTime="1" m_nWindowStateBak="1" m_nBitSelectMode="0" m_nExecuteTimesBak="0" m_nTriggerCondition="0" m_nWindowState="1" m_nTriggerResponse="0" m_nExecuteMode="2" m_bExpStopWork="0" m_bStringNotTriggerEmpty="0" m_nWordValueRange="1" m_nExecuteTimesVariableBak="0" m_nExecuteInterval="1" m_bTwoWayTransmission="0" m_nTriggerConditionBak="0" m_nExecuteModeBak="0" m_nExecuteTimes="0">
+                        <m_pWordValueExp strData="0" nInt="0" nID="0"/>
+                        <ExpTrigger strData="0" nInt="0" nID="0"/>
                     </TriggerSetData>
                 </Trigger>
-                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
-                    <ActionID24 nId="24" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="0" bCond="0" EleSign="0">
+                <ActionData ActionCount="1" bConAfterFail="0" bSwitch="1" Mode="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0">
+                    <ActionID24 loops="1" bStartAction="1" bEnable="0" btnTrigMode="0" bCond="0" baseflag="0" nId="24" EleSign="0">
                         <ActionParam nMacroId="1"/>
                     </ActionID24>
                 </ActionData>
@@ -20,41 +20,41 @@
         </CtrlIndex0>
     </SuperWidget>
     <Element Num="4">
-        <IndexId0 ItemType="65535" ID="16" Name="GP" x="512" y="300" W="1024" H="600" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="GP_0001" Z="0">
+        <IndexId0 ID="16" bRound="0" nItemNameNum="1" W="1024" ItemName="GP_0001" ItemType="65535" fRationX="0.1" Z="0" x="512" y="300" fRationY="0.333333" Name="GP" H="600">
             <Widgets flag="1">
-                <COMM x="512" y="300" w="1025" h="601"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM h="601" x="512" y="300" w="1025"/>
+                <Pen _color="16711680" _type="0" _width="2"/>
+                <Brush _mainType="1" _color1="16711680" _color2="16711680" _subType="1"/>
             </Widgets>
-            <Common nPageNo="1" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+            <Common m_nScrollBarWLast="16" nPageNo="1" nScrollBarW="16" bHasGraphics="1">
+                <ItmOprtLogDt nlangId="0" Id="16" NameNum="1" Name="GP_0001"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
             </Common>
-            <ImageItemParam flag="0" ImageName="G2100E Demo.png" OriginImagePath="G2100E Demo.png" bUseShadow="0" bUseFileImage="1" bUseTransparentChannel="1" bIsPNGImage="1" bUseSpecificColor="1">
+            <ImageItemParam ImageName="G2100E Demo.png" bUseSpecificColor="1" flag="0" OriginImagePath="G2100E Demo.png" bUseShadow="0" bUseTransparentChannel="1" bIsPNGImage="1" bUseFileImage="1">
                 <ItemName m_nItemNameNum="1" m_item_name="GP_0001"/>
-                <Display OriginRect_width="1024" OriginRect_height="600" FixedRect_X="0" FixedRect_Y="0" FixedRect_Width="1024" FixedRect_Height="600" Specific_Color="255_255_255_255"/>
+                <Display FixedRect_Height="600" Specific_Color="255_255_255_255" FixedRect_X="0" FixedRect_Width="1024" OriginRect_width="1024" OriginRect_height="600" FixedRect_Y="0"/>
             </ImageItemParam>
         </IndexId0>
-        <IndexId1 ItemType="1" ID="32" Name="DD" x="94" y="188" W="100" H="50" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="DD_0001:[numeric:MW0]" Z="0">
+        <IndexId1 ID="32" bRound="0" nItemNameNum="1" W="100" ItemName="DD_0001:[numeric:MW0]" ItemType="1" fRationX="0.1" Z="0" x="94" y="188" fRationY="0.333333" Name="DD" H="50">
             <Widgets flag="1">
-                <COMM x="94" y="188" w="101" h="51"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM h="51" x="94" y="188" w="101"/>
+                <Pen _color="16711680" _type="0" _width="2"/>
+                <Brush _mainType="1" _color1="16711680" _color2="16711680" _subType="1"/>
             </Widgets>
-            <Common nPageNo="1" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="32" NameNum="1" Name="DD_0001:[numeric:MW0]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+            <Common bUseGraphics="1" m_nScrollBarWLast="16" nPageNo="1" nScrollBarW="16" bHasGraphics="1">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" Id="32" bSmAsInptVar="1" NameNum="1" Name="DD_0001:[numeric:MW0]">
                     <pRcrdDtVar Num="1">
-                        <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                        <Param0 DataType="4" BitLen="16" Id="1" AddrType="MW" Name="MW0"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
-                <InputOrder bUse="0" bInputNo="0" OrderNo="1" GroupNo="0"/>
+                <KeyboardSet Hor="1" bKeyboard="1" Ver="1" PopupType="0" keybdWinNo="30001" PosX="0" PosY="0" bAuto="1"/>
+                <InputOrder GroupNo="0" OrderNo="1" bUse="0" bInputNo="0"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="h0.bg" nColor="16777215"/>
+                <BGVGParam nColor="16777215" Name="h0.bg"/>
                 <InVar Num="1">
-                    <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                    <Param0 DataType="4" BitLen="16" Id="1" AddrType="MW" Name="MW0"/>
                 </InVar>
             </Common>
             <DataDisp>
@@ -62,44 +62,44 @@
                 <ItemName nItemNameNum="1" ItemName="DD_0001:[numeric:MW0]"/>
                 <ShowLabel>
                     <GELabel Text="-88888" nTextLibInnerId="1016265216">
-                        <Font MulAlign="1" fcolor="255_255_255_255" name="Verdana"/>
+                        <Font fcolor="255_255_255_255" name="Verdana" MulAlign="1"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat MultiType="1" nTtlDsplyChrNm="6"/>
-                <CNumFormat nInteger="5" MinusSign="1"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1"/>
+                <CNumFormat MinusSign="1" nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="-200" nInt="-200" nType="4"/>
-                    <UpperExp nID="0" strData="32767" nInt="32767" nType="4"/>
+                    <LowerExp strData="-200" nInt="-200" nID="0" nType="4"/>
+                    <UpperExp strData="32767" nInt="32767" nID="0" nType="4"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="100.000000000000000" fData="100.000000000000000" nType="11"/>
+                        <Param1 strData="1.000000000000000" nID="0" nType="11" fData="1.000000000000000"/>
+                        <Param2 strData="100.000000000000000" nID="0" nType="11" fData="100.000000000000000"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 strData="1" nInt="1" nID="0" nType="4"/>
+                        <Param2 strData="100" nInt="100" nID="0" nType="4"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId1>
-        <IndexId2 ItemType="65535" ID="96" Name="SC" x="728" y="277" W="480" H="230" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="SC_0001" Z="0">
+        <IndexId2 ID="96" bRound="0" nItemNameNum="1" W="480" ItemName="SC_0001" ItemType="65535" fRationX="0.1" Z="0" x="728" y="277" fRationY="0.333333" Name="SC" H="230">
             <Widgets flag="1">
-                <COMM x="728" y="277" w="481" h="231"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM h="231" x="728" y="277" w="481"/>
+                <Pen _color="16711680" _type="0" _width="2"/>
+                <Brush _mainType="1" _color1="16711680" _color2="16711680" _subType="1"/>
             </Widgets>
-            <Common HasTouch="0" nPageNo="1" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+            <Common m_nScrollBarWLast="16" nPageNo="1" nScrollBarW="16" HasTouch="0" bEmpty="1">
                 <DispData nUserPermisson="999"/>
             </Common>
             <GraphicsSampleCurveItem>
                 <pChannelSetData>
                     <ItemChannelSetData m_strSampleProUUid="{5e48455f-8d29-4b9d-8cd9-b9ea324ae7c0}">
                         <ChannelStu0>
-                            <SingleChannelStu strChannelUUid="{52a10101-9bbc-420d-a078-37c0fdf5a806}" ChannelName="Channel1" bUse="1">
+                            <SingleChannelStu ChannelName="Channel1" strChannelUUid="{52a10101-9bbc-420d-a078-37c0fdf5a806}" bUse="1">
                                 <SingleChannelData>
                                     <ItemSingleChannelData m_LineColor="16777215" m_nLineWidth="3"/>
                                 </SingleChannelData>
@@ -108,27 +108,27 @@
                     </ItemChannelSetData>
                 </pChannelSetData>
                 <pDrawSetData>
-                    <ItemDrawSetData m_nPointNumber="60" m_bUseBackClr="0" m_bUseScale="1">
+                    <ItemDrawSetData m_bUseBackClr="0" m_nPointNumber="60" m_bUseScale="1">
                         <m_pScaleVar Num="1">
-                            <Param0 Name="MW0" Id="1" DataType="5" AddrType="MW" BitLen="16"/>
+                            <Param0 DataType="5" BitLen="16" Id="1" AddrType="MW" Name="MW0"/>
                         </m_pScaleVar>
                     </ItemDrawSetData>
                 </pDrawSetData>
                 <pScaleSetData>
-                    <ItemScaleSetData m_bScaleSet="1" m_bLabelSet="1">
+                    <ItemScaleSetData m_bLabelSet="1" m_bScaleSet="1">
                         <xAxisScale>
-                            <ScaleSetAxisStu bAxis="1" nMainScaleNum="4" nMainScaleLength="12" bSecondScale="1" nSecondScaleNum="2" nSecondScaleLength="8" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884"/>
+                            <ScaleSetAxisStu nMainScaleNum="4" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884" bAxis="1" nSecondScaleLength="8" nMainScaleLength="12" bSecondScale="1" nSecondScaleNum="2"/>
                         </xAxisScale>
                         <yAxisScale>
-                            <ScaleSetAxisStu bAxis="1" nMainScaleNum="5" nMainScaleLength="12" bSecondScale="1" nSecondScaleNum="2" nSecondScaleLength="8" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884"/>
+                            <ScaleSetAxisStu nMainScaleNum="5" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884" bAxis="1" nSecondScaleLength="8" nMainScaleLength="12" bSecondScale="1" nSecondScaleNum="2"/>
                         </yAxisScale>
                         <xAxisLbl>
-                            <LabelSetXAxisStu bXAxis="1" bMark="1" nScaleValueType="1" bShowTime="1" nShowTimeTypeIndex="1" bShowDate="1" nShowDateTypeIndex="1" nDateSprtTypeIndex="2">
+                            <LabelSetXAxisStu nShowDateTypeIndex="1" bXAxis="1" bShowDate="1" nScaleValueType="1" bMark="1" bShowTime="1" nDateSprtTypeIndex="2" nShowTimeTypeIndex="1">
                                 <XAxisFont fcolor="255_255_255_255" name="Verdana"/>
                             </LabelSetXAxisStu>
                         </xAxisLbl>
                         <yAxisLbl>
-                            <LabelSetYAxisStu bYAxis="1" bMark="1" nIntegerBit="3" nDecimalBit="0" nMaxMinValueType="0" strChannelName="Channel1" fMinValue="0" bMinValueUseVar="0" fMaxValue="1" bMaxValueUseVar="0" channelNumber="1" minValue_uint64="0" maxValue_uint64="1">
+                            <LabelSetYAxisStu nIntegerBit="3" nMaxMinValueType="0" maxValue_uint64="1" fMaxValue="1" fMinValue="0" bMaxValueUseVar="0" bMark="1" bYAxis="1" channelNumber="1" bMinValueUseVar="0" minValue_uint64="0" nDecimalBit="0" strChannelName="Channel1">
                                 <YAxisFont fcolor="255_255_255_255" name="Verdana"/>
                             </LabelSetYAxisStu>
                         </yAxisLbl>
@@ -139,25 +139,25 @@
                 </pSearchSetData>
             </GraphicsSampleCurveItem>
         </IndexId2>
-        <IndexId3 ItemType="1" ID="32" Name="DD" x="93" y="276" W="100" H="50" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="2" ItemName="DD_0002:[numeric:MW2]" Z="0">
+        <IndexId3 ID="32" bRound="0" nItemNameNum="2" W="100" ItemName="DD_0002:[numeric:MW2]" ItemType="1" fRationX="0.1" Z="0" x="93" y="276" fRationY="0.333333" Name="DD" H="50">
             <Widgets flag="1">
-                <COMM x="93" y="276" w="101" h="51"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM h="51" x="93" y="276" w="101"/>
+                <Pen _color="16711680" _type="0" _width="2"/>
+                <Brush _mainType="1" _color1="16711680" _color2="16711680" _subType="1"/>
             </Widgets>
-            <Common nPageNo="1" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="32" NameNum="2" Name="DD_0002:[numeric:MW2]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+            <Common bUseGraphics="1" m_nScrollBarWLast="16" nPageNo="1" nScrollBarW="16" bHasGraphics="1">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" Id="32" bSmAsInptVar="1" NameNum="2" Name="DD_0002:[numeric:MW2]">
                     <pRcrdDtVar Num="1">
-                        <Param0 Name="MW2" Id="2" DataType="5" AddrType="MW" RegAddr="2" BitLen="16"/>
+                        <Param0 RegAddr="2" DataType="5" BitLen="16" Id="2" AddrType="MW" Name="MW2"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
-                <InputOrder bUse="0" bInputNo="0" OrderNo="1" GroupNo="0"/>
+                <KeyboardSet Hor="1" bKeyboard="1" Ver="1" PopupType="0" keybdWinNo="30001" PosX="0" PosY="0" bAuto="1"/>
+                <InputOrder GroupNo="0" OrderNo="1" bUse="0" bInputNo="0"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="h0.bg" nColor="16777215"/>
+                <BGVGParam nColor="16777215" Name="h0.bg"/>
                 <InVar Num="1">
-                    <Param0 Name="MW2" Id="2" DataType="4" AddrType="MW" RegAddr="2" BitLen="16"/>
+                    <Param0 RegAddr="2" DataType="4" BitLen="16" Id="2" AddrType="MW" Name="MW2"/>
                 </InVar>
             </Common>
             <DataDisp>
@@ -165,26 +165,26 @@
                 <ItemName nItemNameNum="2" ItemName="DD_0002:[numeric:MW2]"/>
                 <ShowLabel>
                     <GELabel Text="88888" nTextLibInnerId="1016265216">
-                        <Font MulAlign="1" fcolor="255_255_255_255" name="Verdana"/>
+                        <Font fcolor="255_255_255_255" name="Verdana" MulAlign="1"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat MultiType="1" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0" nType="5"/>
-                    <UpperExp nID="0" strData="32767" nInt="32767" nType="5"/>
+                    <LowerExp strData="0" nInt="0" nID="0" nType="5"/>
+                    <UpperExp strData="32767" nInt="32767" nID="0" nType="5"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="100.000000000000000" fData="100.000000000000000" nType="11"/>
+                        <Param1 strData="1.000000000000000" nID="0" nType="11" fData="1.000000000000000"/>
+                        <Param2 strData="100.000000000000000" nID="0" nType="11" fData="100.000000000000000"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 strData="1" nInt="1" nID="0" nType="4"/>
+                        <Param2 strData="100" nInt="100" nID="0" nType="4"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>

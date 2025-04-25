@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="2007" width="1920" height="1080" No="1" nPageType="2">
+    <SuperWidget x="960" y="540" w="1920" h="1080">
+        <Super max_w="1920" max_h="1080" W="1920" H="1080" Desc="Basic Window" nNumType="2" nPrivilege="255" groupId="-1" multiselectPermisson=""/>
+        <CtrlIndex0>
+            <PageControlData m_nIndex="1">
+                <Trigger>
+                    <TriggerSetData m_nWindowState="1" m_nTriggerCondition="0" m_nBitSelectMode="0" m_nWordValueRange="1" m_bWordNotTriggerEmpty="0" m_bStringNotTriggerEmpty="0" m_bExpressOffWork="0" m_bExpStopWork="0" m_bTwoWayTransmission="0" m_nTriggerResponse="0" m_nDelayTime="1" m_nExecuteMode="2" m_nExecuteInterval="1" m_bExecuteIntervalVariable="0" m_nExecuteTimes="0" m_bExecuteTimesVariable="0" m_strControlDescription="" m_nWindowStateBak="1" m_nTriggerConditionBak="0" m_nExecuteModeBak="0" m_nExecuteTimesBak="0" m_nExecuteTimesVariableBak="0">
+                        <m_pWordValueExp/>
+                        <ExpTrigger/>
+                    </TriggerSetData>
+                </Trigger>
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID24 nId="24">
+                        <ActionParam nMacroId="1"/>
+                    </ActionID24>
+                </ActionData>
+                <EnableSet nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+            </PageControlData>
+        </CtrlIndex0>
+    </SuperWidget>
+    <Element Num="4">
+        <IndexId0 ID="16" Name="GP" x="960" y="540" W="1920" H="1080" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="GP_0001" Z="0">
+            <Widgets flag="1">
+                <COMM x="960" y="540" w="1921" h="1081"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="1" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="0"/>
+                <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+                <TouchData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+                <DispData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+            </Common>
+            <ImageItemParam flag="0" ImageName="G2156E Demo.png" OriginImagePath="G2156E Demo.png" bUseShadow="0" bUseFileImage="1" bUseTransparentChannel="1" bIsPNGImage="1" bUseSpecificColor="1">
+                <ItemName m_nItemNameNum="1" m_item_name="GP_0001"/>
+                <Display OriginRect_width="1920" OriginRect_height="1080" FixedRect_X="0" FixedRect_Y="0" FixedRect_Width="1920" FixedRect_Height="1080" Specific_Color="255_255_255_255"/>
+            </ImageItemParam>
+        </IndexId0>
+        <IndexId1 ItemType="1" ID="32" Name="DD" x="176" y="338" W="187" H="90" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="DD_0001:[numeric:MW0]" Z="0">
+            <Widgets flag="1">
+                <COMM x="176" y="338" w="188" h="91"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="1" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="32" NameNum="1" Name="DD_0001:[numeric:MW0]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+                    <pRcrdDtVar VarShowName="MW0" Num="1">
+                        <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                    </pRcrdDtVar>
+                </ItmOprtLogDt>
+                <KeyboardSet keybdWinNo="30001"/>
+                <InputOrder/>
+                <TouchData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+                <DispData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+                <BGVGParam Name="h0.bg" nColor="16777215"/>
+                <InVar VarShowName="MW0" Num="1">
+                    <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                </InVar>
+            </Common>
+            <DataDisp>
+                <Common m_nItemType="1"/>
+                <ItemName nItemNameNum="1" ItemName="DD_0001:[numeric:MW0]"/>
+                <ShowLabel>
+                    <GELabel Text="-88888" nTextLibInnerId="1016265216">
+                        <Font size="28" fs="28.000000" MulAlign="1" fcolor="255_255_255_255" name="Verdana"/>
+                        <LangFontList>
+                            <LFont0 fs="16.000000"/>
+                            <LFont1 fs="16.000000"/>
+                        </LangFontList>
+                    </GELabel>
+                </ShowLabel>
+                <numeric/>
+                <CTextFormat MultiType="1" nTtlDsplyChrNm="6" RemainCharDisplayType="0"/>
+                <CNumFormat nInteger="5" MinusSign="1"/>
+                <AlarmRange>
+                    <LowerExp nInt="-200" nType="4"/>
+                    <UpperExp nInt="32767" nType="4"/>
+                </AlarmRange>
+                <DataCalc_Propor>
+                    <DataCalc>
+                        <Param1 fData="1.000000000000000" nType="11"/>
+                        <Param2 fData="100.000000000000000" nType="11"/>
+                    </DataCalc>
+                </DataCalc_Propor>
+                <DataCalc_Scale>
+                    <DataCalc>
+                        <Param1 nInt="1" nType="4"/>
+                        <Param2 nInt="100" nType="4"/>
+                    </DataCalc>
+                </DataCalc_Scale>
+            </DataDisp>
+        </IndexId1>
+        <IndexId2 ID="96" Name="SC" x="1365" y="498" W="900" H="414" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="SC_0001" Z="0">
+            <Widgets flag="1">
+                <COMM x="1361" y="545" w="1083" h="556"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common HasTouch="0" nPageNo="1" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <DispData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+            </Common>
+            <GraphicsSampleCurveItem>
+                <pChannelSetData>
+                    <ItemChannelSetData m_strSampleProUUid="{5e48455f-8d29-4b9d-8cd9-b9ea324ae7c0}" UseCursor="0" UseCursorDataArea="0" CursorClr="#ffff0000" OutputCursorTime="0" DisplayMode="0" CurrentLang="0" LangIndependent="0" ShowCursorListTitle="1" CursorListTitleBackground="#ffebf0f4" CursorListBackground="#ffffffff" CursorListInterval="#ffebf4ff" CursorWindowWidth="280" CursorWindowHeight="228" CursorFollowDynShow="0" ShowWindowTitle="1" ShowWindowCloseButton="0" WindowBackground="#ffffffff" UseCursorListInterval="0" ManualSize="0" ManualSetWindowTitle="0">
+                        <ChannelStu0>
+                            <SingleChannelStu strChannelUUid="{52a10101-9bbc-420d-a078-37c0fdf5a806}" ChannelName="Channel1" bUse="1" EnableOutputVar="0">
+                                <SingleChannelData>
+                                    <ItemSingleChannelData m_LineColor="16777215" m_nLineWidth="3"/>
+                                </SingleChannelData>
+                                <CursorNameGELabel>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="0"/>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="" LangNum="2" StateNum="1">
+                                                <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Channel1">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                                <Lang nLangId="1" LangName="English(Latin)">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CursorNameGELabel>
+                            </SingleChannelStu>
+                        </ChannelStu0>
+                        <CursorListGELabel>
+                            <GELabelData>
+                                <LabelPro SetLabel="1" nlangId="0"/>
+                                <TextLib_Label>
+                                    <OneTextLib Name="" LangNum="2" StateNum="1">
+                                        <Lang nLangId="0" LangName="Chinese(Simplified Han)">
+                                            <Font0 size="12" fs="12.000000"/>
+                                        </Lang>
+                                        <Lang nLangId="1" LangName="English(Latin)">
+                                            <Font0 size="12" fs="12.000000"/>
+                                        </Lang>
+                                    </OneTextLib>
+                                </TextLib_Label>
+                            </GELabelData>
+                        </CursorListGELabel>
+                        <WindowGELabel>
+                            <GELabelData>
+                                <TextLib_Label>
+                                    <OneTextLib Name="" LangNum="2" StateNum="1">
+                                        <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Cursor">
+                                            <Font0 size="12" fs="12.000000"/>
+                                        </Lang>
+                                        <Lang nLangId="1" LangName="English(Latin)" State0="Cursor">
+                                            <Font0 size="12" fs="12.000000"/>
+                                        </Lang>
+                                    </OneTextLib>
+                                </TextLib_Label>
+                            </GELabelData>
+                        </WindowGELabel>
+                        <CursorHeaders>
+                            <CListColumnNum ID="3">
+                                <CListColData strClNm="No." nOrgnNm="0" nCrRwNm="0" nChannelNm="-1" bSlctbl="0" bDsply="1" strTtlNm="No." nColWid="41" nMinColWid="41">
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="0"/>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{969d9c68-e8e7-4be2-b85c-443b12792b6a}" LangNum="2" StateNum="1">
+                                                <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="No.">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                                <Lang nLangId="1" LangName="English(Latin)" State0="No.">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnNum>
+                            <CListColumnSystem ID="6" flag="1024">
+                                <CListColData strClNm="Channel name" nOrgnNm="1" nCrRwNm="1" nChannelNm="-1" bSlctbl="0" bDsply="1" strTtlNm="Channel name" nColWid="126" nMinColWid="126">
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="0"/>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{c8b0ca21-3465-4123-85aa-ca7a30b9b7fa}" LangNum="2" StateNum="1">
+                                                <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Channel name">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                                <Lang nLangId="1" LangName="English(Latin)" State0="Channel name">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="1025">
+                                <CListColData strClNm="Y value" nOrgnNm="2" nCrRwNm="2" nChannelNm="-1" bSlctbl="0" bDsply="1" strTtlNm="Y value" nColWid="111" nMinColWid="70">
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="0"/>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{5c98f71c-f55b-455a-b4cb-77b11166d761}" LangNum="2" StateNum="1">
+                                                <Lang nLangId="0" LangName="Chinese(Simplified Han)" State0="Y value">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                                <Lang nLangId="1" LangName="English(Latin)" State0="Y value">
+                                                    <Font0 size="12" fs="12.000000"/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnSystem>
+                        </CursorHeaders>
+                    </ItemChannelSetData>
+                </pChannelSetData>
+                <pDrawSetData>
+                    <ItemDrawSetData m_nPointNumber="60" m_bUseBackClr="0" m_bUseScale="1" localflag="0" ScaleType="1">
+                        <m_pScaleVar VarShowName="MW0" Num="1">
+                            <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                        </m_pScaleVar>
+                    </ItemDrawSetData>
+                </pDrawSetData>
+                <pScaleSetData>
+                    <ItemScaleSetData m_bScaleSet="1" m_bLabelSet="1">
+                        <xAxisScale>
+                            <ScaleSetAxisStu bAxis="1" nMainScaleNum="4" nMainScaleLength="21" bSecondScale="1" nSecondScaleNum="2" nSecondScaleLength="14" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884"/>
+                        </xAxisScale>
+                        <yAxisScale>
+                            <ScaleSetAxisStu bAxis="1" nMainScaleNum="5" nMainScaleLength="22" bSecondScale="1" nSecondScaleNum="2" nSecondScaleLength="15" axisScaleColor="16777215" bShowGridLine="1" gridLineColor="10526884"/>
+                        </yAxisScale>
+                        <xAxisLbl>
+                            <LabelSetXAxisStu bXAxis="1" bMark="1" nScaleValueType="1" bShowTime="1" nShowTimeTypeIndex="1" bShowDate="1" nShowDateTypeIndex="1" nDateSprtTypeIndex="2">
+                                <XAxisFont size="28" fs="28.000000" fcolor="255_255_255_255" name="Verdana"/>
+                            </LabelSetXAxisStu>
+                        </xAxisLbl>
+                        <yAxisLbl>
+                            <LabelSetYAxisStu bYAxis="1" bMark="1" nIntegerBit="3" nDecimalBit="0" nMaxMinValueType="0" strChannelName="Channel1" fMinValue="0" bMinValueUseVar="0" fMaxValue="1" bMaxValueUseVar="0" channelNumber="1" minValue_uint64="0" maxValue_uint64="1">
+                                <YAxisFont size="28" fs="28.000000" fcolor="255_255_255_255" name="Verdana"/>
+                            </LabelSetYAxisStu>
+                        </yAxisLbl>
+                    </ItemScaleSetData>
+                </pScaleSetData>
+                <pSearchSetData>
+                    <ItemSearchSetData/>
+                </pSearchSetData>
+            </GraphicsSampleCurveItem>
+        </IndexId2>
+        <IndexId3 ItemType="1" ID="32" Name="DD" x="174" y="496" W="187" H="90" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="2" ItemName="DD_0002:[numeric:MW2]" Z="0">
+            <Widgets flag="1">
+                <COMM x="174" y="496" w="188" h="91"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="1" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="32" NameNum="2" Name="DD_0002:[numeric:MW2]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+                    <pRcrdDtVar VarShowName="MW2" Num="1">
+                        <Param0 Name="MW2" Id="2" DataType="4" AddrType="MW" RegAddr="2" BitLen="16"/>
+                    </pRcrdDtVar>
+                </ItmOprtLogDt>
+                <KeyboardSet keybdWinNo="30001"/>
+                <InputOrder/>
+                <TouchData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+                <DispData nUserPermisson="255" groupId="-1" multiselectPermisson=""/>
+                <BGVGParam Name="h0.bg" nColor="16777215"/>
+                <InVar VarShowName="MW2" Num="1">
+                    <Param0 Name="MW2" Id="2" DataType="4" AddrType="MW" RegAddr="2" BitLen="16"/>
+                </InVar>
+            </Common>
+            <DataDisp>
+                <Common m_nItemType="1"/>
+                <ItemName nItemNameNum="2" ItemName="DD_0002:[numeric:MW2]"/>
+                <ShowLabel>
+                    <GELabel Text="88888" nTextLibInnerId="1016265216">
+                        <Font size="28" fs="28.000000" MulAlign="1" fcolor="255_255_255_255" name="Verdana"/>
+                        <LangFontList>
+                            <LFont0 fs="16.000000"/>
+                            <LFont1 fs="16.000000"/>
+                        </LangFontList>
+                    </GELabel>
+                </ShowLabel>
+                <numeric/>
+                <CTextFormat MultiType="1" nTtlDsplyChrNm="6" RemainCharDisplayType="0"/>
+                <CNumFormat nInteger="5"/>
+                <AlarmRange>
+                    <LowerExp nType="5"/>
+                    <UpperExp nInt="32767" nType="5"/>
+                </AlarmRange>
+                <DataCalc_Propor>
+                    <DataCalc>
+                        <Param1 fData="1.000000000000000" nType="11"/>
+                        <Param2 fData="100.000000000000000" nType="11"/>
+                    </DataCalc>
+                </DataCalc_Propor>
+                <DataCalc_Scale>
+                    <DataCalc>
+                        <Param1 nInt="1" nType="4"/>
+                        <Param2 nInt="100" nType="4"/>
+                    </DataCalc>
+                </DataCalc_Scale>
+            </DataDisp>
+        </IndexId3>
+    </Element>
+</canvas>

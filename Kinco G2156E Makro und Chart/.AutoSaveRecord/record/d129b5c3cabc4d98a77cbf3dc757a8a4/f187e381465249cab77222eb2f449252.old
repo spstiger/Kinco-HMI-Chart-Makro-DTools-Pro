@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1600">
+    <PageInfo No="30001" Name="K_1:Decimal Numeric Keyboard(30001)"/>
+    <ItmOprtLogDt Id="1" NameNum="1" Name="DW_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="16" NameNum="2" Name="GP_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0003" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="5" Name="BL_0005" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="6" Name="BL_0006" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="7" Name="BL_0007" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="8" Name="BL_0008" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="9" Name="BL_0009" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="10" Name="BL_0010" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="11" Name="BL_0011" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="12" Name="BL_0012" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="13" Name="BL_0013" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="14" Name="BL_0014" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="15" Name="BL_0015" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="16" Name="BL_0016" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="17" Name="BL_0017" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[字符:$数值键盘最大值]"/>
+    <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[字符:$数值键盘最小值]"/>
+</SaveItemOprtLog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1600">
+    <PageInfo No="29003" Name="B_29003:Change User Password(29003)"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="3" Name="TX_0003" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="4" Name="TX_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0003" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[charset:$用户名]"/>
+    <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[charset:$用户密码]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="3" Name="DD_0003:[charset:$设置确认密码]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="4" Name="DD_0004:[charset:$设置密码]" nlangId="0"/>
+</SaveItemOprtLog>

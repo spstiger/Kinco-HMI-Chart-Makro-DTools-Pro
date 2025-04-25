@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<canvas No="65534" nStartPageImageType="1" nStartPageY="0" ImageName="defaultlog.bmp" version="2004" nPageType="0" nStartPageHeight="1080" width="1920" nStartPageX="0" nStartPageWidth="1920" m_nStartPageBackColor="16777215" height="1080">
-    <SuperWidget x="960" h="1080" w="1920" y="540">
-        <Super W="1920" H="1080" Desc="Power-on Screen" max_h="1080" nPrivilege="999" max_w="1920"/>
+<canvas nPageType="0" width="1920" nStartPageHeight="1080" height="1080" m_nStartPageBackColor="16777215" No="65534" ImageName="defaultlog.bmp" nStartPageWidth="1920" nStartPageY="0" version="2007" nStartPageImageType="1" nStartPageX="0">
+    <SuperWidget h="1080" x="960" w="1920" y="540">
+        <Super nPrivilege="999" H="1080" max_h="1080" max_w="1920" Desc="Power-on Screen" W="1920"/>
     </SuperWidget>
     <Element Num="1">
-        <IndexId0 x="960" fRationY="0.333333" W="1920" bRound="0" fRationX="0.1" H="1080" ID="16" ItemType="65535" ItemName="" y="540" Z="0" nItemNameNum="-1">
+        <IndexId0 fRationX="0.1" H="1080" ItemName="" ItemType="65535" Z="0" x="960" fRationY="0.333333" ID="16" W="1920" nItemNameNum="-1" bRound="0" y="540">
             <Widgets flag="1">
-                <COMM x="960" h="1081" w="1921" y="540"/>
-                <Pen _color="16711680" _width="2" _type="0"/>
-                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
+                <COMM h="1081" x="960" w="1921" y="540"/>
+                <Pen _type="0" _width="2" _color="16711680"/>
+                <Brush _color2="16711680" _mainType="1" _subType="1" _color1="16711680"/>
             </Widgets>
             <Common bHasGraphics="1" nScrollBarW="16" nPageNo="65534" bUseGraphics="1" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="16" Name="" NameNum="65535"/>
+                <ItmOprtLogDt NameNum="65535" Name="" Id="16"/>
                 <TouchData/>
                 <DispData/>
                 <BGVGParam Name="k_button_00.vg" nColor="16777215"/>
             </Common>
-            <ImageItemParam bUseShadow="0" bIsPNGImage="0" ImageName="defaultlog.bmp" bUseTransparentChannel="1" bUseSpecificColor="0" flag="0" OriginImagePath="defaultlog.bmp" bUseFileImage="1">
+            <ImageItemParam bUseShadow="0" bUseTransparentChannel="1" flag="0" bIsPNGImage="0" ImageName="defaultlog.bmp" bUseFileImage="1" bUseSpecificColor="0" OriginImagePath="defaultlog.bmp">
                 <ItemName m_item_name="" m_nItemNameNum="-1"/>
-                <Display FixedRect_Y="0" FixedRect_X="0" OriginRect_height="0" OriginRect_width="0" FixedRect_Height="0" FixedRect_Width="0"/>
+                <Display FixedRect_X="0" FixedRect_Y="0" OriginRect_width="0" FixedRect_Height="0" OriginRect_height="0" FixedRect_Width="0"/>
             </ImageItemParam>
         </IndexId0>
     </Element>
