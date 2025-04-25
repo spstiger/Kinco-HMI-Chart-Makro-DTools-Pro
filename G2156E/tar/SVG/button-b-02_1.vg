@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vg ver="1" name="button-b-02.vg" type="vector" width="100" height="100" discription="" color="ffffff" transparent="no">
+    <state id="1">
+        <draw name="" type="rect" pos_sx="0" pos_sy="0" pos_ex="100" pos_ey="100" bHyalineBorder="1" penwidth="2" penstyle="0" pencolor="ff" fillcolor="64fa" UseFill="1" fill="color" GradientFill="false" BackgroundColor="64fa" ForegroundColor="ffffff" GradientMode="1" GradientModeShape="1" nFillType="0" angle_start="0" angle_end="0" spoint_x="0" spoint_y="0"/>
+        <draw name="" type="rect" pos_sx="0" pos_sy="0" pos_ex="0" pos_ey="0" bHyalineBorder="1" penwidth="2" penstyle="0" pencolor="ff" fillcolor="41382c" UseFill="1" fill="color" GradientFill="false" BackgroundColor="41382c" ForegroundColor="ffffff" GradientMode="1" GradientModeShape="1" nFillType="0" angle_start="0" angle_end="0" spoint_x="0" spoint_y="0"/>
+    </state>
+</vg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1000">
+    <PageInfo No="40003" Name="S_3:User Login(40003)"/>
+    <ItmOprtLogDt Id="17" NameNum="13" Name="TX_0013" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="3" Name="TX_0003" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="5" Name="DD_0005:[charset:$设置用户名]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="6" Name="DD_0006:[charset:$用户密码]" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[charset:$员工卡卡号]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" Num="1">
+            <Param0 Name="$$Employee_Card_ID" Id="200060" DataType="12" AddrType="SMW" RegAddr="284" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="66" NameNum="2" Name="LD_0002" nlangId="0"/>
+</SaveItemOprtLog>

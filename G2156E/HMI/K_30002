@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1600" width="278" height="274" No="30002" pen_color="10526884" Brush_color2="2238251" nPageType="3">
+    <PopupWin bPresetCoor="0" bMonopolize="1" backCol="2238251">
+        <GELabelData>
+            <LabelPro SetLabel="0" auto_extend="0">
+                <LabeFont/>
+            </LabelPro>
+            <TextLib_Label>
+                <OneTextLib Name="{1521a14d-5e6d-4c9e-b608-d304f20aff50}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                    <Lang nLangId="1" Num="1">
+                        <Font0/>
+                    </Lang>
+                    <Lang nLangId="2" Num="1">
+                        <Font0/>
+                    </Lang>
+                </OneTextLib>
+            </TextLib_Label>
+        </GELabelData>
+    </PopupWin>
+    <SuperWidget x="139" y="137" w="278" h="274">
+        <Super max_w="275" max_h="270" W="275" H="270" Desc="Hex Numeric Keyboard" nNumType="2" nPrivilege="999" nBackColor="2238251" nBorder_W="1"/>
+    </SuperWidget>
+    <Element Num="29">
+        <IndexId0 ItemType="0" ID="18" Name="BL" x="193" y="114" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="9" ItemName="BL_0009" Z="0" PointRotation_x="193" PointRotation_y="114">
+            <Widgets flag="1">
+                <COMM x="193" y="114" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="16777234" nInt="16777234" nType="3"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="9" Name="BL_0009" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="743"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{da9b1305-f043-49e3-9022-86091fba3bda}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2">
+                                    <Font0 Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 Align="0" VAlign="0"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2">
+                                    <Font0 Align="0" VAlign="0"/>
+                                    <Font1 Align="0" VAlign="0"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel nTextLibInnerId="3997797">
+                        <Font fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId0>
+        <IndexId1 ItemType="0" ID="18" Name="BL" x="248" y="114" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="8" ItemName="BL_0008" Z="0" PointRotation_x="248" PointRotation_y="114">
+            <Widgets flag="1">
+                <COMM x="248" y="114" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="16777236" nInt="16777236" nType="3"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="8" Name="BL_0008" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{86ed690a-08d3-4832-9a33-7bccd4434bf2}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2">
+                                    <Font0 Align="0" VAlign="0"/>
+                                    <Font1 Align="0" VAlign="0"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2">
+                                    <Font0 Align="0" VAlign="0"/>
+                                    <Font1 Align="0" VAlign="0"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel nTextLibInnerId="6619245">
+                        <Font/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId1>
+        <IndexId2 ItemType="0" ID="18" Name="BL" x="28" y="202" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="1" ItemName="BL_0001" Z="0" PointRotation_x="28" PointRotation_y="202">
+            <Widgets flag="1">
+                <COMM x="28" y="202" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="A" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{2df35e96-a6ce-454c-8bfd-96aded8c14a5}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="A" State1="A">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="A" State1="A">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="A" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId2>
+        <IndexId3 ItemType="0" ID="18" Name="BL" x="83" y="202" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="BL_0002" Z="0" PointRotation_x="83" PointRotation_y="202">
+            <Widgets flag="1">
+                <COMM x="83" y="202" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="B" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="969"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{6618abef-dc28-4ee5-8241-39c44f543799}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="B" State1="B">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="B" State1="B">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="B" nTextLibInnerId="1635021628">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId3>
+        <IndexId4 ItemType="0" ID="18" Name="BL" x="138" y="202" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="3" ItemName="BL_0003" Z="0" PointRotation_x="138" PointRotation_y="202">
+            <Widgets flag="1">
+                <COMM x="138" y="202" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="C" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0003" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="5208"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{1d08792f-8b7c-4c87-991e-be1b6f6557f0}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="C" State1="C">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="C" State1="C">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="C" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId4>
+        <IndexId5 ItemType="0" ID="18" Name="BL" x="193" y="202" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="4" ItemName="BL_0004" Z="0" PointRotation_x="193" PointRotation_y="202">
+            <Widgets flag="1">
+                <COMM x="193" y="202" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="D" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="5208"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{269b266f-e030-4443-a6ed-6e5669ec9e8d}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="D" State1="D">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="D" State1="D">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="D" nTextLibInnerId="1686800106">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId5>
+        <IndexId6 ItemType="0" ID="18" Name="BL" x="83" y="246" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="5" ItemName="BL_0005" Z="0" PointRotation_x="83" PointRotation_y="246">
+            <Widgets flag="1">
+                <COMM x="83" y="246" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="F" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="5" Name="BL_0005" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="5208"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{ab48874a-d8c7-4356-8794-b09cac026df3}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="F" State1="F">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="F" State1="F">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="F" nTextLibInnerId="543819768">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId6>
+        <IndexId7 ItemType="0" ID="18" Name="BL" x="28" y="246" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="6" ItemName="BL_0006" Z="0" PointRotation_x="28" PointRotation_y="246">
+            <Widgets flag="1">
+                <COMM x="28" y="246" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="E" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="6" Name="BL_0006" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="969"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{afcfb03f-ac34-4a33-9f21-d1fff60729db}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="E" State1="E">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="E" State1="E">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="E" nTextLibInnerId="1">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId7>
+        <IndexId8 ItemType="0" ID="18" Name="BL" x="248" y="202" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="7" ItemName="BL_0007" Z="0" PointRotation_x="248" PointRotation_y="202">
+            <Widgets flag="1">
+                <COMM x="248" y="202" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="." nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="7" Name="BL_0007" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="103"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{4ef04dba-0dca-4487-ac15-ee02ba8e4ddb}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="." State1=".">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="." State1=".">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="." nTextLibInnerId="1440284416">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId8>
+        <IndexId9 ItemType="0" ID="18" Name="BL" x="28" y="69" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="10" ItemName="BL_0010" Z="0" PointRotation_x="28" PointRotation_y="69">
+            <Widgets flag="1">
+                <COMM x="28" y="69" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="1" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="10" Name="BL_0010" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="743"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{f7eeab6c-196a-4b33-8205-1d49119f587f}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="1" State1="1">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="1" State1="1">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="1" nTextLibInnerId="1026895056">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId9>
+        <IndexId10 ItemType="0" ID="18" Name="BL" x="83" y="69" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="11" ItemName="BL_0011" Z="0" PointRotation_x="83" PointRotation_y="69">
+            <Widgets flag="1">
+                <COMM x="83" y="69" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="2" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="11" Name="BL_0011" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="103"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{f95dcf90-04d4-4d35-b2f0-338d759f4de7}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="2" State1="2">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="2" State1="2">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="2" nTextLibInnerId="1026982816">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId10>
+        <IndexId11 ItemType="0" ID="18" Name="BL" x="138" y="69" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="12" ItemName="BL_0012" Z="0" PointRotation_x="138" PointRotation_y="69">
+            <Widgets flag="1">
+                <COMM x="138" y="69" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="3" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="12" Name="BL_0012" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{1a987837-b9fa-4515-9441-69789c68e924}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="3" State1="3">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="3" State1="3">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="3" nTextLibInnerId="545820512">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId11>
+        <IndexId12 ItemType="0" ID="18" Name="BL" x="193" y="69" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="13" ItemName="BL_0013" Z="0" PointRotation_x="193" PointRotation_y="69">
+            <Widgets flag="1">
+                <COMM x="193" y="69" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="8" nInt="8" nType="3"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="13" Name="BL_0013" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="109"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{a14623a3-0eef-4fd3-9e86-6e19ac9f0717}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="BS" State1="BS">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="BS" State1="BS">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="BS" nTextLibInnerId="6619234">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId12>
+        <IndexId13 ItemType="0" ID="18" Name="BL" x="28" y="114" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="14" ItemName="BL_0014" Z="0" PointRotation_x="28" PointRotation_y="114">
+            <Widgets flag="1">
+                <COMM x="28" y="114" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="4" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="14" Name="BL_0014" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{3cd20522-1dbf-4a35-925c-74158a1336c0}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="4" State1="4">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="4" State1="4">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="4" nTextLibInnerId="2002874980">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId13>
+        <IndexId14 ItemType="0" ID="18" Name="BL" x="83" y="114" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="15" ItemName="BL_0015" Z="0" PointRotation_x="83" PointRotation_y="114">
+            <Widgets flag="1">
+                <COMM x="83" y="114" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="5" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="15" Name="BL_0015" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{892b1361-e29c-4e8c-b1f4-1583b3029f48}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="5" State1="5">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="5" State1="5">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="5" nTextLibInnerId="1701209634">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId14>
+        <IndexId15 ItemType="0" ID="18" Name="BL" x="138" y="114" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="16" ItemName="BL_0016" Z="0" PointRotation_x="138" PointRotation_y="114">
+            <Widgets flag="1">
+                <COMM x="138" y="114" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="6" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="16" Name="BL_0016" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{8fee9d4d-4845-4c62-81da-05a050ed0487}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="6" State1="6">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="6" State1="6">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="6" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId15>
+        <IndexId16 ItemType="0" ID="18" Name="BL" x="248" y="69" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="17" ItemName="BL_0017" Z="0" PointRotation_x="248" PointRotation_y="69">
+            <Widgets flag="1">
+                <COMM x="248" y="69" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="16777227" nInt="16777227" nType="3"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="17" Name="BL_0017" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="0"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{b8edd9f9-83a4-4f19-b384-aa2cecfa947d}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="CLR" State1="CLR">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="CLR" State1="CLR">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="CLR" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId16>
+        <IndexId17 ItemType="0" ID="18" Name="BL" x="28" y="158" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="18" ItemName="BL_0018" Z="0" PointRotation_x="28" PointRotation_y="158">
+            <Widgets flag="1">
+                <COMM x="28" y="158" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="7" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="18" Name="BL_0018" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="5208"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{a8a4f0a8-b55e-4a0b-a137-16d5227c71b5}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="7" State1="7">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="7" State1="7">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="7" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId17>
+        <IndexId18 ItemType="0" ID="18" Name="BL" x="83" y="158" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="19" ItemName="BL_0019" Z="0" PointRotation_x="83" PointRotation_y="158">
+            <Widgets flag="1">
+                <COMM x="83" y="158" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="8" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="19" Name="BL_0019" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="743"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{9d8b67e0-1406-4d6d-a594-493cf310d887}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="8" State1="8">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="8" State1="8">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="8" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId18>
+        <IndexId19 ItemType="0" ID="18" Name="BL" x="138" y="158" W="50" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="20" ItemName="BL_0020" Z="0" PointRotation_x="138" PointRotation_y="158">
+            <Widgets flag="1">
+                <COMM x="138" y="158" w="51" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="9" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="20" Name="BL_0020" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="743"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{18414a39-8d34-41b7-b402-5d5693842a37}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="9" State1="9">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="9" State1="9">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="9" nTextLibInnerId="2097184">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId19>
+        <IndexId20 ItemType="0" ID="18" Name="BL" x="220" y="158" W="104" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="21" ItemName="BL_0021" Z="0" PointRotation_x="220" PointRotation_y="158">
+            <Widgets flag="1">
+                <COMM x="220" y="158" w="105" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="0" nInt="0" nType="12"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="21" Name="BL_0021" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215" nState="969"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{11d4bac9-bd16-41f4-be5d-01f3089b890d}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="0" State1="0">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="0" State1="0">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="0" nTextLibInnerId="2097186">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId20>
+        <IndexId21 ItemType="0" ID="18" Name="BL" x="192" y="246" W="160" H="40" bRound="0" fRationX="0" fRationY="0" nItemNameNum="22" ItemName="BL_0022" Z="0" PointRotation_x="192" PointRotation_y="246">
+            <Widgets flag="1">
+                <COMM x="192" y="246" w="161" h="41" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID5 nId="5" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="2" bCond="0" EleSign="0">
+                        <ActionParam flag="0">
+                            <DataExpress nID="0" strData="13" nInt="13" nType="3"/>
+                        </ActionParam>
+                    </ActionID5>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="22" Name="BL_0022" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999" nOperDataNum="2">
+                    <ExpOperData nID="0" nType="-1" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="2" nInt="2" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                    <ExpOperData nID="1" nType="18" nParentheses="0">
+                        <Express nID="2" strData="0" nInt="0" nType="3" Flag="11">
+                            <LExP nID="1" strData="0" nInt="0" nType="3">
+                                <VarName bSys="1" Num="1">
+                                    <Param0 Name="$ASCII_Keyboard_Input_Status" Id="0" DataType="3" AddrType="SMW" RegAddr="19" BitLen="8"/>
+                                </VarName>
+                            </LExP>
+                            <RExP nID="0" strData="3" nInt="3" nType="3"/>
+                        </Express>
+                    </ExpOperData>
+                </DispData>
+                <BGVGParam Name="button-b-01.vg" nWidth="160" nheight="40" nColor="16777215" nState="5208"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{1e20049c-39b1-4d9b-88a6-fdb468c806fe}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="Enter" State1="Enter">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="Enter" State1="Enter">
+                                    <Font0 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                    <Font1 size="18" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam nGEStateNum="5"/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="Enter" nTextLibInnerId="4456562">
+                        <Font size="18" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId21>
+        <IndexId22 isRound="0" rx="0.012963" ry="0.012963" isSquare="0" roundType="1" _flag="0" _size="0" ItemType="65535" ID="1" Name="DW" x="138" y="24" W="270" H="38" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="DW_0001" Z="0" PointRotation_x="138.5" PointRotation_y="24.5">
+            <Widgets flag="1">
+                <COMM x="138" y="24" w="271" h="39" shadow_c="16711680"/>
+                <Pen _width="1" _type="1" _color="15856113"/>
+                <Brush _mainType="1" _subType="1" _color1="16777215" _color2="15199206"/>
+            </Widgets>
+            <Common nPageNo="30002" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="1" NameNum="1" Name="DW_0001" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+            </Common>
+            <Facade ColorLine="15856113" nLineWidth="1" nPenStyle="1" ColorBack="15199206" ColorFront="16777215" nPatternStyle="0" nGradientType="0" nGradientShape="0"/>
+            <ItemName m_nItemNameNum="1" m_item_name="DW_0001"/>
+            <Display/>
+        </IndexId22>
+        <IndexId23 ItemType="2" ID="33" Name="DD" x="153" y="15" W="209" H="19" bRound="0" fRationX="0" fRationY="0" nItemNameNum="1" ItemName="DD_0001:[字符:$数值键盘最大值]" Z="0" PointRotation_x="153" PointRotation_y="15">
+            <Widgets flag="1">
+                <COMM x="153" y="15" w="210" h="20" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common HasTouch="0" nPageNo="30002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[字符:$数值键盘最大值]"/>
+                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
+                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <DispData nUserPermisson="999"/>
+                <InVar_2th bSys="1" Num="1">
+                    <Param0 Name="$Numeric_Keyboard_Max_Input" Id="0" DataType="12" AddrType="SMW" RegAddr="900" RW="1" BitLen="168"/>
+                </InVar_2th>
+            </Common>
+            <DataDisp>
+                <Common m_nItemType="2"/>
+                <ItemName nItemNameNum="1" ItemName="DD_0001:[字符:$数值键盘最大值]"/>
+                <ShowLabel>
+                    <GELabel Text="AAAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="4259900">
+                        <Font size="11" bBold="1" Align="0" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <numeric/>
+                <CTextFormat MultiType="1" DispRow="2" CharNum="10" TotalRow="3" nTtlDsplyChrNm="6"/>
+                <CNumFormat nInteger="5"/>
+                <AlarmRange>
+                    <LowerExp nID="0" strData="0" nInt="0"/>
+                    <UpperExp nID="0" strData="1" nInt="1"/>
+                </AlarmRange>
+                <DataCalc_Propor>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                    </DataCalc>
+                </DataCalc_Propor>
+                <DataCalc_Scale>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1" nInt="1"/>
+                        <Param2 nID="0" strData="100" nInt="100"/>
+                    </DataCalc>
+                </DataCalc_Scale>
+            </DataDisp>
+        </IndexId23>
+        <IndexId24 ItemType="65535" ID="17" Name="TX" x="24" y="15" W="35" H="20" bRound="0" fRationX="0" fRationY="0" nItemNameNum="1" ItemName="TX_0001" Z="0" PointRotation_x="24" PointRotation_y="15">
+            <Widgets flag="1">
+                <COMM x="24" y="15" w="36" h="21" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <LabelGETextlib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{3d8703bc-9998-4a80-b092-5d367a6a4386}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="1" State0="Max:">
+                                    <Font0 size="11" bBold="1" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="1" State0="Max:">
+                                    <Font0 size="11" bBold="1" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </LabelGETextlib>
+            </Common>
+            <TextInfo>
+                <GELabel X="-17" Y="-10" Heigth="20" Width="35" Text="Max:" bUselib="1" LibName="{3d8703bc-9998-4a80-b092-5d367a6a4386}" nTextLibInnerId="2228285">
+                    <Font size="11" bBold="1" fcolor="255_255_255_255"/>
+                </GELabel>
+                <ItemName m_nItemNameNum="1" m_item_name="TX_0001"/>
+            </TextInfo>
+        </IndexId24>
+        <IndexId25 ItemType="2" ID="33" Name="DD" x="157" y="32" W="218" H="21" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="DD_0002:[字符:$数值键盘最小值]" Z="0" PointRotation_x="157" PointRotation_y="32">
+            <Widgets flag="1">
+                <COMM x="157" y="32" w="219" h="22" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common HasTouch="0" nPageNo="30002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[字符:$数值键盘最小值]"/>
+                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30001"/>
+                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <DispData nUserPermisson="999"/>
+                <InVar_2th bSys="1" Num="1">
+                    <Param0 Name="$Numeric_Keyboard_Min_Input" Id="200039" DataType="12" AddrType="SMW" RegAddr="922" RW="1" BitLen="168"/>
+                </InVar_2th>
+            </Common>
+            <DataDisp>
+                <Common m_nItemType="2"/>
+                <ItemName nItemNameNum="2" ItemName="DD_0002:[字符:$数值键盘最小值]"/>
+                <ShowLabel>
+                    <GELabel Text="AAAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="7077989">
+                        <Font size="11" bBold="1" Align="0" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <numeric/>
+                <CTextFormat MultiType="1" DispRow="2" CharNum="10" TotalRow="3" nTtlDsplyChrNm="6"/>
+                <CNumFormat nInteger="5"/>
+                <AlarmRange>
+                    <LowerExp nID="0" strData="0" nInt="0"/>
+                    <UpperExp nID="0" strData="1" nInt="1"/>
+                </AlarmRange>
+                <DataCalc_Propor>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                    </DataCalc>
+                </DataCalc_Propor>
+                <DataCalc_Scale>
+                    <DataCalc>
+                        <Param1 nID="0" strData="1" nInt="1"/>
+                        <Param2 nID="0" strData="100" nInt="100"/>
+                    </DataCalc>
+                </DataCalc_Scale>
+            </DataDisp>
+        </IndexId25>
+        <IndexId26 ItemType="65535" ID="17" Name="TX" x="24" y="32" W="31" H="20" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="TX_0002" Z="0" PointRotation_x="24" PointRotation_y="32">
+            <Widgets flag="1">
+                <COMM x="24" y="32" w="32" h="21" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <LabelGETextlib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" lanIndepend="1">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{fdcd2422-51f3-45ca-9438-5e5e61fe1cb0}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="1" State0="Min:">
+                                    <Font0 size="11" bBold="1" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="1" State0="Min:">
+                                    <Font0 size="11" bBold="1" Align="0" VAlign="0" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </LabelGETextlib>
+            </Common>
+            <TextInfo>
+                <GELabel X="-15" Y="-10" Heigth="20" Width="31" Text="Min:" bUselib="1" LibName="{fdcd2422-51f3-45ca-9438-5e5e61fe1cb0}" nTextLibInnerId="2097184">
+                    <Font size="11" bBold="1" fcolor="255_255_255_255"/>
+                </GELabel>
+                <ItemName m_nItemNameNum="2" m_item_name="TX_0002"/>
+            </TextInfo>
+        </IndexId26>
+        <IndexId27 ItemType="65535" ID="16" Name="GP" x="193" y="114" W="32" H="32" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="GP_0001" Z="0" PointRotation_x="193.5" PointRotation_y="114.5">
+            <Widgets flag="1">
+                <COMM x="193" y="114" w="33" h="33"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+            </Common>
+            <ImageItemParam flag="3131961357" ImageName="1-h-1_0.png" OriginImagePath="1-h-1_0.png" bUseShadow="0" bUseFileImage="1" bUseTransparentChannel="1" bIsPNGImage="1" bUseSpecificColor="0">
+                <ItemName m_nItemNameNum="1" m_item_name="GP_0001"/>
+                <Display OriginRect_width="32" OriginRect_height="32" FixedRect_X="0" FixedRect_Y="0" FixedRect_Width="0" FixedRect_Height="0"/>
+            </ImageItemParam>
+        </IndexId27>
+        <IndexId28 ItemType="65535" ID="16" Name="GP" x="248" y="114" W="32" H="32" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="2" ItemName="GP_0002" Z="0" PointRotation_x="248.5" PointRotation_y="114.5">
+            <Widgets flag="1">
+                <COMM x="248" y="114" w="33" h="33"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="30002" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ItmOprtLogDt Id="16" NameNum="2" Name="GP_0002" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+            </Common>
+            <ImageItemParam flag="3131961357" ImageName="1-h-1_1.png" OriginImagePath="1-h-1_1.png" bUseShadow="0" bUseFileImage="1" bUseTransparentChannel="1" bIsPNGImage="1" bUseSpecificColor="0">
+                <ItemName m_nItemNameNum="2" m_item_name="GP_0002"/>
+                <Display OriginRect_width="32" OriginRect_height="32" FixedRect_X="0" FixedRect_Y="0" FixedRect_Width="0" FixedRect_Height="0"/>
+            </ImageItemParam>
+        </IndexId28>
+    </Element>
+</canvas>

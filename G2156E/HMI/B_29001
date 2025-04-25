@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1600" width="480" height="274" No="29001" pen_color="10526884" Brush_color2="2238251" nPageType="2">
+    <SuperWidget x="240" y="137" w="480" h="274">
+        <Super max_w="800" max_h="480" W="800" H="480" Desc="User Permission Browsing" nNumType="2" nPrivilege="999" nBackColor="2238251" nBorder_W="1"/>
+    </SuperWidget>
+    <Element Num="7">
+        <IndexId0 ItemType="65535" ID="54" Name="UT" x="239" y="137" W="466" H="184" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="UT_0001" Z="0">
+            <Widgets flag="1">
+                <COMM x="239" y="137" w="467" h="185"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common HasTouch="0" nPageNo="29001" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <DispData nUserPermisson="999"/>
+            </Common>
+            <GUsrItem>
+                <Common/>
+                <UserListData>
+                    <ItemUserListData>
+                        <StdListDisplayData bShowTtlBr="1" nCrrntLng="1" bOtptSltRwDtToVr="1" bTrgVar="0">
+                            <TitleBarFont>
+                                <GELabelData>
+                                    <LabelPro SetLabel="1" blabel="0" nlangId="1">
+                                        <LabeFont/>
+                                    </LabelPro>
+                                    <TextLib_lib>
+                                        <OneTextLib Name="" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                            <Lang nLangId="1" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                            <Lang nLangId="2" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                        </OneTextLib>
+                                    </TextLib_lib>
+                                </GELabelData>
+                            </TitleBarFont>
+                            <ListFont>
+                                <GELabelData>
+                                    <LabelPro SetLabel="1" blabel="0" nlangId="1">
+                                        <LabeFont/>
+                                    </LabelPro>
+                                    <TextLib_lib>
+                                        <OneTextLib Name="" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                            <Lang nLangId="1" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                            <Lang nLangId="2" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                        </OneTextLib>
+                                    </TextLib_lib>
+                                </GELabelData>
+                            </ListFont>
+                            <CListColumnNum ID="3">
+                                <CListColData strClNm="No." nOrgnNm="0" nCrRwNm="0" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="No." nMinColWid="33">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{922c77d6-c843-4a21-a5b8-556c899ca699}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="No.">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="No.">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnNum>
+                            <CListColumnSystem ID="6" flag="513">
+                                <CListColData strClNm="User name" nOrgnNm="1" nCrRwNm="1" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="User name" nColWid="107" nMinColWid="107" bOtptVr="1">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{a5bc19b3-54a1-4053-afb1-de471597d92b}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="User name">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="User name">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                    <OutputVar bSys="1" Num="1">
+                                        <Param0 Name="$Set_User_Name" Id="400048" DataType="12" AddrType="SMW" RegAddr="195" BitLen="248"/>
+                                    </OutputVar>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="514">
+                                <CListColData strClNm="Permission group" nOrgnNm="2" nCrRwNm="2" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="Permission group" nColWid="174" nMinColWid="174">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{b067746c-4a1e-4720-8799-9a6f75224458}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="Permission group">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="Permission group">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="516">
+                                <CListColData strClNm="User State" nOrgnNm="3" nCrRwNm="3" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="User State" nColWid="101" nMinColWid="101">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{39ddf448-db55-478a-b01e-d17171318886}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="User State">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="User State">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="518">
+                                <CListColData strClNm="User information" nOrgnNm="5" nCrRwNm="4" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="User information" nColWid="167" nMinColWid="167" bOtptVr="1">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{fed31c61-e1c7-42d5-8621-e00883e0bd64}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="User information">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="User information">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                    <OutputVar bSys="1" Num="1">
+                                        <Param0 Name="$Set_User_Description" Id="400059" DataType="12" AddrType="SMW" RegAddr="316" BitLen="248"/>
+                                    </OutputVar>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="517">
+                                <CListColData strClNm="Card number" nOrgnNm="6" nCrRwNm="5" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="Card number" nColWid="130" nMinColWid="130" bOtptVr="1">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{7158675d-92c5-4a0b-a158-878887998eb0}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="Card number">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="Card number">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                    <OutputVar bSys="1" Num="1">
+                                        <Param0 Name="$Set_Employee_Card_ID" Id="400061" DataType="12" AddrType="SMW" RegAddr="380" BitLen="248"/>
+                                    </OutputVar>
+                                </CListColData>
+                            </CListColumnSystem>
+                            <CListColumnSystem ID="6" flag="515">
+                                <CListColData strClNm="Auto logoff time" nOrgnNm="4" nCrRwNm="6" nChannelNm="-1" bSlctbl="1" bDsply="1" strTtlNm="Auto logoff time" nColWid="161" nMinColWid="161">
+                                    <ColCFont/>
+                                    <GELabelData>
+                                        <LabelPro SetLabel="1" nlangId="1">
+                                            <LabeFont/>
+                                        </LabelPro>
+                                        <TextLib_Label>
+                                            <OneTextLib Name="{c684b4b7-07ff-46f8-a5a8-f2e117ac16fe}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                                <Lang nLangId="1" Num="2" State0="Auto logoff time">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                                <Lang nLangId="2" Num="2" State0="Auto logoff time">
+                                                    <Font0/>
+                                                    <Font1/>
+                                                </Lang>
+                                            </OneTextLib>
+                                        </TextLib_Label>
+                                    </GELabelData>
+                                    <OutputVar bSys="1" Num="1">
+                                        <Param0 Name="$Set_User_Description" Id="400059" DataType="12" AddrType="SMW" RegAddr="316" BitLen="248"/>
+                                    </OutputVar>
+                                </CListColData>
+                            </CListColumnSystem>
+                        </StdListDisplayData>
+                        <pDisblLbl>
+                            <GELabelData>
+                                <LabelPro SetLabel="1" nlangId="1">
+                                    <LabeFont/>
+                                </LabelPro>
+                                <TextLib_Label>
+                                    <OneTextLib Name="" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                        <Lang nLangId="1" Num="2" State0="Disable">
+                                            <Font0/>
+                                            <Font1/>
+                                        </Lang>
+                                        <Lang nLangId="2" Num="2" State0="Disable">
+                                            <Font0/>
+                                            <Font1/>
+                                        </Lang>
+                                    </OneTextLib>
+                                </TextLib_Label>
+                            </GELabelData>
+                        </pDisblLbl>
+                        <pEnblLbl>
+                            <GELabelData>
+                                <LabelPro SetLabel="1" nlangId="1">
+                                    <LabeFont/>
+                                </LabelPro>
+                                <TextLib_Label>
+                                    <OneTextLib Name="" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                        <Lang nLangId="1" Num="2" State0="Enable">
+                                            <Font0/>
+                                            <Font1/>
+                                        </Lang>
+                                        <Lang nLangId="2" Num="2" State0="Enable">
+                                            <Font0/>
+                                            <Font1/>
+                                        </Lang>
+                                    </OneTextLib>
+                                </TextLib_Label>
+                            </GELabelData>
+                        </pEnblLbl>
+                    </ItemUserListData>
+                </UserListData>
+                <TableData>
+                    <ItemTableDisplayData BrdrColor="14870503" SprtrColor="14870503" TtlBckColor="16382457" TblBckColor="16382457" SlctColor="11908533" bPgntnDsply="1"/>
+                </TableData>
+            </GUsrItem>
+        </IndexId0>
+        <IndexId1 ItemType="0" ID="18" Name="BL" x="47" y="23" W="87" H="31" bRound="0" fRationX="0" fRationY="0" nItemNameNum="1" ItemName="BL_0001" Z="0" PointRotation_x="47" PointRotation_y="23">
+            <Widgets flag="1">
+                <COMM x="47" y="23" w="88" h="32" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="1" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="8">
+                    <ActionID2 nId="2" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" param="1">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_UserPermission_Status" Id="200059" AddrType="SMB" RegAddr="11" BitLen="1"/>
+                            </Var>
+                        </ActionParam>
+                    </ActionID2>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="1" VarDataType="12">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_User_Password" Id="200051" DataType="12" AddrType="SMW" RegAddr="227" BitLen="120"/>
+                            </Var>
+                            <param0_Index nID="0" strData="" nInt="0" nType="12"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="12"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="12"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="1" VarDataType="12">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_User_Name" Id="200050" DataType="12" AddrType="SMW" RegAddr="195" BitLen="248"/>
+                            </Var>
+                            <param0_Index nID="0" strData="" nInt="0" nType="12"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="12"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="12"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="1" VarDataType="12">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_Confirm_Password" Id="200052" DataType="12" AddrType="SMW" RegAddr="243" BitLen="120"/>
+                            </Var>
+                            <param0_Index nID="0" strData="" nInt="0" nType="12"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="12"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="12"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="0" VarDataType="5">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_Logout_Time" Id="200054" DataType="5" AddrType="SMW" RegAddr="261" BitLen="16"/>
+                            </Var>
+                            <param0_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="5"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="0" VarDataType="5">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_Password_Modify_Reminder" Id="200057" DataType="5" AddrType="SMW" RegAddr="265" BitLen="16"/>
+                            </Var>
+                            <param0_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="5"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID3 nId="3" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="0" operationtype="0" wordActionType="0" figureByBitType="0" logicType="0" delayTime="1" executeTime="1" executeAtOnce="0" bLoop="0" bReverse="0" bEmptyString="0" VarDataType="5">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_Password_Retention" Id="200056" DataType="5" AddrType="SMW" RegAddr="263" BitLen="16"/>
+                            </Var>
+                            <param0_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param1_Index nID="0" strData="0" nInt="0" nType="5"/>
+                            <param2_Index nID="0" strData="100" nInt="100" nType="5"/>
+                        </ActionParam>
+                    </ActionID3>
+                    <ActionID1 nId="1" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="1" switchWinNumType="0" popupWinNumType="0" closeWinNumType="0" bAutoPopupPasswordWindow="0" windowOperationType="1">
+                            <WinNoExpress nID="0" strData="29002" nInt="29002" nType="3"/>
+                            <MainWinNoExpress nID="0" strData="0" nInt="0" nType="7"/>
+                            <PopupWin bPresetCoor="0" bMonopolize="1" backCol="2238251">
+                                <GELabelData>
+                                    <LabelPro SetLabel="0" auto_extend="0">
+                                        <LabeFont/>
+                                    </LabelPro>
+                                    <TextLib_Label>
+                                        <OneTextLib Name="{823f25de-aad7-4d2b-8142-24156d82a2bd}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                            <Lang nLangId="1" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                            <Lang nLangId="2" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                        </OneTextLib>
+                                    </TextLib_Label>
+                                </GELabelData>
+                            </PopupWin>
+                        </ActionParam>
+                    </ActionID1>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nlangId="0"/>
+                <TouchData nState="3" bShowPwdWin="1" bUseUserPermisson="1" bLoginWin="1" nUserPermisson="999" bUseExpCtrl="0"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-02.vg" nColor="16777215"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" textlibName="$Text_New_User">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{bae4daa6-d8a1-4587-865c-f37dedd0806c}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="新建用户" State1="新建用户">
+                                    <Font0 size="12" fcolor="255_255_255_255"/>
+                                    <Font1 size="12" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="New User" State1="New User">
+                                    <Font0 size="11" fcolor="255_255_255_255"/>
+                                    <Font1 size="11" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="新建用户" nTextLibInnerId="4456493">
+                        <Font size="12" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId1>
+        <IndexId2 ItemType="0" ID="18" Name="BL" x="135" y="23" W="86" H="31" bRound="0" fRationX="0" fRationY="0" nItemNameNum="2" ItemName="BL_0002" Z="0" PointRotation_x="135" PointRotation_y="23">
+            <Widgets flag="1">
+                <COMM x="135" y="23" w="87" h="32" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" bHasGraphics="1" bUseGraphics="1" bOperConfirm="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="1" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="2">
+                    <ActionID2 nId="2" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="1" param="1">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_UserPermission_Status" Id="200058" AddrType="SMB" RegAddr="11" BitLen="1"/>
+                            </Var>
+                        </ActionParam>
+                    </ActionID2>
+                    <ActionID21 nId="21" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="3"/>
+                    </ActionID21>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nlangId="0"/>
+                <TouchData nState="3" bShowPwdWin="1" bUseUserPermisson="1" bLoginWin="1" nUserPermisson="999" bUseExpCtrl="0"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-02.vg" nColor="16777215"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" textlibName="$Text_Delete_User">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{2cd4b784-2f91-4a30-8794-f51c309a013c}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="删除用户" State1="删除用户">
+                                    <Font0 size="12" fcolor="255_255_255_255"/>
+                                    <Font1 size="12" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="Delete User" State1="Delete User">
+                                    <Font0 size="11" fcolor="255_255_255_255"/>
+                                    <Font1 size="11" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="删除用户" nTextLibInnerId="4456493">
+                        <Font size="12" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId2>
+        <IndexId3 ItemType="0" ID="18" Name="BL" x="256" y="23" W="152" H="31" bRound="0" fRationX="0" fRationY="0" nItemNameNum="3" ItemName="BL_0003" Z="0" PointRotation_x="256" PointRotation_y="23">
+            <Widgets flag="1">
+                <COMM x="256" y="23" w="153" h="32" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="1" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="2">
+                    <ActionID2 nId="2" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="1" param="1">
+                            <Var bSys="1" Num="1">
+                                <Param0 Name="$Set_UserPermission_Status" Id="0" AddrType="SMB" RegAddr="11" RW="2" BitLen="1"/>
+                            </Var>
+                        </ActionParam>
+                    </ActionID2>
+                    <ActionID1 nId="1" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="1" switchWinNumType="0" popupWinNumType="0" closeWinNumType="0" bAutoPopupPasswordWindow="0" windowOperationType="1">
+                            <WinNoExpress nID="0" strData="29002" nInt="29002" nType="3"/>
+                            <MainWinNoExpress nID="0" strData="0" nInt="0" nType="7"/>
+                            <PopupWin bPresetCoor="0" bMonopolize="1" backCol="2238251">
+                                <GELabelData>
+                                    <LabelPro SetLabel="0" auto_extend="0">
+                                        <LabeFont/>
+                                    </LabelPro>
+                                    <TextLib_Label>
+                                        <OneTextLib Name="{6afb2275-d6d9-486a-8467-01e9ce2610f9}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                            <Lang nLangId="1" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                            <Lang nLangId="2" Num="1">
+                                                <Font0/>
+                                            </Lang>
+                                        </OneTextLib>
+                                    </TextLib_Label>
+                                </GELabelData>
+                            </PopupWin>
+                        </ActionParam>
+                    </ActionID1>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0003" nlangId="0"/>
+                <TouchData nState="3" bShowPwdWin="1" bUseUserPermisson="1" bLoginWin="1" nUserPermisson="999" bUseExpCtrl="0"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-02.vg" nColor="16777215"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" textlibName="$Text_Modify_User_Properties">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{838bc77f-11ed-458c-b29c-795b928c337f}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="修改用户属性" State1="修改用户属性">
+                                    <Font0 size="12" fcolor="255_255_255_255"/>
+                                    <Font1 size="12" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="Modify User Properties" State1="Modify User Properties">
+                                    <Font0 size="10" fcolor="255_255_255_255"/>
+                                    <Font1 size="10" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="修改用户属性" nTextLibInnerId="1022001944">
+                        <Font size="12" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId3>
+        <IndexId4 ItemType="0" ID="18" Name="BL" x="404" y="23" W="139" H="31" bRound="0" fRationX="0" fRationY="0" nItemNameNum="4" ItemName="BL_0004" Z="0" PointRotation_x="404" PointRotation_y="23">
+            <Widgets flag="1">
+                <COMM x="404" y="23" w="140" h="32" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" bHasGraphics="1" bUseGraphics="1" bOperConfirm="1" nScrollBarW="16" m_nScrollBarWLast="16">
+                <ActionData Mode="1" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
+                    <ActionID7 nId="7" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
+                        <ActionParam flag="9" param="0" Index="-1"/>
+                    </ActionID7>
+                </ActionData>
+                <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nlangId="0"/>
+                <TouchData nState="3" bShowPwdWin="1" bUseUserPermisson="1" bLoginWin="1" nUserPermisson="999" bUseExpCtrl="0"/>
+                <DispData nUserPermisson="999"/>
+                <BGVGParam Name="button-b-02.vg" nColor="16777215"/>
+                <UpDownTextLib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" textlibName="$Text_Restore_Default_User">
+                            <LabeFont/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{54ffd847-506f-436b-99cf-9687036cb6a7}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="2" State0="恢复默认用户" State1="恢复默认用户">
+                                    <Font0 size="12" fcolor="255_255_255_255"/>
+                                    <Font1 size="12" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="2" State0="Restore Default User" State1="Restore Default User">
+                                    <Font0 size="10" fcolor="255_255_255_255"/>
+                                    <Font1 size="10" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </UpDownTextLib>
+                <MulityParam/>
+            </Common>
+            <GBtnItem>
+                <ItemName nameType="-1"/>
+                <ShowLabel>
+                    <GELabel Text="恢复默认用户" nTextLibInnerId="1025260272">
+                        <Font size="12" fcolor="255_255_255_255"/>
+                    </GELabel>
+                </ShowLabel>
+                <SwitchData>
+                    <ItemSwitchPropertyData/>
+                </SwitchData>
+            </GBtnItem>
+        </IndexId4>
+        <IndexId5 ItemType="65535" ID="17" Name="TX" x="197" y="243" W="379" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="TX_0001" Z="0" PointRotation_x="197.5" PointRotation_y="243.5">
+            <Widgets flag="1">
+                <COMM x="197" y="243" w="380" h="23" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <LabelGETextlib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1">
+                            <LabeFont Align="0"/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{581441fd-adae-411d-990e-9cb382f9eb25}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="1" State0="使用此页面，请先登录管理员权限！">
+                                    <Font0 size="10" fcolor="255_255_255_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="1" State0="With this page, please log in with administrator privileges first!">
+                                    <Font0 size="10" fcolor="255_255_255_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </LabelGETextlib>
+            </Common>
+            <TextInfo>
+                <GELabel X="-189" Y="-11" Heigth="22" Width="379" Text="使用此页面，请先登录管理员权限！" bUselib="1" LibName="{581441fd-adae-411d-990e-9cb382f9eb25}" nTextLibInnerId="4456493">
+                    <Font size="10" Align="0" fcolor="255_255_255_255"/>
+                </GELabel>
+                <ItemName m_nItemNameNum="1" m_item_name="TX_0001"/>
+            </TextInfo>
+        </IndexId5>
+        <IndexId6 ItemType="65535" ID="17" Name="TX" x="219" y="264" W="423" H="18" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="2" ItemName="TX_0002" Z="0" PointRotation_x="219.5" PointRotation_y="264.5">
+            <Widgets flag="1">
+                <COMM x="219" y="264" w="424" h="19" shadow_c="16711680"/>
+                <Pen _width="2" _type="0" _color="16711680"/>
+                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+            </Widgets>
+            <Common nPageNo="29001" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
+                <TouchData nUserPermisson="999"/>
+                <DispData nUserPermisson="999"/>
+                <LabelGETextlib>
+                    <GELabelData>
+                        <LabelPro SetLabel="1" auto_extend="0" bscroll="1" scrolldir="2" scroll_step="30">
+                            <LabeFont Align="0"/>
+                        </LabelPro>
+                        <TextLib_Label>
+                            <OneTextLib Name="{b4b42924-0e59-4c90-9b11-4ed117ab8ba4}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                <Lang nLangId="1" Num="1" State0="恢复默认用户会将所有用户配置恢复成组态工程设置的配置！">
+                                    <Font0 size="10" fcolor="255_0_0_255"/>
+                                </Lang>
+                                <Lang nLangId="2" Num="1" State0="Restoring the default user will restore all user configurations to configurations set by the project!">
+                                    <Font0 size="10" fcolor="255_0_0_255"/>
+                                </Lang>
+                            </OneTextLib>
+                        </TextLib_Label>
+                    </GELabelData>
+                </LabelGETextlib>
+            </Common>
+            <TextInfo>
+                <GELabel X="-211" Y="-9" Heigth="18" Width="423" Text="恢复默认用户会将所有用户配置恢复成组态工程设置的配置！" bUselib="1" LibName="{b4b42924-0e59-4c90-9b11-4ed117ab8ba4}" nTextLibInnerId="76255792">
+                    <Font size="10" Align="0" fcolor="255_0_0_255"/>
+                </GELabel>
+                <ItemName m_nItemNameNum="2" m_item_name="TX_0002"/>
+            </TextInfo>
+        </IndexId6>
+    </Element>
+</canvas>

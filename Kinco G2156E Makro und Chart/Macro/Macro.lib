@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MacroLib version="1600" MaxId="3">
+<?xml version='1.0' encoding='UTF-8'?>
+<MacroLib MaxId="3" version="2004">
     <Macro Id="1" Name="Calc" Use="1">
         <UsedVarLib>
             <Var0 Num="1">
-                <Param0 Name="MW0" Id="1" DataType="4" AddrType="MW" BitLen="16"/>
+                <Param0 AddrType="MW" BitLen="16" DataType="4" Name="MW0" Id="1"/>
             </Var0>
             <Var1 Num="1">
-                <Param0 Name="MW2" Id="2" DataType="4" AddrType="MW" BitLen="16"/>
+                <Param0 AddrType="MW" BitLen="16" DataType="4" Name="MW2" Id="2"/>
             </Var1>
         </UsedVarLib>
     </Macro>

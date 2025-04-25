@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1600" width="370" height="320" No="40005" pen_color="10526884" pen_width="3" Brush_color2="15593453" nPageType="4">
-    <PopupWin bMonopolize="1" backCol="2238251">
+<?xml version='1.0' encoding='UTF-8'?>
+<canvas No="40005" pen_width="3" version="2004" nPageType="4" pen_color="10526884" width="370" Brush_color2="15593453" height="320">
+    <PopupWin backCol="2238251" bMonopolize="1">
         <GELabelData>
-            <LabelPro SetLabel="1" auto_extend="0" nlangId="1">
+            <LabelPro nlangId="1" SetLabel="1" auto_extend="0">
                 <LabeFont/>
             </LabelPro>
             <TextLib_Label>
-                <OneTextLib Name="{60ac3ae1-8c6d-4eb1-b6f9-0b42608e3852}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                <OneTextLib nInnerId="0" Name="{60ac3ae1-8c6d-4eb1-b6f9-0b42608e3852}" StateNum="1" LangNum="2" nShowId="0">
                     <Lang nLangId="1" Num="1" State0="操作者确认">
                         <Font0 size="13" fcolor="249_249_249_255"/>
                     </Lang>
@@ -17,141 +17,141 @@
             </TextLib_Label>
         </GELabelData>
     </PopupWin>
-    <SuperWidget x="185" y="160" w="370" h="320">
-        <Super max_w="800" max_h="480" W="800" H="480" Desc="Electronic Signature Operator Confirmation" nNumType="2" nPrivilege="999" nBackColor="2238251" nBorder_W="1"/>
+    <SuperWidget x="185" h="320" w="370" y="160">
+        <Super W="800" H="480" nBackColor="2238251" nBorder_W="1" Desc="Electronic Signature Operator Confirmation" max_h="480" nPrivilege="999" max_w="800" nNumType="2"/>
     </SuperWidget>
     <Element Num="18">
-        <IndexId0 ItemType="2" ID="33" Name="DD" x="231" y="18" W="239" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="DD_0001:[charset:$Signature_Param1]" Z="0" PointRotation_x="231" PointRotation_y="18">
+        <IndexId0 x="231" PointRotation_x="231" Name="DD" fRationY="0.333333" W="239" bRound="0" fRationX="0.1" H="22" ID="33" ItemType="2" ItemName="DD_0001:[charset:$Signature_Param1]" y="18" Z="0" nItemNameNum="1" PointRotation_y="18">
             <Widgets flag="1">
-                <COMM x="231" y="18" w="240" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="231" h="23" w="240" shadow_c="16711680" y="18"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common HasTouch="0" nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[charset:$签名参数1]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
-                    <pRcrdDtVar bSys="1" Num="1">
-                        <Param0 Name="$Signature_Param1" Id="200068" DataType="12" AddrType="SMW" RegAddr="412" BitLen="248"/>
+            <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" bSmAsInptVar="1" Id="33" Name="DD_0001:[charset:$签名参数1]" NameNum="1">
+                    <pRcrdDtVar Num="1" bSys="1">
+                        <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param1" Id="200068" RegAddr="412"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
-                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
+                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="key101.vg" nWidth="220" nheight="30" nColor="16777215"/>
-                <InVar_2th bSys="1" Num="1">
-                    <Param0 Name="$Signature_Param1" Id="400040" DataType="12" AddrType="SMW" RegAddr="412" BitLen="248"/>
+                <BGVGParam nheight="30" nWidth="220" Name="key101.vg" nColor="16777215"/>
+                <InVar_2th Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param1" Id="400040" RegAddr="412"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
                 <Common m_nItemType="2"/>
-                <ItemName nItemNameNum="1" ItemName="DD_0001:[charset:$Signature_Param1]"/>
+                <ItemName ItemName="DD_0001:[charset:$Signature_Param1]" nItemNameNum="1"/>
                 <ShowLabel>
                     <GELabel Text="AAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="2097186">
-                        <Font size="11" Align="0" MH="5" fcolor="61_64_63_255"/>
+                        <Font size="11" Align="0" fcolor="61_64_63_255" MH="5"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat nType="1" MultiType="1" CharNum="20" TotalRow="2" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" TotalRow="2" CharNum="20" nType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0"/>
-                    <UpperExp nID="0" strData="100" nInt="100"/>
+                    <LowerExp nInt="0" strData="0" nID="0"/>
+                    <UpperExp nInt="100" strData="100" nID="0"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
+                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId0>
-        <IndexId1 ItemType="2" ID="33" Name="DD" x="231" y="48" W="239" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="6" ItemName="DD_0006:[charset:$Signature_Param2]" Z="0" PointRotation_x="231" PointRotation_y="48">
+        <IndexId1 x="231" PointRotation_x="231" Name="DD" fRationY="0.333333" W="239" bRound="0" fRationX="0.1" H="22" ID="33" ItemType="2" ItemName="DD_0006:[charset:$Signature_Param2]" y="48" Z="0" nItemNameNum="6" PointRotation_y="48">
             <Widgets flag="1">
-                <COMM x="231" y="48" w="240" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="231" h="23" w="240" shadow_c="16711680" y="48"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common HasTouch="0" nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="33" NameNum="6" Name="DD_0006:[charset:$签名参数2]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
-                    <pRcrdDtVar bSys="1" Num="1">
-                        <Param0 Name="$Signature_Param2" Id="200069" DataType="12" AddrType="SMW" RegAddr="444" BitLen="248"/>
+            <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" bSmAsInptVar="1" Id="33" Name="DD_0006:[charset:$签名参数2]" NameNum="6">
+                    <pRcrdDtVar Num="1" bSys="1">
+                        <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param2" Id="200069" RegAddr="444"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
-                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
+                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="key101.vg" nWidth="220" nheight="30" nColor="16777215"/>
-                <InVar_2th bSys="1" Num="1">
-                    <Param0 Name="$Signature_Param2" Id="400041" DataType="12" AddrType="SMW" RegAddr="444" BitLen="248"/>
+                <BGVGParam nheight="30" nWidth="220" Name="key101.vg" nColor="16777215"/>
+                <InVar_2th Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param2" Id="400041" RegAddr="444"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
                 <Common m_nItemType="2"/>
-                <ItemName nItemNameNum="6" ItemName="DD_0006:[charset:$Signature_Param2]"/>
+                <ItemName ItemName="DD_0006:[charset:$Signature_Param2]" nItemNameNum="6"/>
                 <ShowLabel>
                     <GELabel Text="AAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="2097184">
-                        <Font size="11" Align="0" MH="5" fcolor="61_64_63_255"/>
+                        <Font size="11" Align="0" fcolor="61_64_63_255" MH="5"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat nType="1" MultiType="1" CharNum="20" TotalRow="2" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" TotalRow="2" CharNum="20" nType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0"/>
-                    <UpperExp nID="0" strData="100" nInt="100"/>
+                    <LowerExp nInt="0" strData="0" nID="0"/>
+                    <UpperExp nInt="100" strData="100" nID="0"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
+                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId1>
-        <IndexId2 ItemType="0" ID="18" Name="BL" x="57" y="18" W="104" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="BL_0001:[Bit Lamp:$Signature_Type]" Z="0" PointRotation_x="55.5" PointRotation_y="18.5">
+        <IndexId2 x="57" PointRotation_x="55.5" Name="BL" fRationY="0.333333" W="104" bRound="0" fRationX="0.1" H="22" ID="18" ItemType="0" ItemName="BL_0001:[Bit Lamp:$Signature_Type]" y="18" Z="0" nItemNameNum="1" PointRotation_y="18.5">
             <Widgets flag="1">
-                <COMM x="57" y="18" w="105" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="57" h="23" w="105" shadow_c="16711680" y="18"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001:[Bit Lamp:$签名类型]" nlangId="0"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16">
+                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0001:[Bit Lamp:$签名类型]" NameNum="1"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <UpDownTextLib/>
-                <MulityParam bUseMul="1" nGEStateNum="4">
-                    <MulDispExp nID="1" strData="0" nInt="0" nType="3">
-                        <VarName bSys="1" Num="1">
-                            <Param0 Name="$Signature_Type" Id="400043" DataType="3" AddrType="SMW" RegAddr="508" BitLen="8"/>
+                <MulityParam nGEStateNum="4" bUseMul="1">
+                    <MulDispExp nInt="0" strData="0" nType="3" nID="1">
+                        <VarName Num="1" bSys="1">
+                            <Param0 AddrType="SMW" BitLen="8" DataType="3" Name="$Signature_Type" Id="400043" RegAddr="508"/>
                         </VarName>
                     </MulDispExp>
                     <MulCData0/>
                     <MulCData1 ValA="1"/>
                     <MulCData2 ValA="2"/>
                     <GELabelData>
-                        <LabelPro SetLabel="1" auto_extend="0" bShowByWalkLantern="1" bscroll="1" scrolldir="2" scroll_step="30">
+                        <LabelPro bscroll="1" scrolldir="2" bShowByWalkLantern="1" scroll_step="30" SetLabel="1" auto_extend="0">
                             <LabeFont Align="2" VAlign="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{44bd9e16-c2cc-43fb-aa7a-4efd4f025c9b}" LangNum="2" StateNum="4" nShowId="0" nInnerId="0">
-                                <Lang nLangId="1" Num="4" State0="变量名称：" State1="下载配方组：" State2="上传配方组：">
+                            <OneTextLib nInnerId="0" Name="{44bd9e16-c2cc-43fb-aa7a-4efd4f025c9b}" StateNum="4" LangNum="2" nShowId="0">
+                                <Lang State2="上传配方组：" State1="下载配方组：" nLangId="1" Num="4" State0="变量名称：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                     <Font2 size="12" fcolor="249_249_249_255"/>
                                     <Font3 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="4" State0="Variable name:" State1="Download recipe &#10;group:" State2="Upload recipe &#10;group:">
+                                <Lang State2="Upload recipe &#xa;group:" State1="Download recipe &#xa;group:" nLangId="2" Num="4" State0="Variable name:">
                                     <Font0 size="11" fcolor="249_249_249_255"/>
                                     <Font1 size="11" fcolor="249_249_249_255"/>
                                     <Font2 size="11" fcolor="249_249_249_255"/>
@@ -166,7 +166,7 @@
                 <ItemName nameType="5"/>
                 <ShowLabel>
                     <GELabel Text="Variable name:" nTextLibInnerId="2097184">
-                        <Font size="11" Align="2" VAlign="0" fcolor="249_249_249_255"/>
+                        <Font size="11" Align="2" fcolor="249_249_249_255" VAlign="0"/>
                     </GELabel>
                 </ShowLabel>
                 <SwitchData>
@@ -174,88 +174,88 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId2>
-        <IndexId3 ItemType="2" ID="33" Name="DD" x="231" y="78" W="239" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="7" ItemName="DD_0007:[charset:$Signature_Param3]" Z="0" PointRotation_x="231" PointRotation_y="78">
+        <IndexId3 x="231" PointRotation_x="231" Name="DD" fRationY="0.333333" W="239" bRound="0" fRationX="0.1" H="22" ID="33" ItemType="2" ItemName="DD_0007:[charset:$Signature_Param3]" y="78" Z="0" nItemNameNum="7" PointRotation_y="78">
             <Widgets flag="1">
-                <COMM x="231" y="78" w="240" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="231" h="23" w="240" shadow_c="16711680" y="78"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common HasTouch="0" nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="33" NameNum="7" Name="DD_0007:[charset:$签名参数3]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
-                    <pRcrdDtVar bSys="1" Num="1">
-                        <Param0 Name="$Signature_Param3" Id="200070" DataType="12" AddrType="SMW" RegAddr="476" BitLen="248"/>
+            <Common bHasGraphics="1" nScrollBarW="16" HasTouch="0" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" bSmAsInptVar="1" Id="33" Name="DD_0007:[charset:$签名参数3]" NameNum="7">
+                    <pRcrdDtVar Num="1" bSys="1">
+                        <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param3" Id="200070" RegAddr="476"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
-                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
+                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="key101.vg" nWidth="220" nheight="30" nColor="16777215"/>
-                <InVar_2th bSys="1" Num="1">
-                    <Param0 Name="$Signature_Param3" Id="400042" DataType="12" AddrType="SMW" RegAddr="476" BitLen="248"/>
+                <BGVGParam nheight="30" nWidth="220" Name="key101.vg" nColor="16777215"/>
+                <InVar_2th Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Param3" Id="400042" RegAddr="476"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
                 <Common m_nItemType="2"/>
-                <ItemName nItemNameNum="7" ItemName="DD_0007:[charset:$Signature_Param3]"/>
+                <ItemName ItemName="DD_0007:[charset:$Signature_Param3]" nItemNameNum="7"/>
                 <ShowLabel>
                     <GELabel Text="AAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="2097184">
-                        <Font size="11" Align="0" MH="5" fcolor="61_64_63_255"/>
+                        <Font size="11" Align="0" fcolor="61_64_63_255" MH="5"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat nType="1" MultiType="1" CharNum="20" TotalRow="2" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" TotalRow="2" CharNum="20" nType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0"/>
-                    <UpperExp nID="0" strData="100" nInt="100"/>
+                    <LowerExp nInt="0" strData="0" nID="0"/>
+                    <UpperExp nInt="100" strData="100" nID="0"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
+                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId3>
-        <IndexId4 ItemType="0" ID="18" Name="BL" x="57" y="48" W="104" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="6" ItemName="BL_0006:[Bit Lamp:$Signature_Type]" Z="0" PointRotation_x="55.5" PointRotation_y="48.5">
+        <IndexId4 x="57" PointRotation_x="55.5" Name="BL" fRationY="0.333333" W="104" bRound="0" fRationX="0.1" H="22" ID="18" ItemType="0" ItemName="BL_0006:[Bit Lamp:$Signature_Type]" y="48" Z="0" nItemNameNum="6" PointRotation_y="48.5">
             <Widgets flag="1">
-                <COMM x="57" y="48" w="105" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="57" h="23" w="105" shadow_c="16711680" y="48"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="18" NameNum="6" Name="BL_0006:[Bit Lamp:$签名类型]" nlangId="0"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16">
+                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0006:[Bit Lamp:$签名类型]" NameNum="6"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <UpDownTextLib/>
-                <MulityParam bUseMul="1" nGEStateNum="4">
-                    <MulDispExp nID="1" strData="0" nInt="0" nType="3">
-                        <VarName bSys="1" Num="1">
-                            <Param0 Name="$Signature_Type" Id="400043" DataType="3" AddrType="SMW" RegAddr="508" BitLen="8"/>
+                <MulityParam nGEStateNum="4" bUseMul="1">
+                    <MulDispExp nInt="0" strData="0" nType="3" nID="1">
+                        <VarName Num="1" bSys="1">
+                            <Param0 AddrType="SMW" BitLen="8" DataType="3" Name="$Signature_Type" Id="400043" RegAddr="508"/>
                         </VarName>
                     </MulDispExp>
                     <MulCData0/>
                     <MulCData1 ValA="1"/>
                     <MulCData2 ValA="2"/>
                     <GELabelData>
-                        <LabelPro SetLabel="1" auto_extend="0" bShowByWalkLantern="1" bscroll="1" scrolldir="2" scroll_step="30">
+                        <LabelPro bscroll="1" scrolldir="2" bShowByWalkLantern="1" scroll_step="30" SetLabel="1" auto_extend="0">
                             <LabeFont Align="2" VAlign="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{4098f50b-6d85-4ef4-9be2-8f6339863b3a}" LangNum="2" StateNum="4" nShowId="0" nInnerId="0">
-                                <Lang nLangId="1" Num="4" State0="旧值：" State1="下载配方名称：" State2="上传配方名称：">
+                            <OneTextLib nInnerId="0" Name="{4098f50b-6d85-4ef4-9be2-8f6339863b3a}" StateNum="4" LangNum="2" nShowId="0">
+                                <Lang State2="上传配方名称：" State1="下载配方名称：" nLangId="1" Num="4" State0="旧值：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                     <Font2 size="12" fcolor="249_249_249_255"/>
                                     <Font3 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="4" State0="Old value" State1="Download r&#10;ecipe name" State2="Upload r&#10;ecipe name">
+                                <Lang State2="Upload r&#xa;ecipe name" State1="Download r&#xa;ecipe name" nLangId="2" Num="4" State0="Old value">
                                     <Font0 size="11" fcolor="249_249_249_255"/>
                                     <Font1 size="11" fcolor="249_249_249_255"/>
                                     <Font2 size="11" fcolor="249_249_249_255"/>
@@ -270,7 +270,7 @@
                 <ItemName nameType="5"/>
                 <ShowLabel>
                     <GELabel Text="Old value" nTextLibInnerId="7209057">
-                        <Font size="11" Align="2" VAlign="0" fcolor="249_249_249_255"/>
+                        <Font size="11" Align="2" fcolor="249_249_249_255" VAlign="0"/>
                     </GELabel>
                 </ShowLabel>
                 <SwitchData>
@@ -278,39 +278,39 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId4>
-        <IndexId5 ItemType="0" ID="18" Name="BL" x="57" y="78" W="104" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="7" ItemName="BL_0007:[Bit Lamp:$Signature_Type]" Z="0" PointRotation_x="55.5" PointRotation_y="78.5">
+        <IndexId5 x="57" PointRotation_x="55.5" Name="BL" fRationY="0.333333" W="104" bRound="0" fRationX="0.1" H="22" ID="18" ItemType="0" ItemName="BL_0007:[Bit Lamp:$Signature_Type]" y="78" Z="0" nItemNameNum="7" PointRotation_y="78.5">
             <Widgets flag="1">
-                <COMM x="57" y="78" w="105" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="57" h="23" w="105" shadow_c="16711680" y="78"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="18" NameNum="7" Name="BL_0007:[Bit Lamp:$签名类型]" nlangId="0"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16">
+                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0007:[Bit Lamp:$签名类型]" NameNum="7"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <UpDownTextLib/>
-                <MulityParam bUseMul="1" nGEStateNum="4">
-                    <MulDispExp nID="1" strData="0" nInt="0" nType="3">
-                        <VarName bSys="1" Num="1">
-                            <Param0 Name="$Signature_Type" Id="400043" DataType="3" AddrType="SMW" RegAddr="508" BitLen="8"/>
+                <MulityParam nGEStateNum="4" bUseMul="1">
+                    <MulDispExp nInt="0" strData="0" nType="3" nID="1">
+                        <VarName Num="1" bSys="1">
+                            <Param0 AddrType="SMW" BitLen="8" DataType="3" Name="$Signature_Type" Id="400043" RegAddr="508"/>
                         </VarName>
                     </MulDispExp>
                     <MulCData0/>
                     <MulCData1 ValA="1"/>
                     <MulCData2 ValA="2"/>
                     <GELabelData>
-                        <LabelPro SetLabel="1" auto_extend="0" bShowByWalkLantern="1" bscroll="1" scrolldir="2" scroll_step="30">
+                        <LabelPro bscroll="1" scrolldir="2" bShowByWalkLantern="1" scroll_step="30" SetLabel="1" auto_extend="0">
                             <LabeFont Align="2" VAlign="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{0629f7b4-6fd2-43af-a0c4-768fef0f3bc9}" LangNum="2" StateNum="4" nShowId="0" nInnerId="0">
-                                <Lang nLangId="1" Num="4" State0="新值：" State1="下载配方ID：" State2="上传配方ID：">
+                            <OneTextLib nInnerId="0" Name="{0629f7b4-6fd2-43af-a0c4-768fef0f3bc9}" StateNum="4" LangNum="2" nShowId="0">
+                                <Lang State2="上传配方ID：" State1="下载配方ID：" nLangId="1" Num="4" State0="新值：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                     <Font2 size="12" fcolor="249_249_249_255"/>
                                     <Font3 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="4" State0="New value:" State1="Download r&#10;ecipe ID:" State2="Upload r&#10;ecipe ID:">
+                                <Lang State2="Upload r&#xa;ecipe ID:" State1="Download r&#xa;ecipe ID:" nLangId="2" Num="4" State0="New value:">
                                     <Font0 size="11" fcolor="249_249_249_255"/>
                                     <Font1 size="11" fcolor="249_249_249_255"/>
                                     <Font2 size="11" fcolor="249_249_249_255"/>
@@ -325,7 +325,7 @@
                 <ItemName nameType="5"/>
                 <ShowLabel>
                     <GELabel Text="New value:" nTextLibInnerId="2228273">
-                        <Font size="11" Align="2" VAlign="0" fcolor="249_249_249_255"/>
+                        <Font size="11" Align="2" fcolor="249_249_249_255" VAlign="0"/>
                     </GELabel>
                 </ShowLabel>
                 <SwitchData>
@@ -333,23 +333,23 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId5>
-        <IndexId6 ItemType="65535" ID="17" Name="TX" x="66" y="141" W="78" H="25" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="4" ItemName="TX_0004" Z="0" PointRotation_x="61.5" PointRotation_y="140.5">
+        <IndexId6 x="66" PointRotation_x="61.5" Name="TX" fRationY="0.333333" W="78" bRound="0" fRationX="0.1" H="25" ID="17" ItemType="65535" ItemName="TX_0004" y="141" Z="0" nItemNameNum="4" PointRotation_y="140.5">
             <Widgets flag="1">
-                <COMM x="66" y="141" w="79" h="26" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                <COMM x="66" h="26" w="79" shadow_c="16711680" y="141"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="17" NameNum="4" Name="TX_0004" nlangId="0"/>
+            <Common nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0004" NameNum="4"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" scrolldir="2" scroll_step="30" scroll_cycle="5">
+                        <LabelPro scrolldir="2" scroll_step="30" SetLabel="1" scroll_cycle="5">
                             <LabeFont Align="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{f7938eb1-e7a6-4e52-8f9f-d3b59daa8c87}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{f7938eb1-e7a6-4e52-8f9f-d3b59daa8c87}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="用户名称：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -362,29 +362,29 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel X="-39" Y="-12" Heigth="25" Width="78" Text="User Name:" bUselib="1" LibName="{f7938eb1-e7a6-4e52-8f9f-d3b59daa8c87}" nTextLibInnerId="2228273">
+                <GELabel Y="-12" Heigth="25" Text="User Name:" nTextLibInnerId="2228273" bUselib="1" X="-39" Width="78" LibName="{f7938eb1-e7a6-4e52-8f9f-d3b59daa8c87}">
                     <Font size="11" Align="0" fcolor="249_249_249_255"/>
                 </GELabel>
-                <ItemName m_nItemNameNum="4" m_item_name="TX_0004"/>
+                <ItemName m_item_name="TX_0004" m_nItemNameNum="4"/>
             </TextInfo>
         </IndexId6>
-        <IndexId7 ItemType="65535" ID="17" Name="TX" x="66" y="173" W="78" H="25" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="5" ItemName="TX_0005" Z="0" PointRotation_x="55.5" PointRotation_y="172.5">
+        <IndexId7 x="66" PointRotation_x="55.5" Name="TX" fRationY="0.333333" W="78" bRound="0" fRationX="0.1" H="25" ID="17" ItemType="65535" ItemName="TX_0005" y="173" Z="0" nItemNameNum="5" PointRotation_y="172.5">
             <Widgets flag="1">
-                <COMM x="66" y="173" w="79" h="26" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                <COMM x="66" h="26" w="79" shadow_c="16711680" y="173"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="17" NameNum="5" Name="TX_0005" nlangId="0"/>
+            <Common nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0005" NameNum="5"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" nlangId="1" scrolldir="2" scroll_step="30" scroll_cycle="5">
+                        <LabelPro nlangId="1" scrolldir="2" scroll_step="30" SetLabel="1" scroll_cycle="5">
                             <LabeFont Align="2"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{758caf63-536a-487b-bd41-4d350633275e}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{758caf63-536a-487b-bd41-4d350633275e}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="用户密码：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -397,33 +397,33 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel X="-39" Y="-12" Heigth="25" Width="78" Text="Password:" bUselib="1" LibName="{758caf63-536a-487b-bd41-4d350633275e}" nTextLibInnerId="7471201">
+                <GELabel Y="-12" Heigth="25" Text="Password:" nTextLibInnerId="7471201" bUselib="1" X="-39" Width="78" LibName="{758caf63-536a-487b-bd41-4d350633275e}">
                     <Font size="11" Align="2" fcolor="249_249_249_255"/>
                 </GELabel>
-                <ItemName m_nItemNameNum="5" m_item_name="TX_0005"/>
+                <ItemName m_item_name="TX_0005" m_nItemNameNum="5"/>
             </TextInfo>
         </IndexId7>
-        <IndexId8 ItemType="65535" ID="17" Name="TX" x="59" y="203" W="94" H="25" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="6" ItemName="TX_0006" Z="0" PointRotation_x="55.5" PointRotation_y="205.5">
+        <IndexId8 x="59" PointRotation_x="55.5" Name="TX" fRationY="0.333333" W="94" bRound="0" fRationX="0.1" H="25" ID="17" ItemType="65535" ItemName="TX_0006" y="203" Z="0" nItemNameNum="6" PointRotation_y="205.5">
             <Widgets flag="1">
-                <COMM x="59" y="203" w="95" h="26" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                <COMM x="59" h="26" w="95" shadow_c="16711680" y="203"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="17" NameNum="6" Name="TX_0006" nlangId="0"/>
+            <Common nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0006" NameNum="6"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" auto_extend="0" nlangId="1" bShowByWalkLantern="1" bscroll="1" scrolldir="2" scroll_step="30">
+                        <LabelPro bscroll="1" nlangId="1" scrolldir="2" bShowByWalkLantern="1" scroll_step="30" SetLabel="1" auto_extend="0">
                             <LabeFont Align="2"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{3159fc7f-b53b-4016-ad27-b2610371c5a4}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{3159fc7f-b53b-4016-ad27-b2610371c5a4}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="预定义注释：">
-                                    <Font0 size="12" MulAlign="1" fcolor="249_249_249_255"/>
+                                    <Font0 size="12" fcolor="249_249_249_255" MulAlign="1"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="1" State0="Predefined &#10;comments:">
+                                <Lang nLangId="2" Num="1" State0="Predefined &#xa;comments:">
                                     <Font0 size="11" fcolor="249_249_249_255"/>
                                 </Lang>
                             </OneTextLib>
@@ -432,29 +432,29 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel X="-47" Y="-12" Heigth="25" Width="94" Text="Predefined &#10;comments:" bUselib="1" LibName="{3159fc7f-b53b-4016-ad27-b2610371c5a4}" nTextLibInnerId="2097184">
+                <GELabel Y="-12" Heigth="25" Text="Predefined &#xa;comments:" nTextLibInnerId="2097184" bUselib="1" X="-47" Width="94" LibName="{3159fc7f-b53b-4016-ad27-b2610371c5a4}">
                     <Font size="11" Align="2" fcolor="249_249_249_255"/>
                 </GELabel>
-                <ItemName m_nItemNameNum="6" m_item_name="TX_0006"/>
+                <ItemName m_item_name="TX_0006" m_nItemNameNum="6"/>
             </TextInfo>
         </IndexId8>
-        <IndexId9 ItemType="65535" ID="17" Name="TX" x="82" y="239" W="47" H="25" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="7" ItemName="TX_0007" Z="0" PointRotation_x="68.5" PointRotation_y="238.5">
+        <IndexId9 x="82" PointRotation_x="68.5" Name="TX" fRationY="0.333333" W="47" bRound="0" fRationX="0.1" H="25" ID="17" ItemType="65535" ItemName="TX_0007" y="239" Z="0" nItemNameNum="7" PointRotation_y="238.5">
             <Widgets flag="1">
-                <COMM x="82" y="239" w="48" h="26" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                <COMM x="82" h="26" w="48" shadow_c="16711680" y="239"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="17" NameNum="7" Name="TX_0007" nlangId="0"/>
+            <Common nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0007" NameNum="7"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" scrolldir="2" scroll_step="30" scroll_cycle="5">
+                        <LabelPro scrolldir="2" scroll_step="30" SetLabel="1" scroll_cycle="5">
                             <LabeFont Align="2"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{3e2baede-4503-45ce-bf7b-0618117b7854}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{3e2baede-4503-45ce-bf7b-0618117b7854}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="注释：">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -467,70 +467,70 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel X="-23" Y="-12" Heigth="25" Width="47" Text="Note:" bUselib="1" LibName="{3e2baede-4503-45ce-bf7b-0618117b7854}" nTextLibInnerId="6750318">
+                <GELabel Y="-12" Heigth="25" Text="Note:" nTextLibInnerId="6750318" bUselib="1" X="-23" Width="47" LibName="{3e2baede-4503-45ce-bf7b-0618117b7854}">
                     <Font size="11" Align="2" fcolor="249_249_249_255"/>
                 </GELabel>
-                <ItemName m_nItemNameNum="7" m_item_name="TX_0007"/>
+                <ItemName m_item_name="TX_0007" m_nItemNameNum="7"/>
             </TextInfo>
         </IndexId9>
-        <IndexId10 ItemType="3" ID="33" Name="DD" x="203" y="172" W="184" H="22" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="8" ItemName="DD_0008:[charset:$Signature_Operator_password]" Z="0" PointRotation_x="230" PointRotation_y="172">
+        <IndexId10 x="203" PointRotation_x="230" Name="DD" fRationY="0.333333" W="184" bRound="0" fRationX="0.1" H="22" ID="33" ItemType="3" ItemName="DD_0008:[charset:$Signature_Operator_password]" y="172" Z="0" nItemNameNum="8" PointRotation_y="172">
             <Widgets flag="1">
-                <COMM x="203" y="172" w="185" h="23" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="203" h="23" w="185" shadow_c="16711680" y="172"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16" bShowByPwd="1">
-                <ItmOprtLogDt Id="33" NameNum="8" Name="DD_0008:[charset:$操作者密码]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
-                    <pRcrdDtVar bSys="1" Num="1">
-                        <Param0 Name="$Signature_Operator_password" Id="200072" DataType="12" AddrType="SMW" RegAddr="541" BitLen="120"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16" bShowByPwd="1">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" bSmAsInptVar="1" Id="33" Name="DD_0008:[charset:$操作者密码]" NameNum="8">
+                    <pRcrdDtVar Num="1" bSys="1">
+                        <Param0 AddrType="SMW" BitLen="120" DataType="12" Name="$Signature_Operator_password" Id="200072" RegAddr="541"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
-                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
+                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="key101.vg" nWidth="220" nheight="30" nColor="16777215"/>
-                <InVar_2th bSys="1" Num="1">
-                    <Param0 Name="$Signature_Operator_password" Id="400045" DataType="12" AddrType="SMW" RegAddr="541" BitLen="120"/>
+                <BGVGParam nheight="30" nWidth="220" Name="key101.vg" nColor="16777215"/>
+                <InVar_2th Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="120" DataType="12" Name="$Signature_Operator_password" Id="400045" RegAddr="541"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
                 <Common m_nItemType="3"/>
-                <ItemName nItemNameNum="8" ItemName="DD_0008:[charset:$Signature_Operator_password]"/>
+                <ItemName ItemName="DD_0008:[charset:$Signature_Operator_password]" nItemNameNum="8"/>
                 <ShowLabel>
                     <GELabel Text="AAAAAAAAAAAAAAA" nTextLibInnerId="6815847">
-                        <Font size="11" Align="0" MH="5" fcolor="61_64_63_255"/>
+                        <Font size="11" Align="0" fcolor="61_64_63_255" MH="5"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat MultiType="1" CharNum="15" bPassWord="1" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" CharNum="15" bPassWord="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0"/>
-                    <UpperExp nID="0" strData="100" nInt="100"/>
+                    <LowerExp nInt="0" strData="0" nID="0"/>
+                    <UpperExp nInt="100" strData="100" nID="0"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
+                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId10>
-        <IndexId11 ItemType="65535" ID="17" Name="TX" x="58" y="112" W="76" H="29" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="TX_0001" Z="0" PointRotation_x="58.5" PointRotation_y="110.5">
+        <IndexId11 x="58" PointRotation_x="58.5" Name="TX" fRationY="0.333333" W="76" bRound="0" fRationX="0.1" H="29" ID="17" ItemType="65535" ItemName="TX_0001" y="112" Z="0" nItemNameNum="1" PointRotation_y="110.5">
             <Widgets flag="1">
-                <COMM x="58" y="112" w="77" h="30" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="0" _subType="0" _color1="16711680" _color2="16711680"/>
+                <COMM x="58" h="30" w="77" shadow_c="16711680" y="112"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="0" _color1="16711680" _mainType="0" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
+            <Common nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt nlangId="0" Id="17" Name="TX_0001" NameNum="1"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib>
@@ -539,7 +539,7 @@
                             <LabeFont Align="0"/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{883a0875-f1ad-4087-aa24-587f1f0ef417}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{883a0875-f1ad-4087-aa24-587f1f0ef417}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="操作者">
                                     <Font0 size="14" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -552,98 +552,98 @@
                 </LabelGETextlib>
             </Common>
             <TextInfo>
-                <GELabel X="-38" Y="-14" Heigth="29" Width="76" Text="Operator" bUselib="1" LibName="{883a0875-f1ad-4087-aa24-587f1f0ef417}" nTextLibInnerId="2097184">
+                <GELabel Y="-14" Heigth="29" Text="Operator" nTextLibInnerId="2097184" bUselib="1" X="-38" Width="76" LibName="{883a0875-f1ad-4087-aa24-587f1f0ef417}">
                     <Font size="14" Align="0" fcolor="249_249_249_255"/>
                 </GELabel>
-                <ItemName m_nItemNameNum="1" m_item_name="TX_0001"/>
+                <ItemName m_item_name="TX_0001" m_nItemNameNum="1"/>
             </TextInfo>
         </IndexId11>
-        <IndexId12 ItemType="65535" ID="6" Name="DW" x="16" y="110" W="2" H="15" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="DW_0001" Z="0" PointRotation_x="16" PointRotation_y="110">
+        <IndexId12 x="16" PointRotation_x="16" Name="DW" fRationY="0.333333" W="2" bRound="0" fRationX="0.1" H="15" ID="6" ItemType="65535" ItemName="DW_0001" y="110" Z="0" nItemNameNum="1" PointRotation_y="110">
             <Widgets flag="0">
-                <COMM x="16" y="110" w="1" h="14" shadow_c="16711680"/>
-                <Pen _width="3" _type="1" _color="6321520"/>
-                <Brush _mainType="1" _subType="1" _color1="16777215" _color2="16711680"/>
+                <COMM x="16" h="14" w="1" shadow_c="16711680" y="110"/>
+                <Pen _color="6321520" _width="3" _type="1"/>
+                <Brush _subType="1" _color1="16777215" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common HasTouch="0" nPageNo="40005" nScrollBarW="16" m_nScrollBarWLast="16" bEmpty="1">
-                <ItmOprtLogDt Id="6" NameNum="1" Name="DW_0001"/>
+            <Common nScrollBarW="16" HasTouch="0" nPageNo="40005" m_nScrollBarWLast="16" bEmpty="1">
+                <ItmOprtLogDt Id="6" Name="DW_0001" NameNum="1"/>
                 <DispData nUserPermisson="999"/>
             </Common>
-            <ItemName m_nItemNameNum="1" m_item_name="DW_0001"/>
-            <Facade ColorLine="16382457" nLineWidth="3" nPenStyle="1" strLineArrow="StartArrow" bHaveArrow="0"/>
+            <ItemName m_item_name="DW_0001" m_nItemNameNum="1"/>
+            <Facade nLineWidth="3" strLineArrow="StartArrow" bHaveArrow="0" ColorLine="16382457" nPenStyle="1"/>
             <point x="16" y="103.5"/>
             <point x="16" y="116.5"/>
-            <ArrowBegin _flag="0" _size="20" _type="0"/>
-            <ArrowEnd _flag="0" _size="20" _type="0"/>
+            <ArrowBegin _flag="0" _type="0" _size="20"/>
+            <ArrowEnd _flag="0" _type="0" _size="20"/>
         </IndexId12>
-        <IndexId13 ItemType="3" ID="33" Name="DD" x="231" y="246" W="239" H="46" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="9" ItemName="DD_0009:[charset:$Signature_Operator_Note]" Z="0" PointRotation_x="231" PointRotation_y="246">
+        <IndexId13 x="231" PointRotation_x="231" Name="DD" fRationY="0.333333" W="239" bRound="0" fRationX="0.1" H="46" ID="33" ItemType="3" ItemName="DD_0009:[charset:$Signature_Operator_Note]" y="246" Z="0" nItemNameNum="9" PointRotation_y="246">
             <Widgets flag="1">
-                <COMM x="231" y="246" w="240" h="47" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="231" h="47" w="240" shadow_c="16711680" y="246"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="33" NameNum="9" Name="DD_0009:[charset:$操作者注释]" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
-                    <pRcrdDtVar bSys="1" Num="1">
-                        <Param0 Name="$Signature_Operator_Note" Id="200076" DataType="12" AddrType="SMW" RegAddr="605" BitLen="504"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ItmOprtLogDt bRcrdDtChng="1" nlangId="0" bSmAsInptVar="1" Id="33" Name="DD_0009:[charset:$操作者注释]" NameNum="9">
+                    <pRcrdDtVar Num="1" bSys="1">
+                        <Param0 AddrType="SMW" BitLen="504" DataType="12" Name="$Signature_Operator_Note" Id="200076" RegAddr="605"/>
                     </pRcrdDtVar>
                 </ItmOprtLogDt>
-                <KeyboardSet bKeyboard="1" bAuto="1" Hor="1" Ver="1" PosX="0" PosY="0" PopupType="0" keybdWinNo="30003"/>
-                <InputOrder bUse="0" bInputNo="1" OrderNo="0" GroupNo="0"/>
+                <KeyboardSet keybdWinNo="30003" PosX="0" bKeyboard="1" Ver="1" PopupType="0" bAuto="1" PosY="0" Hor="1"/>
+                <InputOrder GroupNo="0" bUse="0" bInputNo="1" OrderNo="0"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="key101.vg" nWidth="220" nheight="30" nColor="16777215"/>
-                <InVar_2th bSys="1" Num="1">
-                    <Param0 Name="$Signature_Operator_Note" Id="400048" DataType="12" AddrType="SMW" RegAddr="605" BitLen="504"/>
+                <BGVGParam nheight="30" nWidth="220" Name="key101.vg" nColor="16777215"/>
+                <InVar_2th Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="504" DataType="12" Name="$Signature_Operator_Note" Id="400048" RegAddr="605"/>
                 </InVar_2th>
             </Common>
             <DataDisp>
                 <Common m_nItemType="3"/>
-                <ItemName nItemNameNum="9" ItemName="DD_0009:[charset:$Signature_Operator_Note]"/>
+                <ItemName ItemName="DD_0009:[charset:$Signature_Operator_Note]" nItemNameNum="9"/>
                 <ShowLabel>
-                    <GELabel Text="AAAAAAAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="7602286">
-                        <Font size="11" Align="0" MH="5" fcolor="61_64_63_255"/>
+                    <GELabel Text="AAAAAAAAAAAAAAAAAAAA&#xa;AAAAAAAAAAAAAAAAAAAA" nTextLibInnerId="7602286">
+                        <Font size="11" Align="0" fcolor="61_64_63_255" MH="5"/>
                     </GELabel>
                 </ShowLabel>
                 <numeric/>
-                <CTextFormat nType="1" MultiType="1" DispRow="2" CharNum="20" TotalRow="4" nTtlDsplyChrNm="6"/>
+                <CTextFormat nTtlDsplyChrNm="6" MultiType="1" TotalRow="4" DispRow="2" CharNum="20" nType="1"/>
                 <CNumFormat nInteger="5"/>
                 <AlarmRange>
-                    <LowerExp nID="0" strData="0" nInt="0"/>
-                    <UpperExp nID="0" strData="100" nInt="100"/>
+                    <LowerExp nInt="0" strData="0" nID="0"/>
+                    <UpperExp nInt="100" strData="100" nID="0"/>
                 </AlarmRange>
                 <DataCalc_Propor>
                     <DataCalc>
-                        <Param1 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
-                        <Param2 nID="0" strData="1.000000000000000" fData="1.000000000000000" nType="11"/>
+                        <Param1 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
+                        <Param2 fData="1.000000000000000" strData="1.000000000000000" nType="11" nID="0"/>
                     </DataCalc>
                 </DataCalc_Propor>
                 <DataCalc_Scale>
                     <DataCalc>
-                        <Param1 nID="0" strData="1" nInt="1" nType="4"/>
-                        <Param2 nID="0" strData="100" nInt="100" nType="4"/>
+                        <Param1 nInt="1" strData="1" nType="4" nID="0"/>
+                        <Param2 nInt="100" strData="100" nType="4" nID="0"/>
                     </DataCalc>
                 </DataCalc_Scale>
             </DataDisp>
         </IndexId13>
-        <IndexId14 ItemType="0" ID="18" Name="BL" x="117" y="297" W="91" H="33" bRound="0" fRationX="0" fRationY="0" nItemNameNum="8" ItemName="BL_0008" Z="0" PointRotation_x="117" PointRotation_y="297">
+        <IndexId14 x="117" PointRotation_x="117" Name="BL" fRationY="0" W="91" bRound="0" fRationX="0" H="33" ID="18" ItemType="0" ItemName="BL_0008" y="297" Z="0" nItemNameNum="8" PointRotation_y="297">
             <Widgets flag="1">
-                <COMM x="117" y="297" w="92" h="34" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="117" h="34" w="92" shadow_c="16711680" y="297"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ActionData Mode="0" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="1">
-                    <ActionID1 nId="1" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
-                        <ActionParam flag="2" switchWinNumType="0" popupWinNumType="0" closeWinNumType="0" bAutoPopupPasswordWindow="0" windowOperationType="2">
-                            <WinNoExpress nID="0" strData="1" nInt="1" nType="3"/>
-                            <MainWinNoExpress nID="0" strData="0" nInt="0" nType="7"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ActionData bTrigNotifyRegEnable="0" Mode="0" bSendNotifyAfterFail="0" bSwitch="1" bConAfterFail="0" bErrNumRegEnable="0" ActionCount="1">
+                    <ActionID1 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="1" baseflag="0">
+                        <ActionParam flag="2" switchWinNumType="0" bAutoPopupPasswordWindow="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
+                            <WinNoExpress nInt="1" strData="1" nType="3" nID="0"/>
+                            <MainWinNoExpress nInt="0" strData="0" nType="7" nID="0"/>
                             <PopupWin bPresetCoor="0" backCol="3685711">
                                 <GELabelData>
                                     <LabelPro SetLabel="0" auto_extend="0">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib Name="{cd173be7-fcb4-4172-92d3-668cdd0814c0}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                        <OneTextLib nInnerId="0" Name="{cd173be7-fcb4-4172-92d3-668cdd0814c0}" StateNum="1" LangNum="2" nShowId="0">
                                             <Lang nLangId="1" Num="1">
                                                 <Font0/>
                                             </Lang>
@@ -657,22 +657,22 @@
                         </ActionParam>
                     </ActionID1>
                 </ActionData>
-                <ItmOprtLogDt Id="18" NameNum="8" Name="BL_0008" nlangId="0"/>
+                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0008" NameNum="8"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="button-b-00.vg" nWidth="50" nheight="40" nColor="16777215"/>
+                <BGVGParam nheight="40" nWidth="50" Name="button-b-00.vg" nColor="16777215"/>
                 <UpDownTextLib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" textlibName="$Text_Cancel">
+                        <LabelPro textlibName="$Text_Cancel" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{c34a5df6-8e24-45ee-99ba-71a41d2a054e}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
-                                <Lang nLangId="1" Num="2" State0="取消" State1="取消">
+                            <OneTextLib nInnerId="0" Name="{c34a5df6-8e24-45ee-99ba-71a41d2a054e}" StateNum="2" LangNum="2" nShowId="0">
+                                <Lang State1="取消" nLangId="1" Num="2" State0="取消">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="2" State0="Cancel" State1="Cancel">
+                                <Lang State1="Cancel" nLangId="2" Num="2" State0="Cancel">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -694,28 +694,28 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId14>
-        <IndexId15 ItemType="0" ID="18" Name="BL" x="272" y="297" W="91" H="33" bRound="0" fRationX="0" fRationY="0" nItemNameNum="5" ItemName="BL_0005" Z="0" PointRotation_x="272" PointRotation_y="297">
+        <IndexId15 x="272" PointRotation_x="272" Name="BL" fRationY="0" W="91" bRound="0" fRationX="0" H="33" ID="18" ItemType="0" ItemName="BL_0005" y="297" Z="0" nItemNameNum="5" PointRotation_y="297">
             <Widgets flag="1">
-                <COMM x="272" y="297" w="92" h="34" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="272" h="34" w="92" shadow_c="16711680" y="297"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" bUseGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ActionData Mode="1" bConAfterFail="0" bSendNotifyAfterFail="0" bTrigNotifyRegEnable="0" bErrNumRegEnable="0" bSwitch="1" ActionCount="2">
-                    <ActionID7 nId="7" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
-                        <ActionParam flag="17" param="0" Index="-1"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" bUseGraphics="1" m_nScrollBarWLast="16">
+                <ActionData bTrigNotifyRegEnable="0" Mode="1" bSendNotifyAfterFail="0" bSwitch="1" bConAfterFail="0" bErrNumRegEnable="0" ActionCount="2">
+                    <ActionID7 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="7" baseflag="0">
+                        <ActionParam flag="17" Index="-1" param="0"/>
                     </ActionID7>
-                    <ActionID1 nId="1" baseflag="0" loops="1" bEnable="0" bStartAction="1" btnTrigMode="1" bCond="0" EleSign="0">
-                        <ActionParam flag="2" switchWinNumType="0" popupWinNumType="0" closeWinNumType="0" bAutoPopupPasswordWindow="0" windowOperationType="2">
-                            <WinNoExpress nID="0" strData="1" nInt="1" nType="3"/>
-                            <MainWinNoExpress nID="0" strData="0" nInt="0" nType="7"/>
+                    <ActionID1 bCond="0" EleSign="0" bEnable="0" bStartAction="1" btnTrigMode="1" loops="1" nId="1" baseflag="0">
+                        <ActionParam flag="2" switchWinNumType="0" bAutoPopupPasswordWindow="0" closeWinNumType="0" popupWinNumType="0" windowOperationType="2">
+                            <WinNoExpress nInt="1" strData="1" nType="3" nID="0"/>
+                            <MainWinNoExpress nInt="0" strData="0" nType="7" nID="0"/>
                             <PopupWin bPresetCoor="0" backCol="3685711">
                                 <GELabelData>
                                     <LabelPro SetLabel="0" auto_extend="0">
                                         <LabeFont/>
                                     </LabelPro>
                                     <TextLib_Label>
-                                        <OneTextLib Name="{6709da51-49bd-4173-8351-3413ef3aa947}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                                        <OneTextLib nInnerId="0" Name="{6709da51-49bd-4173-8351-3413ef3aa947}" StateNum="1" LangNum="2" nShowId="0">
                                             <Lang nLangId="1" Num="1">
                                                 <Font0/>
                                             </Lang>
@@ -729,22 +729,22 @@
                         </ActionParam>
                     </ActionID1>
                 </ActionData>
-                <ItmOprtLogDt Id="18" NameNum="5" Name="BL_0005" nlangId="0"/>
+                <ItmOprtLogDt nlangId="0" Id="18" Name="BL_0005" NameNum="5"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
-                <BGVGParam Name="button-b-01.vg" nWidth="160" nheight="40" nColor="16777215"/>
+                <BGVGParam nheight="40" nWidth="160" Name="button-b-01.vg" nColor="16777215"/>
                 <UpDownTextLib>
                     <GELabelData>
-                        <LabelPro SetLabel="1" textlibName="$Text_OK">
+                        <LabelPro textlibName="$Text_OK" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{7ea6bc62-089d-4b44-89a3-b033b177c58c}" LangNum="2" StateNum="2" nShowId="0" nInnerId="0">
-                                <Lang nLangId="1" Num="2" State0="确定" State1="确定">
+                            <OneTextLib nInnerId="0" Name="{7ea6bc62-089d-4b44-89a3-b033b177c58c}" StateNum="2" LangNum="2" nShowId="0">
+                                <Lang State1="确定" nLangId="1" Num="2" State0="确定">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
-                                <Lang nLangId="2" Num="2" State0="OK" State1="OK">
+                                <Lang State1="OK" nLangId="2" Num="2" State0="OK">
                                     <Font0 size="12" fcolor="249_249_249_255"/>
                                     <Font1 size="12" fcolor="249_249_249_255"/>
                                 </Lang>
@@ -766,30 +766,30 @@
                 </SwitchData>
             </GBtnItem>
         </IndexId15>
-        <IndexId16 ItemType="65535" ID="68" Name="LD" x="194" y="252" W="166" H="126" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="1" ItemName="LD_0001" Z="0" PointRotation_x="184.5" PointRotation_y="247.5">
+        <IndexId16 x="194" PointRotation_x="184.5" Name="LD" fRationY="0.333333" W="166" bRound="0" fRationX="0.1" H="126" ID="68" ItemType="65535" ItemName="LD_0001" y="252" Z="0" nItemNameNum="1" PointRotation_y="247.5">
             <Widgets flag="1">
-                <COMM x="194" y="252" w="167" h="127" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="194" h="127" w="167" shadow_c="16711680" y="252"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="68" NameNum="1" Name="LD_0001" nlangId="0"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16">
+                <ItmOprtLogDt nlangId="0" Id="68" Name="LD_0001" NameNum="1"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib/>
                 <MulityParam nGEStateNum="1"/>
-                <InVar bSys="1" Num="1">
-                    <Param0 Name="$Signature_Operator_Note" Id="400048" DataType="12" AddrType="SMW" RegAddr="605" BitLen="504"/>
+                <InVar Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="504" DataType="12" Name="$Signature_Operator_Note" Id="400048" RegAddr="605"/>
                 </InVar>
             </Common>
             <ListElement>
-                <ItemName nItemNameNum="1" ItemName="LD_0001"/>
+                <ItemName ItemName="LD_0001" nItemNameNum="1"/>
                 <GELabelData>
-                    <LabelPro SetLabel="1" nlangId="0">
+                    <LabelPro nlangId="0" SetLabel="1">
                         <LabeFont size="12" fcolor="255_255_255_255"/>
                     </LabelPro>
                     <TextLib_Label>
-                        <OneTextLib Name="{6d51c84e-fa9c-41a3-8ca6-323d14b26e2c}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                        <OneTextLib nInnerId="0" Name="{6d51c84e-fa9c-41a3-8ca6-323d14b26e2c}" StateNum="1" LangNum="2" nShowId="0">
                             <Lang nLangId="1" Num="1" State0="text">
                                 <Font0 size="11" fcolor="61_64_63_255"/>
                             </Lang>
@@ -799,13 +799,13 @@
                         </OneTextLib>
                     </TextLib_Label>
                 </GELabelData>
-                <ListData ListType="1" DataSource="5" SelectColor="12501693" ListBkgdColor="16382457" BorderColor="14870503" MarqueeBkgdColor="14608608">
+                <ListData MarqueeBkgdColor="14608608" SelectColor="12501693" DataSource="5" BorderColor="14870503" ListBkgdColor="16382457" ListType="1">
                     <GELabelData>
-                        <LabelPro SetLabel="1" nlangId="0">
+                        <LabelPro nlangId="0" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{0941c5d2-53bc-40fb-a5fe-a2429c723a64}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{0941c5d2-53bc-40fb-a5fe-a2429c723a64}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="text">
                                     <Font0/>
                                 </Lang>
@@ -818,30 +818,30 @@
                 </ListData>
             </ListElement>
         </IndexId16>
-        <IndexId17 ItemType="65535" ID="66" Name="LD" x="184" y="192" W="145" H="131" bRound="0" fRationX="0.1" fRationY="0.333333" nItemNameNum="2" ItemName="LD_0002" Z="0" PointRotation_x="184.5" PointRotation_y="192.5">
+        <IndexId17 x="184" PointRotation_x="184.5" Name="LD" fRationY="0.333333" W="145" bRound="0" fRationX="0.1" H="131" ID="66" ItemType="65535" ItemName="LD_0002" y="192" Z="0" nItemNameNum="2" PointRotation_y="192.5">
             <Widgets flag="1">
-                <COMM x="184" y="192" w="146" h="132" shadow_c="16711680"/>
-                <Pen _width="2" _type="0" _color="16711680"/>
-                <Brush _mainType="1" _subType="1" _color1="16711680" _color2="16711680"/>
+                <COMM x="184" h="132" w="146" shadow_c="16711680" y="192"/>
+                <Pen _color="16711680" _width="2" _type="0"/>
+                <Brush _subType="1" _color1="16711680" _mainType="1" _color2="16711680"/>
             </Widgets>
-            <Common nPageNo="40005" bHasGraphics="1" nScrollBarW="16" m_nScrollBarWLast="16">
-                <ItmOprtLogDt Id="66" NameNum="2" Name="LD_0002" nlangId="0"/>
+            <Common bHasGraphics="1" nScrollBarW="16" nPageNo="40005" m_nScrollBarWLast="16">
+                <ItmOprtLogDt nlangId="0" Id="66" Name="LD_0002" NameNum="2"/>
                 <TouchData nUserPermisson="999"/>
                 <DispData nUserPermisson="999"/>
                 <LabelGETextlib/>
                 <MulityParam nGEStateNum="1"/>
-                <InVar bSys="1" Num="1">
-                    <Param0 Name="$Signature_Operator" Id="400044" DataType="12" AddrType="SMW" RegAddr="509" BitLen="248"/>
+                <InVar Num="1" bSys="1">
+                    <Param0 AddrType="SMW" BitLen="248" DataType="12" Name="$Signature_Operator" Id="400044" RegAddr="509"/>
                 </InVar>
             </Common>
             <ListElement>
-                <ItemName nItemNameNum="2" ItemName="LD_0002"/>
+                <ItemName ItemName="LD_0002" nItemNameNum="2"/>
                 <GELabelData>
-                    <LabelPro SetLabel="1" nlangId="0">
+                    <LabelPro nlangId="0" SetLabel="1">
                         <LabeFont size="12" fcolor="255_255_255_255"/>
                     </LabelPro>
                     <TextLib_Label>
-                        <OneTextLib Name="{6cd0afde-ebc0-4222-b93f-76d24538cca7}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                        <OneTextLib nInnerId="0" Name="{6cd0afde-ebc0-4222-b93f-76d24538cca7}" StateNum="1" LangNum="2" nShowId="0">
                             <Lang nLangId="1" Num="1" State0="text">
                                 <Font0 size="11" fcolor="61_64_63_255"/>
                             </Lang>
@@ -851,13 +851,13 @@
                         </OneTextLib>
                     </TextLib_Label>
                 </GELabelData>
-                <ListData ListType="1" DataSource="3" SelectColor="12501693" ListBkgdColor="16382457" BorderColor="14870503" MarqueeBkgdColor="14870503">
+                <ListData MarqueeBkgdColor="14870503" SelectColor="12501693" DataSource="3" BorderColor="14870503" ListBkgdColor="16382457" ListType="1">
                     <GELabelData>
-                        <LabelPro SetLabel="1" nlangId="0">
+                        <LabelPro nlangId="0" SetLabel="1">
                             <LabeFont/>
                         </LabelPro>
                         <TextLib_Label>
-                            <OneTextLib Name="{1c9e1882-4712-4387-9623-8689dc5dff64}" LangNum="2" StateNum="1" nShowId="0" nInnerId="0">
+                            <OneTextLib nInnerId="0" Name="{1c9e1882-4712-4387-9623-8689dc5dff64}" StateNum="1" LangNum="2" nShowId="0">
                                 <Lang nLangId="1" Num="1" State0="text">
                                     <Font0/>
                                 </Lang>

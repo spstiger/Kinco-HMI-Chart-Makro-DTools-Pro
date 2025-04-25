@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1600" width="1920" height="1080" No="51001" nPageType="5">
-    <SuperWidget x="960" y="540" w="1920" h="1080">
-        <Super max_w="1920" max_h="1080" W="1920" H="1080" Desc="Screen Saver Window" nPrivilege="999"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<canvas No="51001" version="2004" nPageType="5" width="1920" height="1080">
+    <SuperWidget x="960" h="1080" w="1920" y="540">
+        <Super W="1920" H="1080" Desc="Screen Saver Window" max_h="1080" nPrivilege="999" max_w="1920"/>
     </SuperWidget>
     <Element Num="0"/>
 </canvas>
