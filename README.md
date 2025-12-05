@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![project size](https://img.shields.io/github/repo-size/spstiger/Kinco-HMI-Chart-Makro-DTools-Pro?label=project%20size)
-![IDE Badge](https://img.shields.io/badge/IDE-Kinco_DTools_Pro_min._1.6-blue?link=https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip)
+![IDE Badge](https://img.shields.io/badge/IDE-Kinco_DTools_Pro_min._1.8-blue?link=https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip)
 
 # Kinco HMI Beispiel Chart & Makro in DTools Pro
 
