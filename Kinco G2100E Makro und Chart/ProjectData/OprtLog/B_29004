@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SaveItemOprtLog version="1000">
+<SaveItemOprtLog version="1700">
     <PageInfo No="29004" Name="B_29004:Authorization Expiration(29004)"/>
-    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nlangId="0"/>
-    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nlangId="0"/>
-    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nlangId="0"/>
-    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nlangId="0"/>
-    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001" nlangId="0"/>
-    <ItmOprtLogDt Id="34" NameNum="1" Name="TD_0001" nlangId="0"/>
+    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nOperLogId="1025" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nOperLogId="1040" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nOperLogId="1036" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nOperLogId="1046" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001" nOperLogId="1048" nlangId="0"/>
+    <ItmOprtLogDt Id="34" NameNum="1" Name="TD_0001" nOperLogId="1050" nlangId="0"/>
 </SaveItemOprtLog>

@@ -1,0 +1,13 @@
+{
+    "defaultLange": 1,
+    "lange": [
+        {
+            "id": 0,
+            "name": "Chinese(Simplified Han)"
+        },
+        {
+            "id": 1,
+            "name": "English(Latin)"
+        }
+    ]
+}

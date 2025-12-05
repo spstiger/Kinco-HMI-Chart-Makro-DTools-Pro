@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <COnePageUseInfo>
     <Common/>
+    <ItemUseWndStruct0>
+        <Stu nPageNo="1">
+            <ItemIndex0 ItemID="33" Count="1" ItemNum0="3"/>
+        </Stu>
+    </ItemUseWndStruct0>
 </COnePageUseInfo>

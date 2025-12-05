@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1700">
+    <PageInfo No="30001" Name="K_1:Decimal Numeric Keyboard(30001)"/>
+    <ItmOprtLogDt Id="1" NameNum="1" Name="DW_0001" nOperLogId="1067" nlangId="0"/>
+    <ItmOprtLogDt Id="16" NameNum="1" Name="GP_0001" nOperLogId="1070" nlangId="0"/>
+    <ItmOprtLogDt Id="16" NameNum="2" Name="GP_0002" nOperLogId="1072" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nOperLogId="1075" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nOperLogId="1078" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="11" Name="BL_0011" nOperLogId="1116" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="12" Name="BL_0012" nOperLogId="1120" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="13" Name="BL_0013" nOperLogId="1123" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="14" Name="BL_0014" nOperLogId="1125" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="15" Name="BL_0015" nOperLogId="1128" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="16" Name="BL_0016" nOperLogId="1132" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="17" Name="BL_0017" nOperLogId="1135" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001" nOperLogId="1084" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002" nOperLogId="1082" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0003" nOperLogId="1086" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nOperLogId="1090" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="5" Name="BL_0005" nOperLogId="1093" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="6" Name="BL_0006" nOperLogId="1096" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="7" Name="BL_0007" nOperLogId="1099" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="8" Name="BL_0008" nOperLogId="1102" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="9" Name="BL_0009" nOperLogId="1106" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="10" Name="BL_0010" nOperLogId="1113" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[字符:$数值键盘最大值]" nOperLogId="1138"/>
+    <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[字符:$数值键盘最小值]" nOperLogId="1144"/>
+</SaveItemOprtLog>

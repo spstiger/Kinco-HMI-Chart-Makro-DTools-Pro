@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SaveItemOprtLog version="1700">
+    <PageInfo No="40006" Name="S_6:Electronic Signature Verifier(40006)"/>
+    <ItmOprtLogDt Id="1" NameNum="1" Name="DW_0001" nOperLogId="1064" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="4" Name="DW_0004" nOperLogId="1077" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="5" Name="DW_0005" nOperLogId="1074" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="6" Name="DW_0006" nOperLogId="1071" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="7" Name="DW_0007" nOperLogId="1062" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="8" Name="DW_0008" nOperLogId="1059" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="9" Name="DW_0009" nOperLogId="1068" nlangId="0"/>
+    <ItmOprtLogDt Id="1" NameNum="10" Name="DW_0010" nOperLogId="1065" nlangId="0"/>
+    <ItmOprtLogDt Id="6" NameNum="2" Name="DW_0002" nOperLogId="1080"/>
+    <ItmOprtLogDt Id="6" NameNum="3" Name="DW_0003" nOperLogId="1083"/>
+    <ItmOprtLogDt Id="17" NameNum="1" Name="TX_0001" nOperLogId="1087" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="2" Name="TX_0002" nOperLogId="1092" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="3" Name="TX_0003" nOperLogId="1095" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="4" Name="TX_0004" nOperLogId="1098" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="5" Name="TX_0005" nOperLogId="1101" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="6" Name="TX_0006" nOperLogId="1089" nlangId="0"/>
+    <ItmOprtLogDt Id="17" NameNum="7" Name="TX_0007" nOperLogId="1104" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="1" Name="BL_0001:[Bit Lamp:$签名类型]" nOperLogId="1108" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="2" Name="BL_0002:[Bit Lamp:$签名类型]" nOperLogId="1112" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="3" Name="BL_0003:[Bit Lamp:$签名类型]" nOperLogId="1109" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="4" Name="BL_0004" nOperLogId="1114" nlangId="0"/>
+    <ItmOprtLogDt Id="18" NameNum="5" Name="BL_0005" nOperLogId="1118" nlangId="0"/>
+    <ItmOprtLogDt Id="33" NameNum="1" Name="DD_0001:[charset:$签名参数1]" nOperLogId="1154" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Param1" Num="1">
+            <Param0 Name="$Signature_Param1" Id="200068" DataType="12" AddrType="SMW" RegAddr="412" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="2" Name="DD_0002:[charset:$签名参数2]" nOperLogId="1150" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Param2" Num="1">
+            <Param0 Name="$Signature_Param2" Id="200069" DataType="12" AddrType="SMW" RegAddr="444" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="3" Name="DD_0003:[charset:$签名参数3]" nOperLogId="1141" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Param3" Num="1">
+            <Param0 Name="$Signature_Param3" Id="200070" DataType="12" AddrType="SMW" RegAddr="476" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="4" Name="DD_0004:[charset:$操作者]" nOperLogId="1131" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Operator" Num="1">
+            <Param0 Name="$Signature_Operator" Id="200072" DataType="12" AddrType="SMW" RegAddr="509" BitLen="248"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="5" Name="DD_0005:[charset:$校验者注释]" nOperLogId="1137" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Inspector_Note" Num="1">
+            <Param0 Name="$Signature_Inspector_Note" Id="200077" DataType="12" AddrType="SMW" RegAddr="669" BitLen="504"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="6" Name="DD_0006:[charset:$校验者密码]" nOperLogId="1121" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Inspector_password" Num="1">
+            <Param0 Name="$Signature_Inspector_password" Id="200075" DataType="12" AddrType="SMW" RegAddr="589" BitLen="120"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="33" NameNum="8" Name="DD_0008:[charset:$操作者注释]" nOperLogId="1127" bRcrdDtChng="1" bSmAsInptVar="1" nlangId="0">
+        <pRcrdDtVar bSys="1" VarShowName="$Signature_Operator_Note" Num="1">
+            <Param0 Name="$Signature_Operator_Note" Id="200076" DataType="12" AddrType="SMW" RegAddr="605" BitLen="504"/>
+        </pRcrdDtVar>
+    </ItmOprtLogDt>
+    <ItmOprtLogDt Id="66" NameNum="1" Name="LD_0001" nOperLogId="1158" nlangId="0"/>
+    <ItmOprtLogDt Id="68" NameNum="65535" Name="LD_-001" nOperLogId="1162" nlangId="0"/>
+</SaveItemOprtLog>

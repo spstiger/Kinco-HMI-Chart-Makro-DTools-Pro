@@ -10,17 +10,13 @@ In diesem Beispielprojekt für die neue Kinco DTools Pro zeigen wir euch die neu
 
 *Demo für G2156E in Full-HD 1920 x 1080*
 
-
-
 ![Demo G2100E](assets/2024-07-13-18-56-34-image.png)
 
 *Demo für G2100E in 1024 x 600*
 
-
-
 ## Benötige Software
 
-Entwicklungsumgebung für Kinco HMI [Kinco DTools Pro](https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip) Vers. 1.6 oder höher
+Entwicklungsumgebung für Kinco HMI [Kinco DTools Pro](https://www.spstiger.de/moorl-dc-v2/018e8404ae2a7ac4814e52a4b1c03be8/read?path=Kinco%20DTools%20Pro/Kinco%20DToolsPro%20V1.6.0(Build240311).zip) Vers. 1.8 oder höher
 
 ## Wozu dieses Beispiel
 
@@ -41,31 +37,21 @@ Dieses Beispielprogramm für die Kinco G2 HMI zeigt, wie ihr eine Trendfunktion 
 
 *Konfiguration des Trendelements in Kinco DTools Pro*
 
-
-
 ![](assets/2024-07-13-18-37-35-image.png)
 
 *Konfiguration des Data Sampling in Kinco DTools Pro*
-
-
 
 ![](assets/2024-07-13-18-42-14-image.png)
 
 *Konfiguration eines Makros in DTools Pro und die Anbindung an die Projektvariablen darin über die @var@-Syntax* 
 
-
-
 ![](assets/2024-07-13-18-43-58-image.png) 
 
 *Konfiguration der internen Variablen in Kinco DTools Pro*
 
-
-
 ![](assets/2024-07-13-18-47-28-image.png)
 
 *Aufruf des Makro über die Window Control, erreichbar über die Window Properties*
-
-
 
 ## Für welche HMI funktioniert dieses Beispielprojekt?
 
