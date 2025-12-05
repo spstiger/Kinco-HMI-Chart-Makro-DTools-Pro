@@ -6,11 +6,11 @@
 
 In diesem Beispielprojekt für die neue Kinco DTools Pro zeigen wir euch die neue **Chartfunktion** in Zusammenspiel mit einem **Makro** für die Wertegenerierung.
 
-![Demo G2156E](assets/2024-07-13-18-34-59-image.png)
+![Demo G2156E](assets/2024-07-13-18-34-59-image.jpg)
 
 *Demo für G2156E in Full-HD 1920 x 1080*
 
-![Demo G2100E](assets/2024-07-13-18-56-34-image.png)
+![Demo G2100E](assets/2024-07-13-18-56-34-image.jpg)
 
 *Demo für G2100E in 1024 x 600*
 
@@ -59,7 +59,7 @@ Das Projekt wurde für das **Kinco HMI G2156E** mit einer Full-HD Auflösung von
 
 Für HMI mit anderer Auflösung ist eine Konvertierung über diesen Weg ebenfalls möglich, es werden aber wahrscheinlich Nacharbeiten notwendig, um die Darstellung an das HMI anzupassen.
 
-![](assets/2024-07-13-19-11-11-Demo%20G2156E.png)
+![](assets/2024-07-13-19-11-11-Demo%20G2156E.jpg)
 
 ![](assets/2024-07-13-19-01-15-Demo%20G2100E%20.png)
 
@@ -77,4 +77,4 @@ Für HMI mit anderer Auflösung ist eine Konvertierung über diesen Weg ebenfall
 
 4. Ruft im Menü **Tool** die **Offline**-Simulation auf oder übertragt das Projekt im selben Menü per **Download auf das HMI**
 
-![](assets/2024-07-13-18-38-38-image.png)
+![](assets/2024-07-13-18-38-38-image.jpg)
